@@ -213,33 +213,21 @@
   "derrick": {
     "I:powerCap": 100000,
     "I:consumption": 100,
-    "I:delay": 50,
-    "I:oilPerDeposit": 500,
-    "I:gasPerDepositMin": 100,
-    "I:gasPerDepositMax": 500,
-    "D:drainChance": 0.05
+    "I:delay": 50
   },
   "pumpjack": {
     "I:powerCap": 250000,
     "I:consumption": 200,
     "I:delay": 25,
-    "I:oilPerDeposit": 750,
-    "I:gasPerDepositMin": 50,
-    "I:gasPerDepositMax": 250,
-    "D:drainChance": 0.025
+    "D:oilMultiplier": 1.5,
+    "D:gasMultiplier": 0.5,
+    "D:drainChanceMultiplier": 0.5
   },
   "frackingtower": {
     "I:powerCap": 5000000,
     "I:consumption": 5000,
     "I:solutionRequired": 10,
     "I:delay": 20,
-    "I:oilPerDeposit": 1000,
-    "I:gasPerDepositMin": 100,
-    "I:gasPerDepositMax": 500,
-    "D:drainChance": 0.02,
-    "I:oilPerBedrockDeposit": 100,
-    "I:gasPerBedrockDepositMin": 10,
-    "I:gasPerBedrockDepositMax": 50,
     "I:destructionRange": 75
   }
 }
