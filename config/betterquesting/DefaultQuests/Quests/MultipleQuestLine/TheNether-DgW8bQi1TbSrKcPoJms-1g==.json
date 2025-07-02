@@ -1,13 +1,8 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -2549337488949951986,
-      "questIDLow:4": -8633188481776331784,
-      "type:1": 1
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 25
+      "questIDHigh:4": -5611417015720787420,
+      "questIDLow:4": -8190051174910504735
     }
   },
   "properties:10": {
@@ -25,7 +20,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "The Nether",
-      "questLogic:8": "AND",
+      "questLogic:8": "OR",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
@@ -75,44 +70,10 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:item.gas_mask_filter_mono"
+          "id:8": "hbm:item.gas_mask_filter"
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "hbm:item.attachment_mask"
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "2:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 2,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "hbm:item.attachment_mask_mono"
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }
