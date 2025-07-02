@@ -1,8 +1,8 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 1
+      "questIDHigh:4": -335723052748356383,
+      "questIDLow:4": -5167012276577745386
     }
   },
   "properties:10": {
@@ -16,7 +16,7 @@
         "OreDict:8": "",
         "id:8": "hbm:item.mask_piss"
       },
-      "isMain:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Trench Mask",

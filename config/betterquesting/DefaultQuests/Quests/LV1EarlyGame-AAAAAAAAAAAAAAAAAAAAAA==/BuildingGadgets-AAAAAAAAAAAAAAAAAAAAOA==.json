@@ -1,8 +1,8 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 1
+      "questIDHigh:4": 7668713233961733844,
+      "questIDLow:4": -8186258255035639237
     }
   },
   "properties:10": {
@@ -16,7 +16,7 @@
         "OreDict:8": "",
         "id:8": "chisel:chisel"
       },
-      "isMain:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Building Gadgets",
@@ -63,6 +63,12 @@
             "orig_id:8": "ArchitectureCraft:sawbench",
             "orig_meta:3": 0
           }
+        },
+        "3:10": {
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "CarpentersBlocks:blockCarpentersBlock"
         }
       },
       "taskID:8": "bq_standard:retrieval"

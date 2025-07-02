@@ -1,25 +1,25 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -1922987534854173511,
-      "questIDLow:4": -8847684645341758176
+      "questIDHigh:4": -335723052748356383,
+      "questIDLow:4": -5167012276577745386
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "§6Here are some changes in vanilla Minecraft:\n\n§c1) Some vanilla recipes are NTMized, for example - flint and steel\n2) You\u0027re burning in the Nether\n3) You\u0027re getting hungry faster",
+      "desc:8": "No Description",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "minecraft:nether_star"
+        "id:8": "hbm:item.robes_plate"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Vanilla changes",
+      "name:8": "Casual Armor Set",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,13 +30,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 1073819113284976836,
-  "questIDLow:4": -8893306070131016349,
+  "questIDHigh:4": -2828395836202203083,
+  "questIDLow:4": -6652384175330639105,
   "rewards:9": {},
-  "tasks:9": {
-    "0:10": {
-      "index:3": 0,
-      "taskID:8": "bq_standard:checkbox"
-    }
-  }
+  "tasks:9": {}
 }

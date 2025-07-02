@@ -8,18 +8,18 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Glyphids are large insects that have many different types. They primarily spawn with naturally generated hives structures. All of the types are armored and they take less damage than against normal mobs. Glyphids are normally attracted by pollution created by the player. It is recommended that their hives are destroyed as soon as possible, as later on, pollution can make them a big problem.",
+      "desc:8": "No Description",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 3,
         "OreDict:8": "",
-        "id:8": "hbm:tile.glyphid_base"
+        "id:8": "hbm:tile.plant_flower"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "§l§c§lGlyphids",
+      "name:8": "Industrial Hemp",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,13 +30,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 5,
+  "questIDHigh:4": -335723052748356383,
+  "questIDLow:4": -5167012276577745386,
   "rewards:9": {},
-  "tasks:9": {
-    "0:10": {
-      "index:3": 0,
-      "taskID:8": "bq_standard:checkbox"
-    }
-  }
+  "tasks:9": {}
 }

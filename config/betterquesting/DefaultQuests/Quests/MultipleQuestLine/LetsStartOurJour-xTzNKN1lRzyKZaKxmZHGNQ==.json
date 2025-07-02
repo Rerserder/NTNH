@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "This is the begining of the tech tree of NT:NH. Before proceeding it is recommended that you stock up on materials such as iron, coal, aluminium, copper and redstone.\n\nIt is also worth noting that some advanced machinery can be obtained by salvaging them from structures scattered across the world, such as Centrifuges from abandoned nuclear powerplants found in deserts, or by rare mob drops such as a Geiger Counter.",
+      "desc:8": "§8*go to the LV1 - Early Game questline*",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -19,7 +19,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "NTM: Introduction",
+      "name:8": "Let\u0027s Start Our Journey!",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,13 +30,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 1,
+  "questIDHigh:4": -4234283974238320836,
+  "questIDLow:4": -8474188240158341579,
   "rewards:9": {},
-  "tasks:9": {
-    "0:10": {
-      "index:3": 0,
-      "taskID:8": "bq_standard:checkbox"
-    }
-  }
+  "tasks:9": {}
 }

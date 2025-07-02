@@ -1,25 +1,25 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 7668713233961733844,
-      "questIDLow:4": -8186258255035639237
+      "questIDHigh:4": -4234283974238320836,
+      "questIDLow:4": -8474188240158341579
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Template Folder is an item that will allow one to create schematics for crafting, chemical processes and shaping molds.\n\nThe first thing one creates with a Template Folder are molds needed in the Burner Press. Simply make a Flat stamp out of any available material and then select the specific mold from the Template Folder.\n\nFor Assembly and Chemical Templates, a dye and a piece of paper are needed.",
+      "desc:8": "You don’t have to, but we suggest stocking up on resources like iron, copper, coal, clay, and aluminum before starting the next quests—they’ll come in handy soon.\n\n[note]Make sure to save at least 9 aluminium-bearing ore, it will help you in the future.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "hbm:item.template_folder"
+        "id:8": "minecraft:chest"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Template Folder",
+      "name:8": "Stockpile Starter",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,50 +30,54 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 2,
+  "questIDHigh:4": 7668713233961733844,
+  "questIDLow:4": -8186258255035639237,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
+      "index:3": 1,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
-      "index:3": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
+          "Count:3": 32,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:item.template_folder"
+          "id:8": "minecraft:iron_ingot"
         },
         "1:10": {
-          "Count:3": 1,
+          "Count:3": 32,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:item.stamp_iron_flat"
+          "id:8": "hbm:item.ingot_copper"
         },
         "2:10": {
-          "Count:3": 1,
+          "Count:3": 27,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:item.stamp_iron_plate"
+          "id:8": "minecraft:clay_ball"
         },
         "3:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "hbm:item.stamp_iron_wire"
+          "Count:3": 9,
+          "Damage:2": 32767,
+          "OreDict:8": "oreAluminum",
+          "id:8": "hbm:tile.ore_aluminium"
         },
         "4:10": {
-          "Count:3": 1,
+          "Count:3": 32,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:item.stamp_iron_circuit"
+          "id:8": "hbm:item.ingot_aluminium"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }
