@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Food is really important now. It\u0027s better to make your first farm as soon as you can.\n\nWhen you\u0027re using a hoe on a dirt it gives you some seeds. If there is a water nearby, you\u0027re making a vanilla farmland block.\n\nTo plant rice you should make a depression in the ground by right-clicking on a farmland block.\n\nAlso you can\u0027t craft wooden or stone hoe, only copper or higher.",
+      "desc:8": "The farm is the foundation of survival. Use a copper hoe or better to till the soil near water to create farmland where you can plant seeds. You can obtain seeds by clicking on a grass block with a hoe. Pam\u0027s Harvestcraft adds new crops and recipes for unique dishes. Spice of Life increases health through food variety, while monotony reduces saturation. Track your diet in the Food Book (book + carrot).\n\nAlso, don’t forget about the luchbag/lunchbox, which you can open by right-clicking. Place food inside, close it, and use it as an automatic food dispenser to maintain your diet. Just press Shift + right-click to open it, and you can eat.\n\nDiversify your diet to thrive!",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -19,7 +19,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Farming information",
+      "name:8": "A Feast of Variety",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -62,6 +62,12 @@
           "Damage:2": 1,
           "OreDict:8": "",
           "id:8": "hbm:item.canned_conserve"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "SpiceOfLife:lunchbag"
         }
       }
     }
