@@ -69,7 +69,7 @@
                 <var>localtemperature</var>
                 <num>0</num>
             </round>
-            <str>{white}°F {gold}</str>
+            <str>{white}ºF {gold}</str>
             <round>
                 <div>
                     <sub>
@@ -80,7 +80,7 @@
                 </div>
                 <num>0</num>
             </round>
-            <str>{white}°C {gold}</str>
+            <str>{white}ºC {gold}</str>
             <round>
                 <add>
                     <div>
@@ -94,7 +94,7 @@
                 </add>
                 <num>0</num>
             </round>
-            <str>{white}K</str>
+            <str>{white}ºK</str>
             <str> {gold}{humidity}{white}% Humidity</str>
         </line>
         <line>
@@ -134,35 +134,6 @@
             <str>{white})</str>
         </line>
         <line>
-            <icon>
-                <str>witchery:mooncharm</str>
-            </icon>
-		<str> Moon phase: </str>
-		<op>
-			<str>eq</str>
-			<modi>
-				<var>day</var>
-				<num>8</num>
-			</modi>
-			<num>0</num>
-			<num>1</num>
-			<num>2</num>
-			<num>3</num>
-			<num>4</num>
-			<num>5</num>
-			<num>6</num>
-			<num>7</num>
-			<str>{gold}Full moon (D)</str>
-			<str>{yellow}Waning gibbous {gold}(D)</str>
-			<str>{gray}Last quarter {gold}(D)</str>
-			<str>{darkgray}Waning crescent {gold}(D)</str>
-			<str>{black}New moon {black}(N)</str>
-			<str>{darkgray}Waxing crescent {black}(N)</str>
-			<str>{gray}First quarter {black}(N)</str>
-			<str>{yellow}Waxing gibbous {black}(N)</str>
-		</op>
-        </line>
-        <line>
             <if>
                 <not>
                 <equal>
@@ -199,9 +170,9 @@
                             </equal>
                             <concat>
                                 <icon>
-                                    <str>thaumcraft:textures/aspects/aqua.png</str>
+                                    <str>hbm:textures/misc/precipitation.png</str>
                                 </icon>
-                                <str> It is {darkaqua}Raining{reset} for another {darkgreen}{nextrain}{reset}.</str>
+                                <str> It is {darkaqua}raining{reset} for another {darkgreen}{nextrain}{reset}.</str>
                             </concat>
                         </if>
                         <if>
@@ -213,9 +184,9 @@
                                 <icon>
                                     <str>thaumcraft:textures/aspects/aqua.png</str>
                                 </icon>
-                                <str> It is {darkaqua}Raining{reset} and {gold}Thundering{reset} for another {darkgreen}{nextrain}{reset}. </str>
+                                <str> It is {darkaqua}raining{reset} and {gold}Thundering{reset} for another {darkgreen}{nextrain}{reset}. </str>
                                 <icon>
-                                    <str>thaumcraft:textures/aspects/tempestas.png</str>
+                                    <str>hbm:textures/misc/precipitation.png</str>
                                 </icon>
                             </concat>
                         </if>
@@ -256,9 +227,9 @@
                             </equal>
                             <concat>
                                 <icon>
-                                    <str>thaumcraft:textures/aspects/aqua.png</str>
+                                    <str>hbm:textures/misc/precipitation.png</str>
                                 </icon>
-                                <str> It is {darkaqua}Raining{reset}.</str>
+                                <str> It is {darkaqua}raining{reset}.</str>
                             </concat>
                         </if>
                         <if>
@@ -268,11 +239,11 @@
                             </equal>
                             <concat>
                                 <icon>
-                                    <str>thaumcraft:textures/aspects/aqua.png</str>
+                                    <str>hbm:textures/misc/precipitation.png</str>
                                 </icon>
-                                <str> It is {darkaqua}Raining{reset} and {gold}Thundering{reset}. </str>
+                                <str> It is {darkaqua}raining{reset} and {gold}thundering{reset}. </str>
                                 <icon>
-                                    <str>thaumcraft:textures/aspects/tempestas.png</str>
+                                    <str>hbm:textures/misc/thunderbolt.png</str>
                                 </icon>
                             </concat>
                         </if>
@@ -309,7 +280,7 @@
                             </equal>
                             <concat>
                                 <icon>
-                                    <str>thaumcraft:textures/aspects/gelum.png</str>
+                                    <str>hbm:textures/misc/snow.png</str>
                                 </icon>
                                 <str> It is {darkaqua}Snowing{reset} for another {darkgreen}{nextrain}{reset}.</str>
                             </concat>
@@ -321,11 +292,11 @@
                             </equal>
                             <concat>
                                 <icon>
-                                    <str>thaumcraft:textures/aspects/gelum.png</str>
+                                    <str>hbm:textures/misc/snow.png</str>
                                 </icon>
                                 <str> It is {darkaqua}Snowing{reset} and {gold}Thundering{reset} for another {darkgreen}{nextrain}{reset}. </str>
                                 <icon>
-                                    <str>thaumcraft:textures/aspects/tempestas.png</str>
+                                    <str>hbm:textures/misc/thunderbolt.png</str>
                                 </icon>
                             </concat>
                         </if>
@@ -360,9 +331,9 @@
                             </equal>
                             <concat>
                                 <icon>
-                                    <str>thaumcraft:textures/aspects/gelum.png</str>
+                                    <str>hbm:textures/misc/snow.png</str>
                                 </icon>
-                                <str> It is {darkaqua}Snowing{reset}.</str>
+                                <str> It is {darkaqua}snowing{reset}.</str>
                             </concat>
                         </if>
                         <if>
@@ -372,11 +343,11 @@
                             </equal>
                             <concat>
                                 <icon>
-                                    <str>thaumcraft:textures/aspects/gelum.png</str>
+                                    <str>hbm:textures/misc/snow.png</str>
                                 </icon>
-                                <str> It is {darkaqua}Snowing{reset} and {gold}Thundering{reset}. </str>
+                                <str> It is {darkaqua}snowing{reset} and {gold}thundering{reset}. </str>
                                 <icon>
-                                    <str>thaumcraft:textures/aspects/tempestas.png</str>
+                                    <str>hbm:textures/misc/thunderbolt.png</str>
                                 </icon>
                             </concat>
                         </if>
@@ -540,7 +511,7 @@
                 </or>
                 <concat>
                     <icon>
-                        <str>thaumcraft:textures/aspects/aer.png</str>
+                        <str>hbm:textures/misc/cross.png</str>
                     </icon>
                     <str> This {darkgreen}biome{reset} does not have {aqua}precipitation{reset}.</str>
                 </concat>
@@ -725,7 +696,7 @@
                     </and>
                     <concat>
                         <icon>
-                            <str>thaumcraft:textures/aspects/tempestas.png</str>
+                            <str>hbm:textures/misc/precipitation.png</str>
                         </icon>
                         <str> {darkgreen}{nextrain}{reset} until the next {aqua}storm{reset}.</str>
                     </concat>
@@ -909,7 +880,7 @@
                     </and>
                     <concat>
                         <icon>
-                            <str>thaumcraft:textures/aspects/tempestas.png</str>
+                            <str>hbm:textures/misc/precipitation.png</str>
                         </icon>
                         <str> There is currently no {aqua}precipitation{reset}.</str>
                     </concat>
@@ -935,104 +906,6 @@
         </line>
         <line>
             <if>
-                <equal>
-                <var>gtnewore</var>
-                    <str>true</str>
-                </equal>
-                <if>
-                    <and>
-                        <or>
-                            <equal>
-                                <modi>
-                                    <var>chunkx</var>
-                                    <num>3</num>
-                                </modi>
-                                <num>-2</num>
-                            </equal>
-                            <equal>
-                                <modi>
-                                    <var>chunkx</var>
-                                    <num>3</num>
-                                </modi>
-                                <num>1</num>
-                            </equal>
-                        </or>
-                        <or>
-                            <equal>
-                                <modi>
-                                    <var>chunkz</var>
-                                    <num>3</num>
-                                </modi>
-                                <num>-2</num>
-                            </equal>
-                            <equal>
-                                <modi>
-                                    <var>chunkz</var>
-                                    <num>3</num>
-                                </modi>
-                                <num>1</num>
-                            </equal>
-                        </or>
-                    </and>
-                    <concat>
-                        <icon>
-                            <str>textures/items/diamond_pickaxe.png</str>
-                        </icon>
-                        <str> This is an {darkgreen}{underline}ore{white} chunk.</str>
-                    </concat>
-                </if>
-            </if>
-            <if>
-                <equal>
-                    <var>gtnewore</var>
-                    <str>false</str>
-                </equal>
-                <if>
-                    <and>
-                    <or>
-                        <equal>
-                            <modi>
-                                <var>chunkx</var>
-                                <num>3</num>
-                            </modi>
-                            <num>-1</num>
-                        </equal>
-                        <equal>
-                            <modi>
-                                <var>chunkx</var>
-                                <num>3</num>
-                            </modi>
-                            <num>1</num>
-                        </equal>
-                    </or>
-                    <or>
-                        <equal>
-                            <modi>
-                                <var>chunkz</var>
-                                <num>3</num>
-                            </modi>
-                            <num>-1</num>
-                        </equal>
-                        <equal>
-                            <modi>
-                                <var>chunkz</var>
-                                <num>3</num>
-                            </modi>
-                            <num>1</num>
-                        </equal>
-                    </or>
-                </and>
-                    <concat>
-                        <icon>
-                            <str>textures/items/diamond_pickaxe.png</str>
-                        </icon>
-                        <str> This is an {darkgreen}{underline}ore{white} chunk.</str>
-                    </concat>
-                </if>
-            </if>
-        </line>
-        <line>
-            <if>
                 <and>
                     <equal>
                         <var>chunkoffsetx</var>
@@ -1045,7 +918,7 @@
                 </and>
                 <concat>
                         <icon>
-                                <str>tinker:textures/items/parts/obsidian_toughbind.png</str>
+                                <str>hbm:textures/misc/the_center.png</str>
                         </icon>
                 <str> You are at the {darkred}center {white}of the chunk.</str>
                 </concat>
