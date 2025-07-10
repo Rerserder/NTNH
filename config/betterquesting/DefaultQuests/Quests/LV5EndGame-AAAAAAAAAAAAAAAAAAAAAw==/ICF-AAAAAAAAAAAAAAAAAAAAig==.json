@@ -20,7 +20,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The ICF Reactor is a very expensive and powerful reactor, which can produce a substantial amount of energy. Apart from the multiblock itself, ICF Lasers must be constructed for the reactor to work. Stellar Flux will be produced during its operation which is needed to craft Gerald. Consider making use of Liquid Lead as it is a very efficient coolant for the ICF.\n\nNote: This quest does not ask for the laser components, only the multiblock itself.",
+      "desc:8": "The ICF Reactor is a very expensive and powerful reactor, which can produce a substantial amount of energy. Apart from the multiblock itself, ICF Lasers must be constructed for the reactor to work. Stellar Flux will be produced during its operation which is needed to craft Gerald. Consider making use of Liquid Lead as it is a very efficient coolant for the ICF.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -112,12 +112,6 @@
           "Damage:2": 0,
           "OreDict:8": "",
           "id:8": "hbm:tile.struct_icf_core"
-        },
-        "7:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "hbm:tile.machine_icf_press"
         }
       },
       "taskID:8": "bq_standard:retrieval"
