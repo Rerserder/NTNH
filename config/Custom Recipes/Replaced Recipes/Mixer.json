@@ -1,0 +1,11 @@
+	{
+      "outputType": "SMILK",
+      "recipes": [
+        {
+          "duration": 50,
+          "outputAmount": 500,
+          "input1": ["MILK",500],
+          "solidInput": ["item","harvestcraft:strawberryItem",4]
+        }
+      ]
+    },
