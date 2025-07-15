@@ -12,10 +12,15 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<minecraft:stonebrick:1>);
+recipes.remove(<minecraft:mossy_cobblestone>);
+recipes.remove(<minecraft:chainmail_boots>);
+recipes.remove(<minecraft:chainmail_helmet>);
+recipes.remove(<minecraft:chainmail_leggings>);
+recipes.remove(<minecraft:chainmail_chestplate>);
 recipes.remove(<minecraft:anvil>);
 recipes.remove(<OpenComputers:item:19>);
 recipes.remove(<hbm:tile.machine_solar_boiler>);
-recipes.remove(<Growthcraft|Cellar:grc.brewKettle>);
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:68>);
 recipes.remove(<ae2stuff:Wireless>);
 recipes.remove(<ae2stuff:Wireless:17>);
@@ -255,6 +260,8 @@ recipes.removeShaped(<minecraft:fire>, [[<ore:cobblestone>, null, null], [<ore:c
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<minecraft:mossy_cobblestone>, [<minecraft:cobblestone>, <minecraft:vine>]);
+recipes.addShapeless(<minecraft:stonebrick:1>, [<minecraft:stonebrick>, <minecraft:vine>]);
 recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:500>, [<appliedenergistics2:item.ItemMultiPart:340>, <appliedenergistics2:item.ItemMultiMaterial:24>]);
 recipes.addShapeless(<ae2stuff:Wireless:17>, [<ae2stuff:Wireless>]);
 recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:68>, [<appliedenergistics2:item.ItemMultiMaterial:25>, <hbm:item.black_hole>]);
@@ -280,7 +287,6 @@ recipes.addShaped(<OpenComputers:item:20>, [[<ore:buttonStone>, <ore:buttonStone
 recipes.addShaped(<minecraft:anvil>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [null, <ore:ingotIron>, null], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
 recipes.addShaped(<OpenComputers:cable> * 16, [[null, <hbm:item.plate_polymer>, null], [<hbm:item.plate_polymer>, <ore:wireFineMingrade>, <hbm:item.plate_polymer>], [null, <hbm:item.plate_polymer>, null]]);
 recipes.addShaped(<hbm:tile.machine_solar_boiler>, [[<ore:plateTripleSteel>, <ore:shellSteel>, <ore:plateTripleSteel>], [<ore:dye>, <ore:shellSteel>, <ore:dye>], [<ore:plateTripleSteel>, <ore:shellSteel>, <ore:plateTripleSteel>]]);
-recipes.addShaped(<Growthcraft|Cellar:grc.brewKettle>, [[<ore:Steel>, null, <ore:Steel>], [<ore:Steel>, null, <ore:Steel>], [<ore:Steel>, <ore:Steel>, <ore:Steel>]]);
 recipes.addShaped(<ae2stuff:Wireless>, [[<ore:crystalPureFluix>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:crystalPureFluix>], [<ore:Steel>, <appliedenergistics2:item.ItemMultiMaterial:41>, <ore:Steel>], [<ore:crystalPureFluix>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:crystalPureFluix>]]);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:44>, [[<hbm:item.circuit:3>, <ore:ingotIron>, <appliedenergistics2:item.ItemMultiMaterial:16>]]);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:43>, [[<appliedenergistics2:item.ItemMultiMaterial:18>, <ore:ingotIron>, <hbm:item.circuit:3>]]);
