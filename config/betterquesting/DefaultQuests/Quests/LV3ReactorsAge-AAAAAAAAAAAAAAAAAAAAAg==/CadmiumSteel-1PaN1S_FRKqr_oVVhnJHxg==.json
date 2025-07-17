@@ -1,15 +1,14 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 317,
-      "type:1": 1
+      "questIDHigh:4": 6782615224319757905,
+      "questIDLow:4": -7399122276121424446
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "No Description",
+      "desc:8": "",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
