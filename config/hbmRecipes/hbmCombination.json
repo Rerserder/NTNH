@@ -1,6 +1,6 @@
 {
   "recipes": [
-  	{
+	{
       "input": ["item","minecraft:coal",1,1],
       "output": ["minecraft:coal",1],
       "fluid": ["GAS_COKER",25]

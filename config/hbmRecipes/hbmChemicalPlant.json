@@ -1,6 +1,6 @@
 {
   "recipes": [
-    { 
+	{ 
       "name": "chem.certus",
       "inputItem": [
         ["item","hbm:item.powder_quartz",1],
@@ -671,51 +671,6 @@
       ],
       "outputItem": [
         ["single",["hbm:item.ingot_c4",4]]
-      ],
-      "duration": 100,
-      "power": 1000
-    },
-    {
-      "name": "chem.shellchlorine",
-      "inputItem": [
-        ["item","hbm:item.ammo_arty"],
-        ["dict","ingotAnyPlastic"]
-      ],
-      "inputFluid": [
-        ["CHLORINE",4000]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.ammo_arty",1,9]]
-      ],
-      "duration": 100,
-      "power": 1000
-    },
-    {
-      "name": "chem.shellphosgene",
-      "inputItem": [
-        ["item","hbm:item.ammo_arty"],
-        ["dict","ingotAnyPlastic"]
-      ],
-      "inputFluid": [
-        ["PHOSGENE",4000]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.ammo_arty",1,10]]
-      ],
-      "duration": 100,
-      "power": 1000
-    },
-    {
-      "name": "chem.shellmustard",
-      "inputItem": [
-        ["item","hbm:item.ammo_arty"],
-        ["dict","ingotAnyPlastic"]
-      ],
-      "inputFluid": [
-        ["MUSTARDGAS",4000]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.ammo_arty",1,11]]
       ],
       "duration": 100,
       "power": 1000
