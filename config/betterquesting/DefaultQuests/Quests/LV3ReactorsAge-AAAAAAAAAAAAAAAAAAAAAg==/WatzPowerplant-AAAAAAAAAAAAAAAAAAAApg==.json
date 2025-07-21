@@ -28,7 +28,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Watz Powerplant is a fission reactor which can produce Poisonous Mud, important for making CMB Steel. Although the reactor is not really powerful in terms of energy output, the Watz Powerplant can be stacked ontop of eachother for increased mud and power production.",
+      "desc:8": "The Watz Powerplant is a fission reactor which can produce Poisonous Mud, important for making CMB Steel. Although the reactor is not really powerful in terms of energy output, the Watz Powerplant can be stacked ontop of eachother for increased mud and power production.\n\nIf the poisonous mud buffer reaches its maximum, the reactor will melt down and explode, irradiating a wide area around it and causing fallout to fall in a small area around it. As well as this, it will spew poisonous mud in a very wide area which will then corrode any blocks that it comes in contact with, similar to corium.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

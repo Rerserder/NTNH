@@ -1,25 +1,25 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 31
+      "questIDHigh:4": -1112471064882035196,
+      "questIDLow:4": -6457452039646598389
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The strand caster is a large basin that can cast items in batches of 9. It also requires water in order to cast, where it makes low-pressure steam that can be turned back into water.",
+      "desc:8": "Patterns are used to encode recipes to be used in interfaces. They can be encoded in a Pattern Terminal.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 52,
         "OreDict:8": "",
-        "id:8": "hbm:tile.machine_strand_caster"
+        "id:8": "appliedenergistics2:item.ItemMultiMaterial"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Strand Caster",
+      "name:8": "ME Pattern",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,37 +30,29 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 36,
-  "rewards:9": {
-    "0:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 0,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 2,
-          "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
-        }
-      }
-    }
-  },
+  "questIDHigh:4": -3916041569549793409,
+  "questIDLow:4": -7364106093674023093,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 500,
           "OreDict:8": "",
-          "id:8": "hbm:tile.machine_strand_caster"
+          "id:8": "appliedenergistics2:item.ItemMultiPart"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 52,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial"
         }
       },
       "taskID:8": "bq_standard:retrieval"

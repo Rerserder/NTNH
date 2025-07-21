@@ -1,25 +1,25 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 31
+      "questIDHigh:4": 4885650160738979801,
+      "questIDLow:4": -6978739424958922769
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The strand caster is a large basin that can cast items in batches of 9. It also requires water in order to cast, where it makes low-pressure steam that can be turned back into water.",
+      "desc:8": "The ME Controller acts as the routing hub of an ME network. It can support up to 8 devices connected to it.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 2,
         "OreDict:8": "",
-        "id:8": "hbm:tile.machine_strand_caster"
+        "id:8": "chisel:futura"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Strand Caster",
+      "name:8": "ME Controller",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,8 +30,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 36,
+  "questIDHigh:4": -8795770171175450810,
+  "questIDLow:4": -7151929901076211056,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -40,9 +40,12 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 2,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
+          "id:8": "amazingtrophies:trophy",
+          "tag:10": {
+            "trophyID:8": "me_controller"
+          }
         }
       }
     }
@@ -52,7 +55,7 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
@@ -60,7 +63,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:tile.machine_strand_caster"
+          "id:8": "appliedenergistics2:tile.BlockController"
         }
       },
       "taskID:8": "bq_standard:retrieval"

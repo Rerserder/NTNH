@@ -16,7 +16,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Blast Furnace is a solid fuel-powered furnace used to create different alloys out of two inputs. The main starter alloys are: Minecraft Grade Copper, Steel and Advanced Alloy, which is a combination of the former.",
+      "desc:8": "The Blast Furnace is a solid fuel-powered furnace used to create different alloys out of two inputs. The main starter alloys are: Minecraft Grade Copper, Steel and Advanced Alloy, which is a combination of the former.\n\nAdvanced alloy can be used to construct very durable tools that come with vein mining. For more advanced tools later on, pressing the ALT key will bring up a menu from which one can select multiple abilities at once.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
