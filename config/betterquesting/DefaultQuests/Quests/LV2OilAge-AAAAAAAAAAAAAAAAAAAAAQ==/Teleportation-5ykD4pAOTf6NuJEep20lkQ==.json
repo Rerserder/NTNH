@@ -3,23 +3,28 @@
     "0:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 35
+    },
+    "1:10": {
+      "questIDHigh:4": -1654781484466550244,
+      "questIDLow:4": -9101755488777300351,
+      "type:1": 1
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The teleporter can be used to teleport players, and entities in general, to a specific location. Note that it is a one way trip so it is advised that multiple are made.\n\nRight-click a block with the telelinker to set the desired exit position, then shift-click the teleporter with the telelinker to configure the teleporter.\n\nNote: Interdimensional teleportation using teleporters requires a very expensive type of fuel, so it is recommended that other teleportations methods are used, such as AE2 Spatial.",
+      "desc:8": "After receiving Alexandrite, you can build a one-way teleporter, for this you will need a teleport anchor block and a device for calling. After receiving them, right-click the device on the anchor (also do not forget to charge the device for calling) and now when you further right-click the device in the air, it will teleport you to the anchor.\n\nIn this case, the device will lose 10k of energy.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "hbm:tile.machine_teleporter"
+        "id:8": "hbm:tile.teleanchor"
       },
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Teleporter",
+      "name:8": "Teleportation",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,8 +35,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": -4293309551127146780,
-  "questIDLow:4": -5197105121623355884,
+  "questIDHigh:4": -1789895105288712706,
+  "questIDLow:4": -8234672357802957423,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
@@ -46,13 +51,16 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:tile.machine_teleporter"
+          "id:8": "hbm:item.anchor_remote",
+          "tag:10": {
+            "charge:4": 0
+          }
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:item.linker"
+          "id:8": "hbm:tile.teleanchor"
         }
       },
       "taskID:8": "bq_standard:retrieval"
