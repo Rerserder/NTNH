@@ -1,6 +1,6 @@
 	{
       "inputs": [
-        ["dict","plateSextupleSteel",4]
+        ["dict","plateTripleSteel",4]
       ],
       "output": ["hbm:tile.block_case"],
       "duration": 200,
