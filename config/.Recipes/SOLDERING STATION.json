@@ -5,7 +5,7 @@
       ],
       "pcb": [],             
       "solder": [],
-      "output": ["openf:MemoryCard",1,0],
+      "output": ["openfm:MemoryCard",1,0],
       "duration": 100,
       "consumption": 10
     },
