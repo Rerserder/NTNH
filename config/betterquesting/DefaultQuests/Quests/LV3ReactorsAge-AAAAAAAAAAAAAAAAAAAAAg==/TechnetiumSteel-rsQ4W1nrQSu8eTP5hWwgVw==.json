@@ -1,12 +1,8 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 114
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 10
+      "questIDHigh:4": -5594663636496003906,
+      "questIDLow:4": -8795238067946657846
     }
   },
   "properties:10": {
@@ -24,7 +20,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Technetium Steel",
-      "questLogic:8": "OR",
+      "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
