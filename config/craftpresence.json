@@ -33,8 +33,8 @@
         "textOverride": "In the {dimension.name}"
       },
       "earth": {
-        "textOverride": "On the {dimension.name}",
-        "iconOverride": "earth"
+        "textOverride": "On the Kerbin (Earth)",
+        "iconOverride": "kerbin"
       },
       "mun": {
         "textOverride": "On the {dimension.name}",
