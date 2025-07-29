@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Chemical Plant is a machine needed for several processes, turning fluids into other fluids, synthesis of different compounds, ect. A chemistry template is required for the machine to work.\n\n§6Also recipes are going to be migrated in GUI in future, and some recipes are already did so.",
+      "desc:8": "The Chemical Plant is a machine needed for several processes, turning fluids into other fluids, synthesis of different compounds, ect.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
