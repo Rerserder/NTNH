@@ -28,7 +28,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Crystalline Fullerite is an item which is primarely used in endgame machines, such as the ICF, a very powerful reactor, and the FEnSU.\\n\\nIt is recommended that an Effectiveness 3 upgrade is installed on the Acidizer to increase the chance of not consuming the fullerene, as Fullerite can be expensive to produce large quantities.",
+      "desc:8": "Crystalline Fullerite is an item which is primarely used in endgame machines, such as the ICF, a very powerful reactor, and the FEnSU.\n\nIt is recommended that an Effectiveness 3 upgrade is installed on the Acidizer to increase the chance of not consuming the fullerene, as Fullerite can be expensive to produce large quantities.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
