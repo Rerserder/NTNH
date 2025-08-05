@@ -12,7 +12,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Alexandrite ore is mined in the overworld only by explosion (i.e., a mining charge), or by picks that can break deepstone (i.e., a bismuth or cast pick).\nIt naturally generates in the range of Y: 10-15. There is only one vein per 100 chunks (25600 blocks).\nA vein can contain from 1 to 3 blocks. Each block drops 1 alexandrite.\n\nWith some chance, it can be obtained from a meteorite treasure block, as well as from the Red Room. Or it can be extracted from a broken toaster on an anvil. [warn](Wooden?)[/warn]",
+      "desc:8": "Alexandrite ore is mined in the overworld only by explosion (i.e., a mining charge), or by picks that can break deepstone (i.e., a bismuth or cast pick).\nIt naturally generates in the range of Y: 10-15. There is only one vein per 100 chunks (25600 blocks).\nA vein can contain from 1 to 3 blocks. Each block drops 1 alexandrite.\n\nWith some chance, it can be obtained from a meteorite treasure block, as well as from the Red Room. Or it can be extracted from a broken wooden toaster on an anvil.\n[warn](Wooden toaster?)[/warn]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
