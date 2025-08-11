@@ -1,3 +1,5 @@
+[![Crowdin](https://badges.crowdin.net/ntnh/localized.svg)](https://crowdin.com/project/ntnh)
+
 Nuclear Tech: New Horizons is a large modpack that adds new technologies and possibilities to the game.
 It features numerous quests and revamped crafting recipes, making the gameplay more balanced and engaging. 
 This modpack will appeal to both newcomers and experienced players who enjoy mods.
