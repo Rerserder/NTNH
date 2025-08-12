@@ -1,0 +1,54 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 5091114072294771997,
+      "questIDLow:4": -5545061285848322781
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Tekto is a distant and dangerous planet orbiting 50 AU from the Sun, with gravity only 0.16 that of Earth and a thick, toxic atmosphere composed mainly of chloromethane (55%), chlorine (25%), natural gas (15%), and hydrochloric acid (5%).\n\nThe atmospheric pressure reaches 1.5 atm, making the air dense and highly flammable due to its hydrocarbon content. The surface is divided into unusual biomes: the dark Vinyl Deserts with two-meter rubber flowers and geysers ejecting dichloromethane; the Polyvinyl Plains, covered in green rubber grass; dense Tekto Forests with tall dichloromethane trees and rivers of liquid carbon tetrachloride; and the modest Halogen Hills with scattered vegetation. Life here is limited to exotic plant forms built from PVC, vinyl, and rubber, adapted to survive in extreme conditions.\n\nBeneath the thin layer of Tekto silt lies solid basalt, with underground resources including crude Tekto oil, carbon tetrachloride, geyser sources, and PVC wood. Despite being marked as \"habitable\", the atmosphere is lethal without protection.\n",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "hbm:tile.rubber_grass"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Tekto",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -5584602623574783914,
+  "questIDLow:4": -7950308880445671872,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "biome:3": -1,
+      "dimension:3": 24,
+      "hideInfo:1": 1,
+      "index:3": 0,
+      "invert:1": 0,
+      "name:8": "Tekto",
+      "posX:3": 0,
+      "posY:3": 0,
+      "posZ:3": 0,
+      "range:3": -1,
+      "structure:8": "",
+      "taskID:8": "bq_standard:location",
+      "taxiCabDist:1": 0,
+      "visible:1": 0
+    }
+  }
+}
