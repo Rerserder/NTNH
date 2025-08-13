@@ -778,6 +778,10 @@
       "output": ["hbm:item.ore_enriched",1,16]
     },
     {
+      "input": ["hbm:tile.vinyl_log"],
+      "output": ["hbm:item.powder_rubber",4]
+    },
+    {
       "input": ["hbm:tile.brick_obsidian"],
       "output": ["hbm:tile.gravel_obsidian"]
     },
@@ -886,6 +890,10 @@
       "output": ["hbm:item.scrap_plastic"]
     },
     {
+      "input": ["hbm:tile.pvc_log"],
+      "output": ["hbm:item.powder_pvc",4]
+    },
+    {
       "input": ["hbm:tile.block_slag"],
       "output": ["hbm:item.powder_cement",4]
     },
@@ -924,6 +932,10 @@
     {
       "input": ["hbm:item.ore_purified",1,14],
       "output": ["hbm:item.ore_enriched",1,14]
+    },
+    {
+      "input": ["hbm:tile.vinyl_sand"],
+      "output": ["hbm:item.dust",2]
     },
     {
       "input": ["minecraft:sandstone_stairs"],
@@ -1364,6 +1376,10 @@
     {
       "input": ["hbm:tile.deco_pipe_framed_red"],
       "output": ["hbm:item.powder_steel"]
+    },
+    {
+      "input": ["hbm:tile.rubber_silt"],
+      "output": ["hbm:item.dust",2]
     },
     {
       "input": ["hbm:tile.deco_pipe_rusted"],
