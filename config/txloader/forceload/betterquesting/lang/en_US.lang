@@ -11,6 +11,142 @@ betterquesting.quest.bdIdyx_EQoGkmzGhBgl3zA.desc=Backhand backports minecraft's 
 betterquesting.quest.dvmi7P5lR_SwH0PtXJZNMw.name=Help Me Find It!
 betterquesting.quest.dvmi7P5lR_SwH0PtXJZNMw.desc=FindIt allows one to find any item stored in their storage area. Hover over the item of choice in NEI and press T. The container will become outlined.
 
+#Numbers in the Corner? quest
+betterquesting.quest.tVH3REWaQga_3oHUZSiEjQ.name=Numbers in the Corner?
+betterquesting.quest.tVH3REWaQga_3oHUZSiEjQ.desc=What's with the numbers in the corner? That is the In-Game Info (IGI) mod. Some of the info it gives is useful right away, some of it shines later on in progression.%n%nFor now, the most important thing it does is showing if you are in an ore chunk. Further quests will explain what it means.%n%nIf you want to hide it, type "/igi disable" in the chat. Type "/igi enable" if you want to turn it back on.%n%nThe command "/igi config" opens the configuration window to control its position, scale, and size.%n%nThe command "/xu_tps" from the mod Extra Utilities toggles numbers to measure ticktime in milliseconds and the TPS (Ticks Per Second). TPS is a measure of how well your server is running. The ideal TPS is 20.00 (meaning a ticktime of at most 50.00). If your TPS  is less than 15, things are going to start lagging noticeably. At 10 or less TPS, it is going to be hard to play.%nThe tooltip shows three types of measurement: instantaneous, average, and worst-case. Each one first shows the ticktime and then the TPS in brackets.%n%nIf you need suggestions on solving TPS problems, feel free to ask for help in the NTNH Discord.
+
+#AE2 Changes quest
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAARg.name=AE2 Changes
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAARg.desc=In this modpack, AE2 has been changed in order to fit in more with NTM. Many components have been changed to include NTM materials and some machines, like the Grinder and Inscriber, have had their functions moved to the Shredder and Press. The Meteors have also been removed, but skystone can still be crafted for building purposes.%n%nThis Chapter of the quests has its information derived from the FTB Wiki. If anything else is missing from the quest book, please visit the wiki.
+
+#Cable Fluix quest
+betterquesting.quest.xO_ASQzeRWOtsb.name=Cable Fluix
+betterquesting.quest.xO_ASQzeRWOtsb.desc=The ME Glass Cable - Fluix is a cable used to transmit data and energy between devices in an ME Network. It is capable of transmitting 8 channels simultaneously.%n%nThe Quartz Fiber is used to transfer energy, but not channels, making subnetworks possible.%n%nCable Anchors can be used to seperate ME cable connections. They can also be used to make facades for the cables.
+
+#Cell Workbench quest
+betterquesting.quest.HLegqCttRRmZuH.name=Cell Workbench
+betterquesting.quest.HLegqCttRRmZuH.desc=The Cell Workbench allow to filter cells to accept specific items. The Cell Workbench can prove useful for when making a subnet for Bedrock Ore Processing.
+
+#Certus Quartz Crystal quest
+betterquesting.quest.k83BKG80SXCfWcVjSmeqFg.name=Certus Quartz Crystal
+betterquesting.quest.k83BKG80SXCfWcVjSmeqFg.desc=Certus Quartz is an important material in Applied Energistics 2. It is dropped when mining or processing Certus Quartz Ore at the rate of one to four, the yield is affected by a tool's Fortune Enchantment. Certus Quartz is often interchangeable with Vanilla Nether Quartz in the recipes for basic tools, such as the Quartz Cutting Knife. Certus Quartz Ore can be Acidized or Centrifuged for extra resourses.%n%nCertus Quartz can later be made in a chemical plant using Nether Quartz.
+
+#Charger quest
+betterquesting.quest.T09aRAAGTGqZmb4s2ayrtw.name=Charger
+betterquesting.quest.T09aRAAGTGqZmb4s2ayrtw.desc=The Charger is a machine which will charge Certus Quartz Crystals into their charged form at the expense of power.
+
+#Crafting CPU quest
+betterquesting.quest.JVcvtqD9TzOiKq_aaB8ySQ.name=Crafting CPU
+betterquesting.quest.JVcvtqD9TzOiKq_aaB8ySQ.desc=The Crafting CPU is a multiblock structure composed of Crafting Co-Processing Units and Crafting Storage. When placed next to eachother they form one CPU which is used when placing orders via interfaces. The more Crafting Co-Processing Units the more tasks the CPU can do in parallel while more Crafting Storage allows for bigger orders to be made.
+
+#Crystal Growth Accelerator quest
+betterquesting.quest.ScEyd2.name=Crystal Growth Accelerator
+betterquesting.quest.ScEyd2.desc=The Crystal Growth Accelerator is a machine that uses energy to accelerate the process of crystal purification. This process transforms crystal seeds into pure versions of their fully developed counterparts.
+
+#Crystal Growth Chamber quest
+betterquesting.quest.O9iN2CJrSMe94XKDspSYwQ.name=Crystal Growth Chamber
+betterquesting.quest.O9iN2CJrSMe94XKDspSYwQ.desc=The Crystal Growth Chamber is a block in which crystals can grow at an increased speed, while also being in a machine instead of being dropped in the ground.
+
+#Dense ME Cable quest
+betterquesting.quest.psiTPEt3T0mPdLoXUAooyg.name=Dense ME Cable
+betterquesting.quest.psiTPEt3T0mPdLoXUAooyg.desc=The Dense ME Fluix Cables can be used to transmit 32 channels from an ME Controller.%n%nOne Controller is capable of connecting up to 6 Dense Cables, in turn each can branch off to 4 smaller cable lines connecting up to 192 ME devices to the network.%n%nThe Smart Dense Cable also displays the amount of channels that are been used, but is known to be less performance friendly than the Dense Covered Cables.%n%nIn addition there are 16 coloured cables made with the appropriate dye. The coloured Cables allows contact with other cables without sharing the signal or connecting to any other cable but the ones of the same colour.
+
+#Dual P2P Interface quest
+betterquesting.quest.8iMxYLCpTrOfPbu7xVkDhg.name=Dual P2P Interface
+betterquesting.quest.8iMxYLCpTrOfPbu7xVkDhg.desc=No Description
+
+#Energy Acceptor quest
+betterquesting.quest.Q81Q75etT9mfJol3y08_7w.name=Energy Acceptor
+betterquesting.quest.Q81Q75etT9mfJol3y08_7w.desc=The Energy Acceptor transfers energy into the ME system. In combination with an HE to RF Converter, the ME system can be powered.
+
+#Energy Cell quest
+betterquesting.quest.SiWpYWQYSH.name=Energy Cell
+betterquesting.quest.SiWpYWQYSH.desc=The Energy Cell acts as a battery for the ME network. It becomes useful when the ME system begins to consume large amounts of energy, so a buffer is needed so it doesnt turn on and off constantly.
+
+#Fluix Crystal quest
+betterquesting.quest.S5eN_Jg1SSCCT8YhP2.name=Fluix Crystal
+betterquesting.quest.S5eN_Jg1SSCCT8YhP2.desc=The Fluix Crystal is an item which is used in crafting recipes throughout the mod. The crystal comes in two forms, the regular Fluix Crystal and the Pure Fluix Crystal.%nTo create a Fluix Crystal, 1 Charged Certus Quartz, 1 Nether Quartz, and 1 Redstone must be dropped into a pool of water. They will be consumed and output 2 Fluix Crystals.%n%nFluix Crystals can later be made in a chemical plant using Charged Certus Quartz and Redstone.
+
+#ME Buses quest
+betterquesting.quest.pGnYX7D8QeG9uFtrZCNKwQ.name=ME Buses
+betterquesting.quest.pGnYX7D8QeG9uFtrZCNKwQ.desc=The ME Export Bus is an item which is used to Export items from the ME Network into a machine or other input inventory. %n%nThe ME Import Bus is an item which is used to import items directly into the ME Network from a machine or other output inventory.%n%nIt is recommended that Interfaces are used over Export/Import buses for performance reasons.
+
+#ME Controller quest
+betterquesting.quest.he8loZ0cR0acvz2lw9uakA.name=ME Controller
+betterquesting.quest.he8loZ0cR0acvz2lw9uakA.desc=The ME Controller acts as the routing hub of an ME network. It can support up to 8 devices connected to it.
+
+#ME Drive quest
+betterquesting.quest.E69lsLpuQGSQvgTe1XI.name=ME Drive
+betterquesting.quest.E69lsLpuQGSQvgTe1XI.desc=The ME Drive serves as the storage of the ME system, in which storage cells can be put and store a lot of items.
+
+#ME Dual Interface quest
+betterquesting.quest.38DaOwqOSuatCDzi3ifteg.name=ME Dual Interface
+betterquesting.quest.38DaOwqOSuatCDzi3ifteg.desc=No Description
+
+#ME Interface quest
+betterquesting.quest.8I.name=ME Interface
+betterquesting.quest.8I.desc=The ME Interface is a block which allows the ME Network to interact with machines, transport pipes and tubes. On their own, they can be used to automatically stock inventories, but can be used with patterns later on for autocrafting.
+
+#ME IO Port quest
+betterquesting.quest.dX_R.name=ME IO Port
+betterquesting.quest.dX_R.desc=The ME IO Port can transfer the contents of storage cells into an ME Network and back.
+
+#ME Pattern quest
+betterquesting.quest.yads8MlSR3.name=ME Pattern
+betterquesting.quest.yads8MlSR3.desc=Patterns are used to encode recipes to be used in interfaces. They can be encoded in a Pattern Terminal.
+
+#ME Storage Bus quest
+betterquesting.quest.ru4mkHIlQTayN30x.name=ME Storage Bus
+betterquesting.quest.ru4mkHIlQTayN30x.desc=The ME Storage Bus, when attached to an block/tile entity with an inventory (generally a storage unit, such as chests or a Drawer Controller), will include that inventory's contents in the ME System.
+
+#ME Terminal quest
+betterquesting.quest.B9g0MzYOTvur9T6U4ufscg.name=ME Terminal
+betterquesting.quest.B9g0MzYOTvur9T6U4ufscg.desc=The ME Terminal is used to access all available items in the ME Network, including craftable ones.
+
+#Modifier Cards quest
+betterquesting.quest.OW3Zd_7USZG_ooNKrLPk5g.name=Modifier Cards
+betterquesting.quest.OW3Zd_7USZG_ooNKrLPk5g.desc=Modifier cards allow for modification to various ME components, such as speeding them up or being able to toggle them on and off using redstone.
+
+#Molecular Assembler quest
+betterquesting.quest.BBzA1tJERSeR39l4N_vU4A.name=Molecular Assembler
+betterquesting.quest.BBzA1tJERSeR39l4N_vU4A.desc=The Molecular Assembler is used to autocraft anything that can be made in a crafting table.
+
+#Network Tool quest
+betterquesting.quest.P0n4bGJoTBWwqALEKxbiWg.name=Network Tool
+betterquesting.quest.P0n4bGJoTBWwqALEKxbiWg.desc=The Network Tool, when right-clicking on any Network device will bring up the tool's interface showing all devices connected to the network as well as network details. As any wrench, shift clicking on a cable will remove it.
+
+#Network Visualisation Tool quest
+betterquesting.quest.w6lXyaVhR_SGLo.name=Network Visualisation Tool
+betterquesting.quest.w6lXyaVhR_SGLo.desc=The Network Visualisation Tool is used to visuallize an ME Network by right-clicking on any of its blocks, making it very useful when making a large network, especially one that uses P2P.
+
+#P2P quest
+betterquesting.quest.o_riYGs0Qiy6MJnKoj0TAw.name=P2P
+betterquesting.quest.o_riYGs0Qiy6MJnKoj0TAw.desc=P2P Tunnel or "Point to Point Tunnels" are a versatile configurable system to move items / redstone / power / and fluids from one location to another though an existing ME Network without storage.%n%nTunnels are 1 input to N outputs. This means you can output to as many points as you want, but only input at a single point per tunnel.%n%nNetworks can support any number of tunnels, of any different types, and they all function independently.%n%nME Tunnels can be used to carry channels from one location to another, and can carry up to 32 channels, same as a ME Dense Cable, while only requiring a single channel per point, making tunnels a very powerful tool to expand me networks, especially over a distance. However with the great flex-ability they give you comes a limitation, the channel of a p2p tunnel cannot be carried by another p2p tunnel, meaning that you cannot nest them recursively.%n%nTo configure a P2P Tunnel you must first attune the tunnel to carry what you want it to, then you need to configure the outputs to their input. You configure the connections by using the Memory Card; First Shift+Right Click the input to save it on your memory card, then simply right click the different outputs to store the input onto the outputs. this also sets the type of the output to match the type of the input.%n%nAn advanced version of the Memory Card can also be made, which interacts with the entire network.
+
+#P2P Interface quest
+betterquesting.quest.supazxflSE6ktZHtlvaeng.name=P2P Interface
+betterquesting.quest.supazxflSE6ktZHtlvaeng.desc=The P2P Interface can be used to easily paralellize recipes across many machines.
+
+#Quantum Network Bridge quest
+betterquesting.quest.rFVMGfIyQ9uHi8v.name=Quantum Network Bridge
+betterquesting.quest.rFVMGfIyQ9uHi8v.desc=A Quantum Network Bridge is a multiblock structure that connects 2 potentially distant network fragments together. Created by crafting 8 ME Quantum Ring and a ME Quantum Link Chamber and placing the ME Quantum Link Chamber in the center, and sourrounding it in the 8 ME Quantum Ring.%n%nEach Quantum Network Bridge requires power to function. This power must be provided from the network fragment it is attached to until the bridge is linked; at which time power from either side will be available. However if power is lost, connectivity will fail and power will be drained from the side the bridge is on in attempt to restore connection.%n%nTo establish a link between 2 Quantum Network Bridges, you must create a pair of Quantum Entangled Singularities. One of each will be placed inside of a particular connection. Each Bridge may only connect to one other bridge.%n%nAE2 Singularities are created by dumping 256k of any block inside a Matter Condenser. Singularities can become Quantum Entangled by dropping a Singularity and Ender dust and then exploding them together.
+
+#Spatial IO quest
+betterquesting.quest.9GDCKm30REKhSI8XYqhWOg.name=Spatial IO
+betterquesting.quest.9GDCKm30REKhSI8XYqhWOg.desc=Spatial IO is a way to cut-and-paste physical volumes of space in your world. It works by swapping the defined volume with an identically-sized volume in the spatial storage dimension, sending whatever's in the pylon array to the spatial storage dimension, and whatever's in the dimension to the pylon array.%n%nSpatial IO requires a specific arrangement of its components in order to function, and define the volume to be cut-and-pasted. All of the components must be on the same network in order to function, and you can have only one spatial IO setup on a network. Thus, a subnetwork is recommended.%n%nThe Spatial IO Port controls the spatial IO operation. It shows stats on the multiblock setup, and holds the spatial cells%n%nTo perform a spatial IO operation, place a spatial storage cell in the input slot and give the spatial IO port a redstone pulse. It will then swap the volume in the pylons with the volume in the spatial storage dimension. This means that if you send some set of blocks to the spatial storage dimension, then put another set of blocks in the pylons, put the cell back in the input slot, and trigger the IO port again, the 2nd set of blocks will disappear and the 1st set of blcks will reappear.%n%nAny entity in the defined volume, including you, will be carried along, and if you have no way of getting out, you will be trapped in the spatial storage dimension.%n%nSpatial Pylons are the main part of a spatial IO setup, and define the volume to be affected. The volume is defined by the bounding box of the outside of the pylons, contracted in by 1 block in all directions.
+
+#Storage Components quest
+betterquesting.quest.Mh2.name=Storage Components
+betterquesting.quest.Mh2.desc=The ME Storage Housing is the outer shell of a Storage Cell. There are many tiers of Storage Cells, all of which require the use of NTM machines in order to be crafted.
+
+#Wireless Connectors quest
+betterquesting.quest.kPVOAdysR36g.name=Wireless Connectors
+betterquesting.quest.kPVOAdysR36g.desc=Wireless connectors allow for channel linking without ME cables, making it possible to send channels through walls. The further away the connectors are the more energy consuming they become.%n%nA Wireless Hub can be used to link channels between multiple Wireless Connectors.
+
+#Wireless Terminal quest
+betterquesting.quest.fHs5dqAQRRCo6bZrdDV_hA.name=Wireless Terminal
+betterquesting.quest.fHs5dqAQRRCo6bZrdDV_hA.desc=The Security Terminal can be used to specify what players are allowed to interact with in the ME network which can be useful in multiplayer. It can also be used to link a Wireless Terminal to the ME network. Atleast one Wireless Access Point is required, and its range can be expanded using Wireless Boosters.
+
 #Beekeeping Beginnings quest
 betterquesting.quest.UughNtJASJWb4CvVOsGwfQ.name=Beekeeping Beginnings
 betterquesting.quest.UughNtJASJWb4CvVOsGwfQ.desc=Bees are a valuable part of Pam's HarvestCraft, producing honey and wax. Find a beehive and start your own apiary to gather these sweet resources.
@@ -70,6 +206,94 @@ betterquesting.quest.nq_yTSFySpK83HxpN0KI2w.desc=Breed wheat with 10-10-10 chara
 #Understanding Crop Stats quest
 betterquesting.quest.pshxXef7TMSui6m8hG.name=Understanding Crop Stats
 betterquesting.quest.pshxXef7TMSui6m8hG.desc=In AgriCraft, every crop has three stats: Growth, Yield, and Strength, each ranging from 1 to 10. %n%nGrowth determines how fast a crop matures, Yield affects how much produce you get, and Strength reduces the chance of weeds ruining your farm. %n%nTo see these stats, craft a Seed Analyzer and an Agricultural Journal. Place the Seed Analyzer in the world, place any seed in it to analyze it, and check the stats in the Journal. Try analyzing wheat seeds to see their starting stats (usually 1-1-1 for wild crops).%n%n[note]Remember to always put Journal in slot BEFORE the seed.[/note]
+
+#§4§lMEGAKILL! quest
+betterquesting.quest.C7CLvAjyQUy2aNW1HiA7Ow.name=§4§lMEGAKILL!
+betterquesting.quest.C7CLvAjyQUy2aNW1HiA7Ow.desc=You killed them all! §cYou're monster!
+
+#Time to Kill (Blaze) quest
+betterquesting.quest.Q70rGIFTR6uMPmobimGr9g.name=Time to Kill (Blaze)
+betterquesting.quest.Q70rGIFTR6uMPmobimGr9g.desc=You should be careful with this task. Fire protection is highly recommended. [warn]Blazes are always spawning infernal.[/warn]
+
+#Time to Kill (Chicken) quest
+betterquesting.quest.G8aNnibAQVuX1SG7XfuaeQ.name=Time to Kill (Chicken)
+betterquesting.quest.G8aNnibAQVuX1SG7XfuaeQ.desc=Screaming doesn't help. You're going in the soup.
+
+#Time to Kill (Cow) quest
+betterquesting.quest.6nKJ4mC3QB.name=Time to Kill (Cow)
+betterquesting.quest.6nKJ4mC3QB.desc=I think I need a new backpack. Let's slaughter a few cows.
+
+#Time to Kill (Creeper) quest
+betterquesting.quest.fsdmCm47S3KB0X1A5MZwJg.name=Time to Kill (Creeper)
+betterquesting.quest.fsdmCm47S3KB0X1A5MZwJg.desc=Who hasn't experienced this... You're just minding your own business, mining a few diamonds, and suddenly, you wake up in your bed, all your items gone. %n%nTime to strike back!
+
+#Time to Kill (Dire Wolf) quest
+betterquesting.quest.VJ3wiNZTRLK4so7T.name=Time to Kill (Dire Wolf)
+betterquesting.quest.VJ3wiNZTRLK4so7T.desc=This kind of wolf does not take kindly to you marching close to them or offering them bones! Neutral at first, but extremely hostile upon approaching close to them and dangerous. They'll rip the bones right off ya! Found within snowy forest biomes.
+
+#Time to Kill (Enderman) quest
+betterquesting.quest.krQA1CjtRA2eMTLNCHn7iA.name=Time to Kill (Enderman)
+betterquesting.quest.krQA1CjtRA2eMTLNCHn7iA.desc=Uh, fancy teleport pearls. You need them. All of them. Now!%n%n[note]PS: Top is regular enderman, bottom is special mob's version. Complete one set. Blame SM for their method of creating new endermen types for this. HEE ones like angry don't count.[/note]
+
+#Time to Kill (Ghast) quest
+betterquesting.quest.j_v3k9rtT0CrTh_RsbyO6g.name=Time to Kill (Ghast)
+betterquesting.quest.j_v3k9rtT0CrTh_RsbyO6g.desc=They shoot you with explosive fireballs but they are weak when you hit them or knock the fireballs back with a weapon. Better upgrade your armor with fire and blast protection.
+
+#Time to Kill (Lava Monster) quest
+betterquesting.quest.j47Jd0IkTF66kI1LQHtDNA.name=Time to Kill (Lava Monster)
+betterquesting.quest.j47Jd0IkTF66kI1LQHtDNA.desc=They are everywhere where there is lava and they shoot at you with fireballs. %nFrom the air with a bow and arrow or a gun they're easy targets.%n%n[note]PS: you can find many of them on Moho.[/note]
+
+#Time to Kill (Magma Cube) quest
+betterquesting.quest.JVB4_UIXR9SI2W66FWBnMw.name=Time to Kill (Magma Cube)
+betterquesting.quest.JVB4_UIXR9SI2W66FWBnMw.desc=Now a Hell version of your slime!
+
+#Time to Kill (Pig) quest
+betterquesting.quest.0LPqIRRCTuayXjyNUaboNA.name=Time to Kill (Pig)
+betterquesting.quest.0LPqIRRCTuayXjyNUaboNA.desc=Mmm... turn on the grill. We need more meat.
+
+#Time to Kill (Pigman) quest
+betterquesting.quest.2R1OOnI5S0K57TglRYmGng.name=Time to Kill (Pigman)
+betterquesting.quest.2R1OOnI5S0K57TglRYmGng.desc="Zombie Pigman"? What the hell is going on with you zombies?! Maybe you should encase your animals better at night...
+
+#Time to Kill (Sheep) quest
+betterquesting.quest.NASNKN6AQ52JY7XDbODGYQ.name=Time to Kill (Sheep)
+betterquesting.quest.NASNKN6AQ52JY7XDbODGYQ.desc=Oh no, not the poor sheep! Fluffy and red, I'm so sad.
+
+#Time to Kill (Silverfish) quest
+betterquesting.quest.pSowjULQT4ep05MVXa7BJQ.name=Time to Kill (Silverfish)
+betterquesting.quest.pSowjULQT4ep05MVXa7BJQ.desc=Be wary, they like to disguise and clone themselves in stone-related blocks! (Applies to Vanilla blocks only) Can be found within dungeons and hills. Can also be found in Drowning Creeper spawned cobblestone blocks.
+
+#Time to Kill (Skeleton) quest
+betterquesting.quest.lf.name=Time to Kill (Skeleton)
+betterquesting.quest.lf.desc=Arrows are nice, if you shoot them. If one hits you, well, bad things happen.
+
+#Time to Kill (Slime) quest
+betterquesting.quest.Z.name=Time to Kill (Slime)
+betterquesting.quest.Z.desc=Sticky and bouncy! Now in many variations. Say hello to my little friend, Lemon Slice!
+
+#Time to Kill (Spiders) quest
+betterquesting.quest.ZpKjClvCTGe4ytw_Yu6mYQ.name=Time to Kill (Spiders)
+betterquesting.quest.ZpKjClvCTGe4ytw_Yu6mYQ.desc=Eeeek! Wall climbing monsters, gross! Slay them. Quickly! Watch out for the witch spiders, they can give as good as they get.
+
+#Time to Kill (Squid) quest
+betterquesting.quest.hGvVPGL0SHmF0FpB4r600A.name=Time to Kill (Squid)
+betterquesting.quest.hGvVPGL0SHmF0FpB4r600A.desc=Delicious squid. We're making Tom Yum seafood.
+
+#Time to Kill (Witch) quest
+betterquesting.quest.8G4ZvwvWQpihM6NfflMw7A.name=Time to Kill (Witch)
+betterquesting.quest.8G4ZvwvWQpihM6NfflMw7A.desc=Witches bring stitches because they are always infernal and very dangerous. Be careful since they throw potions at you.
+
+#Time to Kill (Wither) quest
+betterquesting.quest.q1ilrpayTHWJ.name=Time to Kill (Wither)
+betterquesting.quest.q1ilrpayTHWJ.desc=After collecting a couple of those wither skeleton heads, you feel like you could use some more action. So why not kill a wither?
+
+#Time to Kill (Wither Skeleton) quest
+betterquesting.quest.R08JrEz2SLGeV9zwAFydaQ.name=Time to Kill (Wither Skeleton)
+betterquesting.quest.R08JrEz2SLGeV9zwAFydaQ.desc=Gimme yo §oSkuuuuull!!!§r <-- The thought of every non-noob player upon seeing one.%n%nBTW, in case you didn't know, you can summon the Wither by placing 4 soul sand blocks in a T shape, with 3 wither skulls on top. Don't do so in your base.
+
+#Time to Kill (Zombie) quest
+betterquesting.quest.gLK6mwA4ShOoVbZQZlM94w.name=Time to Kill (Zombie)
+betterquesting.quest.gLK6mwA4ShOoVbZQZlM94w.desc=Nobody knows who they are, or where they came from. They're just annoying at night, and too stupid to make a crafting table.
 
 #Ammo Press and Guns quest
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAaA.name=Ammo Press and Guns
@@ -138,6 +362,10 @@ betterquesting.quest.Nm_q2KL0QjapbSCTcQE8Ig.desc=Capacitors are similar to energ
 #Casual Armor Set quest
 betterquesting.quest.2L.name=Casual Armor Set
 betterquesting.quest.2L.desc=Pretty good and cheap armor. Except for boots - they're a little bit harder to make.%n%n[note]Here is a tip: use latex for the early game.[/note]
+
+#Chainsaw quest
+betterquesting.quest.pskhXYN_STqjRDYEpIWm3A.name=Chainsaw
+betterquesting.quest.pskhXYN_STqjRDYEpIWm3A.desc=§l§c§lPainsaw.
 
 #Charm of Protection quest
 betterquesting.quest.NDtI1JYQQgib0TLE8eE_nA.name=Charm of Protection
@@ -1091,10 +1319,6 @@ betterquesting.quest.lVSphkFrRymPIYWIyGkodA.desc=When turned on (lever up), Rose
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAcg.name=Zirnox
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAcg.desc=The ZIRNOX is the first and cheapest nuclear reactor that one can make. Unlike the PWR and RBMK, the ZIRNOX is a fully assembled nuclear reactor which only requires Water and Co2 to operate.%n%nTurbines will be needed to generate power aswell as a Steam Condensor for a closed water cycle.
 
-#Balls-O-Tron quest
-betterquesting.quest.ZeBLQUsPS72HAxsrR9s_3g.name=Balls-O-Tron
-betterquesting.quest.ZeBLQUsPS72HAxsrR9s_3g.desc=Balls-O-Tron is the second boss of NTM. It can be summoned by interracting the Mechanist's circle, found in the Enargite Temple which spawns in jungles, with a Silver Key, made using the Maskman Coin.
-
 #Chicken Nugget quest
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAATQ.name=Chicken Nugget
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAATQ.desc=The Chicken Nugget is the best food item in the mod, completely filling up both hunger and saturation. It is made by colliding 2 raw chickens in a Particle Accelerator.
@@ -1125,7 +1349,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAANQ.desc=The DNT Nanosuit is final goal 
 
 #§cDone quest
 betterquesting.quest.KMzCeH.name=§cDone
-betterquesting.quest.KMzCeH.desc=Are you okay? Go touch some grass!
+betterquesting.quest.KMzCeH.desc=Are you okay? Go touch some grass.
 
 #Euphemium quest
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_A.name=Euphemium
@@ -1158,14 +1382,6 @@ betterquesting.quest.LB6_3vuoS9KD4tDB38VN9A.desc=The ICF can process different c
 #ICF Laser Turbocharger quest
 betterquesting.quest.Uu2WhfhASbW89ilQ3ZWU8w.name=ICF Laser Turbocharger
 betterquesting.quest.Uu2WhfhASbW89ilQ3ZWU8w.desc=The ICF Laser Turbocharger can be placed next to ICF Laser Capacitors to increase the laser's power by a substantial amount, allowing for the ICF to run higher grade fuels.
-
-#Martian Invasion Ship quest
-betterquesting.quest.Q8FZdwiURgC2PoD4IziLJg.name=Martian Invasion Ship
-betterquesting.quest.Q8FZdwiURgC2PoD4IziLJg.desc=The Martian Invasion Ship is a late-game boss which is killed to get the UFO Coin, used in crafting Gerald.%n%nIt can be summoned by crafting the Martian Invasion Ship item.
-
-#Maskman quest
-betterquesting.quest.8b6batCvQvCiGknitRMrSQ.name=Maskman
-betterquesting.quest.8b6batCvQvCiGknitRMrSQ.desc=Maskman is first NTM boss. To summon it, you should be under radiation poisoning (50 rad). Just wait for him to arrive.
 
 #Murky Anvil quest
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_w.name=Murky Anvil
@@ -1255,6 +1471,10 @@ betterquesting.quest.3J7vD46NQg6IMMDRALpT.desc=The Armor Modification Table allo
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA0A.name=Automatic Buzz Saw
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA0A.desc=With the Automatic Buzz Saw one can automatically farm trees for their wood, aswell as other crops such as Hemp and Sugar Cane.%n%nCrops that are 1 block tall, such as wheat, carrots, etc., should be level with the saw itself, not the base of the saw.%n%nFans, when powered by redstone, can be used to push the dropped items into hoppers or conveyors for storage. Use a drill on them to remove the diminishing pushing range.
 
+#Balls-O-Tron quest
+betterquesting.quest.ZeBLQUsPS72HAxsrR9s_3g.name=Balls-O-Tron
+betterquesting.quest.ZeBLQUsPS72HAxsrR9s_3g.desc=Balls-O-Tron is the second boss of NTM. It can be summoned by interracting the Mechanist's circle, found in the Enargite Temple which spawns in jungles, with a Silver Key, made using the Maskman Coin.
+
 #Combo Filter quest
 betterquesting.quest.5zvQ0LjmRt6yAsPQW_CnCg.name=Combo Filter
 betterquesting.quest.5zvQ0LjmRt6yAsPQW_CnCg.desc=Gas Mask Combo Filter is most expensive and best gas mask filter.
@@ -1311,6 +1531,14 @@ betterquesting.quest.tnsQPsH4R7KRnT063Pb8ag.desc=The Little Boy is the first ato
 betterquesting.quest.xTzNKN1lRzyKZaKxmZHGNQ.name=§LLet's Start our Journey!
 betterquesting.quest.xTzNKN1lRzyKZaKxmZHGNQ.desc=§8*go to the LV1 - Early Game questline*
 
+#Martian Invasion Ship quest
+betterquesting.quest.Q8FZdwiURgC2PoD4IziLJg.name=Martian Invasion Ship
+betterquesting.quest.Q8FZdwiURgC2PoD4IziLJg.desc=The Martian Invasion Ship is a late-game boss which is killed to get the UFO Coin, used in crafting Gerald.%n%nIt can be summoned by crafting the Martian Invasion Ship item.
+
+#Maskman quest
+betterquesting.quest.8b6batCvQvCiGknitRMrSQ.name=Maskman
+betterquesting.quest.8b6batCvQvCiGknitRMrSQ.desc=Maskman is first NTM boss. To summon it, you should be under radiation poisoning (50 rad). Just wait for him to arrive.
+
 #Mining Charge quest
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAhQ.name=Mining Charge
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAhQ.desc=Mining charges are used to blow up Depth Rock, dropping its ores when ore deposits are present. Depth rock ore deposits are a great source of materials early on, especially Zirconium, which is used in reactors.%n%nMining charges can be activated by redstone signal, or by the use of a detonator which can be obtained later on.
@@ -1365,7 +1593,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAACA.desc=The Crowbar is used to open cra
 
 #The End of Space... quest
 betterquesting.quest.XbTJRWJNTKa4UEeLPV0urg.name=The End of Space...
-betterquesting.quest.XbTJRWJNTKa4UEeLPV0urg.desc=Well, you've completed the space stage of the game; now the entire cosmos knows and fears you (you are a true space pirate). Here are a couple more nuances about the Dyson swarm:%n%nDo not place converters directly next to the receiver - this will cause a malfunction.%n%nMultiple players in the same game world can create multiple swarms, but keep in mind that different swarms reduce each other's efficiency. This can encourage players to either work together on one common swarm or compete to extract more energy from their own swarm.
+betterquesting.quest.XbTJRWJNTKa4UEeLPV0urg.desc=Well, you've completed the space stage of the game; now the entire space knows and fears you (you are a true space pirate). Here are a couple more nuances about the Dyson swarm:%n%nDo not place converters directly next to the receiver - this will cause a malfunction.%n%nMultiple players in the same game world can create multiple swarms, but keep in mind that different swarms reduce each other's efficiency. This can encourage players to either work together on one common swarm or compete to extract more energy from their own swarm.
 
 #The Nether quest
 betterquesting.quest.DgW8bQi1TbSrKcPoJms.name=The Nether
@@ -1459,134 +1687,22 @@ betterquesting.quest.90cLqSYpT8OevVo7UEEaGA.desc=OpenComputers is a very useful 
 betterquesting.quest.8Bbui0CiRRm3hXTYH.name=Wireless Network Card
 betterquesting.quest.8Bbui0CiRRm3hXTYH.desc=The Wireless Network Card is an upgraded Network Card that can send and receive wireless network messages.%n %nTier two cards can also send and receive wired messages. The signal strength directly controls the distance up to which a sent message can be received, where the strength is equal to the distance in blocks.
 
-#AE2 Changes quest
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAARg.name=AE2 Changes
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAARg.desc=In this modpack, AE2 has been changed in order to fit in more with NTM. Many components have been changed to include NTM materials and some machines, like the Grinder and Inscriber, have had their functions moved to the Shredder and Press. The Meteors have also been removed, but skystone can still be crafted for building purposes.%n%nThis Chapter of the quests has its information derived from the FTB Wiki. If anything else is missing from the quest book, please visit the wiki.
+#LV1 > LV2 Lootbag Trade quest
+betterquesting.quest.8XIrl7C6Q5qBBT6HSgTHIA.name=LV1 > LV2 Lootbag Trade
+betterquesting.quest.8XIrl7C6Q5qBBT6HSgTHIA.desc=Trade three LV1 lootbags to get a better one: LV2.
 
-#Cable Fluix quest
-betterquesting.quest.xO_ASQzeRWOtsb.name=Cable Fluix
-betterquesting.quest.xO_ASQzeRWOtsb.desc=The ME Glass Cable - Fluix is a cable used to transmit data and energy between devices in an ME Network. It is capable of transmitting 8 channels simultaneously.%n%nThe Quartz Fiber is used to transfer energy, but not channels, making subnetworks possible.%n%nCable Anchors can be used to seperate ME cable connections. They can also be used to make facades for the cables.
+#LV2 > LV3 Lootbag Trade quest
+betterquesting.quest.b_QkCMniQPmbvS4FX5sq.name=LV2 > LV3 Lootbag Trade
+betterquesting.quest.b_QkCMniQPmbvS4FX5sq.desc=Trade three LV2 lootbags to get a better one: LV3.
 
-#Cell Workbench quest
-betterquesting.quest.HLegqCttRRmZuH.name=Cell Workbench
-betterquesting.quest.HLegqCttRRmZuH.desc=The Cell Workbench allow to filter cells to accept specific items. The Cell Workbench can prove useful for when making a subnet for Bedrock Ore Processing.
+#LV3.5 > LV4 Lootbag Trade quest
+betterquesting.quest.ecBXzr6RQ.name=LV3.5 > LV4 Lootbag Trade
+betterquesting.quest.ecBXzr6RQ.desc=Trade eight LV3.5 lootbags to get a better one: LV4.
 
-#Certus Quartz Crystal quest
-betterquesting.quest.k83BKG80SXCfWcVjSmeqFg.name=Certus Quartz Crystal
-betterquesting.quest.k83BKG80SXCfWcVjSmeqFg.desc=Certus Quartz is an important material in Applied Energistics 2. It is dropped when mining or processing Certus Quartz Ore at the rate of one to four, the yield is affected by a tool's Fortune Enchantment. Certus Quartz is often interchangeable with Vanilla Nether Quartz in the recipes for basic tools, such as the Quartz Cutting Knife. Certus Quartz Ore can be Acidized or Centrifuged for extra resourses.%n%nCertus Quartz can later be made in a chemical plant using Nether Quartz.
+#LV3 > LV3.5 Lootbag Trade quest
+betterquesting.quest.U9KescpLTHK_XLG4Qil9zw.name=LV3 > LV3.5 Lootbag Trade
+betterquesting.quest.U9KescpLTHK_XLG4Qil9zw.desc=Trade two LV3 lootbags to get a LV3.5.
 
-#Charger quest
-betterquesting.quest.T09aRAAGTGqZmb4s2ayrtw.name=Charger
-betterquesting.quest.T09aRAAGTGqZmb4s2ayrtw.desc=The Charger is a machine which will charge Certus Quartz Crystals into their charged form at the expense of power.
-
-#Crafting CPU quest
-betterquesting.quest.JVcvtqD9TzOiKq_aaB8ySQ.name=Crafting CPU
-betterquesting.quest.JVcvtqD9TzOiKq_aaB8ySQ.desc=The Crafting CPU is a multiblock structure composed of Crafting Co-Processing Units and Crafting Storage. When placed next to eachother they form one CPU which is used when placing orders via interfaces. The more Crafting Co-Processing Units the more tasks the CPU can do in parallel while more Crafting Storage allows for bigger orders to be made.
-
-#Crystal Growth Accelerator quest
-betterquesting.quest.ScEyd2.name=Crystal Growth Accelerator
-betterquesting.quest.ScEyd2.desc=The Crystal Growth Accelerator is a machine that uses energy to accelerate the process of crystal purification. This process transforms crystal seeds into pure versions of their fully developed counterparts.
-
-#Crystal Growth Chamber quest
-betterquesting.quest.O9iN2CJrSMe94XKDspSYwQ.name=Crystal Growth Chamber
-betterquesting.quest.O9iN2CJrSMe94XKDspSYwQ.desc=The Crystal Growth Chamber is a block in which crystals can grow at an increased speed, while also being in a machine instead of being dropped in the ground.
-
-#Dense ME Cable quest
-betterquesting.quest.psiTPEt3T0mPdLoXUAooyg.name=Dense ME Cable
-betterquesting.quest.psiTPEt3T0mPdLoXUAooyg.desc=The Dense ME Fluix Cables can be used to transmit 32 channels from an ME Controller.%n%nOne Controller is capable of connecting up to 6 Dense Cables, in turn each can branch off to 4 smaller cable lines connecting up to 192 ME devices to the network.%n%nThe Smart Dense Cable also displays the amount of channels that are been used, but is known to be less performance friendly than the Dense Covered Cables.%n%nIn addition there are 16 coloured cables made with the appropriate dye. The coloured Cables allows contact with other cables without sharing the signal or connecting to any other cable but the ones of the same colour.
-
-#Dual P2P Interface quest
-betterquesting.quest.8iMxYLCpTrOfPbu7xVkDhg.name=Dual P2P Interface
-betterquesting.quest.8iMxYLCpTrOfPbu7xVkDhg.desc=No Description
-
-#Energy Acceptor quest
-betterquesting.quest.Q81Q75etT9mfJol3y08_7w.name=Energy Acceptor
-betterquesting.quest.Q81Q75etT9mfJol3y08_7w.desc=The Energy Acceptor transfers energy into the ME system. In combination with an HE to RF Converter, the ME system can be powered.
-
-#Energy Cell quest
-betterquesting.quest.SiWpYWQYSH.name=Energy Cell
-betterquesting.quest.SiWpYWQYSH.desc=The Energy Cell acts as a battery for the ME network. It becomes useful when the ME system begins to consume large amounts of energy, so a buffer is needed so it doesnt turn on and off constantly.
-
-#Fluix Crystal quest
-betterquesting.quest.S5eN_Jg1SSCCT8YhP2.name=Fluix Crystal
-betterquesting.quest.S5eN_Jg1SSCCT8YhP2.desc=The Fluix Crystal is an item which is used in crafting recipes throughout the mod. The crystal comes in two forms, the regular Fluix Crystal and the Pure Fluix Crystal.%nTo create a Fluix Crystal, 1 Charged Certus Quartz, 1 Nether Quartz, and 1 Redstone must be dropped into a pool of water. They will be consumed and output 2 Fluix Crystals.%n%nFluix Crystals can later be made in a chemical plant using Charged Certus Quartz and Redstone.
-
-#ME Buses quest
-betterquesting.quest.pGnYX7D8QeG9uFtrZCNKwQ.name=ME Buses
-betterquesting.quest.pGnYX7D8QeG9uFtrZCNKwQ.desc=The ME Export Bus is an item which is used to Export items from the ME Network into a machine or other input inventory. %n%nThe ME Import Bus is an item which is used to import items directly into the ME Network from a machine or other output inventory.%n%nIt is recommended that Interfaces are used over Export/Import buses for performance reasons.
-
-#ME Controller quest
-betterquesting.quest.he8loZ0cR0acvz2lw9uakA.name=ME Controller
-betterquesting.quest.he8loZ0cR0acvz2lw9uakA.desc=The ME Controller acts as the routing hub of an ME network. It can support up to 8 devices connected to it.
-
-#ME Drive quest
-betterquesting.quest.E69lsLpuQGSQvgTe1XI.name=ME Drive
-betterquesting.quest.E69lsLpuQGSQvgTe1XI.desc=The ME Drive serves as the storage of the ME system, in which storage cells can be put and store a lot of items.
-
-#ME Dual Interface quest
-betterquesting.quest.38DaOwqOSuatCDzi3ifteg.name=ME Dual Interface
-betterquesting.quest.38DaOwqOSuatCDzi3ifteg.desc=No Description
-
-#ME Interface quest
-betterquesting.quest.8I.name=ME Interface
-betterquesting.quest.8I.desc=The ME Interface is a block which allows the ME Network to interact with machines, transport pipes and tubes. On their own, they can be used to automatically stock inventories, but can be used with patterns later on for autocrafting.
-
-#ME IO Port quest
-betterquesting.quest.dX_R.name=ME IO Port
-betterquesting.quest.dX_R.desc=The ME IO Port can transfer the contents of storage cells into an ME Network and back.
-
-#ME Pattern quest
-betterquesting.quest.yads8MlSR3.name=ME Pattern
-betterquesting.quest.yads8MlSR3.desc=Patterns are used to encode recipes to be used in interfaces. They can be encoded in a Pattern Terminal.
-
-#ME Storage Bus quest
-betterquesting.quest.ru4mkHIlQTayN30x.name=ME Storage Bus
-betterquesting.quest.ru4mkHIlQTayN30x.desc=The ME Storage Bus, when attached to an block/tile entity with an inventory (generally a storage unit, such as chests or a Drawer Controller), will include that inventory's contents in the ME System.
-
-#ME Terminal quest
-betterquesting.quest.B9g0MzYOTvur9T6U4ufscg.name=ME Terminal
-betterquesting.quest.B9g0MzYOTvur9T6U4ufscg.desc=The ME Terminal is used to access all available items in the ME Network, including craftable ones.
-
-#Modifier Cards quest
-betterquesting.quest.OW3Zd_7USZG_ooNKrLPk5g.name=Modifier Cards
-betterquesting.quest.OW3Zd_7USZG_ooNKrLPk5g.desc=Modifier cards allow for modification to various ME components, such as speeding them up or being able to toggle them on and off using redstone.
-
-#Molecular Assembler quest
-betterquesting.quest.BBzA1tJERSeR39l4N_vU4A.name=Molecular Assembler
-betterquesting.quest.BBzA1tJERSeR39l4N_vU4A.desc=The Molecular Assembler is used to autocraft anything that can be made in a crafting table.
-
-#Network Tool quest
-betterquesting.quest.P0n4bGJoTBWwqALEKxbiWg.name=Network Tool
-betterquesting.quest.P0n4bGJoTBWwqALEKxbiWg.desc=The Network Tool, when right-clicking on any Network device will bring up the tool's interface showing all devices connected to the network as well as network details. As any wrench, shift clicking on a cable will remove it.
-
-#Network Visualisation Tool quest
-betterquesting.quest.w6lXyaVhR_SGLo.name=Network Visualisation Tool
-betterquesting.quest.w6lXyaVhR_SGLo.desc=The Network Visualisation Tool is used to visuallize an ME Network by right-clicking on any of its blocks, making it very useful when making a large network, especially one that uses P2P.
-
-#P2P quest
-betterquesting.quest.o_riYGs0Qiy6MJnKoj0TAw.name=P2P
-betterquesting.quest.o_riYGs0Qiy6MJnKoj0TAw.desc=P2P Tunnel or "Point to Point Tunnels" are a versatile configurable system to move items / redstone / power / and fluids from one location to another though an existing ME Network without storage.%n%nTunnels are 1 input to N outputs. This means you can output to as many points as you want, but only input at a single point per tunnel.%n%nNetworks can support any number of tunnels, of any different types, and they all function independently.%n%nME Tunnels can be used to carry channels from one location to another, and can carry up to 32 channels, same as a ME Dense Cable, while only requiring a single channel per point, making tunnels a very powerful tool to expand me networks, especially over a distance. However with the great flex-ability they give you comes a limitation, the channel of a p2p tunnel cannot be carried by another p2p tunnel, meaning that you cannot nest them recursively.%n%nTo configure a P2P Tunnel you must first attune the tunnel to carry what you want it to, then you need to configure the outputs to their input. You configure the connections by using the Memory Card; First Shift+Right Click the input to save it on your memory card, then simply right click the different outputs to store the input onto the outputs. this also sets the type of the output to match the type of the input.%n%nAn advanced version of the Memory Card can also be made, which interacts with the entire network.
-
-#P2P Interface quest
-betterquesting.quest.supazxflSE6ktZHtlvaeng.name=P2P Interface
-betterquesting.quest.supazxflSE6ktZHtlvaeng.desc=The P2P Interface can be used to easily paralellize recipes across many machines.
-
-#Quantum Network Bridge quest
-betterquesting.quest.rFVMGfIyQ9uHi8v.name=Quantum Network Bridge
-betterquesting.quest.rFVMGfIyQ9uHi8v.desc=A Quantum Network Bridge is a multiblock structure that connects 2 potentially distant network fragments together. Created by crafting 8 ME Quantum Ring and a ME Quantum Link Chamber and placing the ME Quantum Link Chamber in the center, and sourrounding it in the 8 ME Quantum Ring.%n%nEach Quantum Network Bridge requires power to function. This power must be provided from the network fragment it is attached to until the bridge is linked; at which time power from either side will be available. However if power is lost, connectivity will fail and power will be drained from the side the bridge is on in attempt to restore connection.%n%nTo establish a link between 2 Quantum Network Bridges, you must create a pair of Quantum Entangled Singularities. One of each will be placed inside of a particular connection. Each Bridge may only connect to one other bridge.%n%nAE2 Singularities are created by dumping 256k of any block inside a Matter Condenser. Singularities can become Quantum Entangled by dropping a Singularity and Ender dust and then exploding them together.
-
-#Spatial IO quest
-betterquesting.quest.9GDCKm30REKhSI8XYqhWOg.name=Spatial IO
-betterquesting.quest.9GDCKm30REKhSI8XYqhWOg.desc=Spatial IO is a way to cut-and-paste physical volumes of space in your world. It works by swapping the defined volume with an identically-sized volume in the spatial storage dimension, sending whatever's in the pylon array to the spatial storage dimension, and whatever's in the dimension to the pylon array.%n%nSpatial IO requires a specific arrangement of its components in order to function, and define the volume to be cut-and-pasted. All of the components must be on the same network in order to function, and you can have only one spatial IO setup on a network. Thus, a subnetwork is recommended.%n%nThe Spatial IO Port controls the spatial IO operation. It shows stats on the multiblock setup, and holds the spatial cells%n%nTo perform a spatial IO operation, place a spatial storage cell in the input slot and give the spatial IO port a redstone pulse. It will then swap the volume in the pylons with the volume in the spatial storage dimension. This means that if you send some set of blocks to the spatial storage dimension, then put another set of blocks in the pylons, put the cell back in the input slot, and trigger the IO port again, the 2nd set of blocks will disappear and the 1st set of blcks will reappear.%n%nAny entity in the defined volume, including you, will be carried along, and if you have no way of getting out, you will be trapped in the spatial storage dimension.%n%nSpatial Pylons are the main part of a spatial IO setup, and define the volume to be affected. The volume is defined by the bounding box of the outside of the pylons, contracted in by 1 block in all directions.
-
-#Storage Components quest
-betterquesting.quest.Mh2.name=Storage Components
-betterquesting.quest.Mh2.desc=The ME Storage Housing is the outer shell of a Storage Cell. There are many tiers of Storage Cells, all of which require the use of NTM machines in order to be crafted.
-
-#Wireless Connectors quest
-betterquesting.quest.kPVOAdysR36g.name=Wireless Connectors
-betterquesting.quest.kPVOAdysR36g.desc=Wireless connectors allow for channel linking without ME cables, making it possible to send channels through walls. The further away the connectors are the more energy consuming they become.%n%nA Wireless Hub can be used to link channels between multiple Wireless Connectors.
-
-#Wireless Terminal quest
-betterquesting.quest.fHs5dqAQRRCo6bZrdDV_hA.name=Wireless Terminal
-betterquesting.quest.fHs5dqAQRRCo6bZrdDV_hA.desc=The Security Terminal can be used to specify what players are allowed to interact with in the ME network which can be useful in multiplayer. It can also be used to link a Wireless Terminal to the ME network. Atleast one Wireless Access Point is required, and its range can be expanded using Wireless Boosters.
+#LV3 > LV4 Lootbag Trade quest
+betterquesting.quest.qG74J_R9TQub.name=LV3 > LV4 Lootbag Trade
+betterquesting.quest.qG74J_R9TQub.desc=Trade four LV3 lootbags to get a better one: LV4.
