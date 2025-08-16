@@ -190,7 +190,7 @@
         <Loot Identifier="lv3_upgrade_effect_3" ItemName="hbm:item.upgrade_effect_3" Amount="1" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="lv3_plate_welded_43" ItemName="hbm:item.plate_welded:43" Amount="1" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
     </LootGroup>
-    <LootGroup GroupMetaID="4" GroupName="LV4 - Space Age" Rarity="0" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+    <LootGroup GroupMetaID="4" GroupName="LV3.5 - Space Age" Rarity="0" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="lv4_laythe_coral_block" ItemName="hbm:tile.laythe_coral_block" Amount="24" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="lv4_laythe_coral_block_1" ItemName="hbm:tile.laythe_coral_block:1" Amount="24" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="lv4_laythe_coral_block_2" ItemName="hbm:tile.laythe_coral_block:2" Amount="24" NBTTag="" Chance="75" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
@@ -251,7 +251,7 @@
         <Loot Identifier="lv4_motor_bismuth" ItemName="hbm:item.motor_bismuth" Amount="4" NBTTag="" Chance="25" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="lv4_tank_steel" ItemName="hbm:item.tank_steel" Amount="12" NBTTag="" Chance="56" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
     </LootGroup>
-    <LootGroup GroupMetaID="5" GroupName="LV5 - End Game" Rarity="0" MinItems="1" MaxItems="2" CombineTrashGroup="true">
+    <LootGroup GroupMetaID="5" GroupName="LV4 - End Game" Rarity="0" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="cookiedropbecauseempty" ItemName="minecraft:cookie" Amount="64" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="lv5_insert_cmb" ItemName="hbm:item.insert_cmb" Amount="1" NBTTag="" Chance="15" ItemGroup="" LimitedDropCount="4" RandomAmount="true"/>
         <Loot Identifier="lv5_ink" ItemName="hbm:item.ink" Amount="1" NBTTag="" Chance="24" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
