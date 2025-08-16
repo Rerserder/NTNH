@@ -291,7 +291,7 @@
     <LootGroup GroupMetaID="6" GroupName="Applied Energistics" Rarity="0" MinItems="1" MaxItems="2" CombineTrashGroup="false">
         <Loot Identifier="applied_energistics_itemmultimaterial_42" ItemName="appliedenergistics2:item.ItemMultiMaterial:42" Amount="4" NBTTag="" Chance="26" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="applied_energistics_itemmultimaterial_47" ItemName="appliedenergistics2:item.ItemMultiMaterial:47" Amount="1" NBTTag="" Chance="11" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
-        <Loot Identifier="applied_energistics_flour" ItemName="hbm:iten.flour" Amount="48" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
+        <Loot Identifier="applied_energistics_flour" ItemName="hbm:item.flour" Amount="48" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="applied_energistics_itemmultimaterial_44" ItemName="appliedenergistics2:item.ItemMultiMaterial:44" Amount="12" NBTTag="" Chance="56" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="applied_energistics_itemmultimaterial_43" ItemName="appliedenergistics2:item.ItemMultiMaterial:43" Amount="12" NBTTag="" Chance="57" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="applied_energistics_itemmultimaterial_23" ItemName="appliedenergistics2:item.ItemMultiMaterial:23" Amount="10" NBTTag="" Chance="42" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
