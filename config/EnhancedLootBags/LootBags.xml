@@ -288,7 +288,7 @@
         <Loot Identifier="lv5_tem_flakes_1" ItemName="hbm:item.tem_flakes:1" Amount="32" NBTTag="" Chance="48" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="lv5_tem_flakes" ItemName="hbm:item.tem_flakes" Amount="32" NBTTag="" Chance="9" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
     </LootGroup>
-    <LootGroup GroupMetaID="6" GroupName="Applied Energistics" Rarity="0" MinItems="1" MaxItems="2" CombineTrashGroup="false">
+    <LootGroup GroupMetaID="6" GroupName="Applied Energistics" Rarity="0" MinItems="1" MaxItems="2" CombineTrashGroup="true">
         <Loot Identifier="applied_energistics_itemmultimaterial_42" ItemName="appliedenergistics2:item.ItemMultiMaterial:42" Amount="4" NBTTag="" Chance="26" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="applied_energistics_itemmultimaterial_47" ItemName="appliedenergistics2:item.ItemMultiMaterial:47" Amount="1" NBTTag="" Chance="11" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
         <Loot Identifier="applied_energistics_flour" ItemName="hbm:item.flour" Amount="48" NBTTag="" Chance="100" ItemGroup="" LimitedDropCount="0" RandomAmount="true"/>
