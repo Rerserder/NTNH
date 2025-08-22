@@ -1,0 +1,92 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -1654781484466550244,
+      "questIDLow:4": -9101755488777300351
+    },
+    "1:10": {
+      "questIDHigh:4": 3755626826330359926,
+      "questIDLow:4": -7429487321805089850
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "You\u0027ve lost an expensive piece of army-issue equipment! That suit is going to come out of your §cpay§r, and you will remain in this mans army until you are §cfive hundred and ten years old§r, which is the number of years it will take for you to pay for a Mark II Powered Combat Armor you have lost! Report to the armory and have a new suit issued to you, then report back to me, private! §cDismissed!",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "hbm:item.rpa_helmet",
+        "tag:10": {
+          "charge:4": 2500000
+        }
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Remnants Power Armor",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -4547467001011877927,
+  "questIDLow:4": -7451040152325361352,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:item.rpa_helmet",
+          "tag:10": {
+            "charge:4": 2500000
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:item.rpa_plate",
+          "tag:10": {
+            "charge:4": 2500000
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:item.rpa_legs",
+          "tag:10": {
+            "charge:4": 2500000
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:item.rpa_boots",
+          "tag:10": {
+            "charge:4": 2500000
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
