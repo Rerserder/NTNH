@@ -32,6 +32,10 @@
       "default": {
         "textOverride": "In the {dimension.name}"
       },
+      "overworld": {
+        "textOverride": "On the Kerbin (Earth)",
+        "iconOverride": "kerbin"
+      },
       "earth": {
         "textOverride": "On the Kerbin (Earth)",
         "iconOverride": "kerbin"
