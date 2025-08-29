@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "As was mentioned in [quest]Vanilla changes[/quest], you\u0027re burning in the Nether. So you need fire protection.\n\nAlso you need to craft a gas mask that you can attach yo your fireproof helmet and craft a gas mask filter that can protect you from a Nether coal.",
+      "desc:8": "As was mentioned in [quest]Vanilla changes[/quest], you\u0027re burning in the Nether. So you need fire protection.\n\nAttach your brand new gas mask to your fireproof helmet and craft a gas mask filter that can protect you from a Nether coal.\n\nAlso, Nether has a background radiation of 5 rad/s, so it\u0027s best not to stay there for too long.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -20,13 +20,13 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "The Nether",
-      "questLogic:8": "OR",
+      "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "OR",
+      "taskLogic:8": "AND",
       "visibility:8": "NORMAL"
     }
   },
@@ -74,6 +74,22 @@
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "biome:3": -1,
+      "dimension:3": -1,
+      "hideInfo:1": 1,
+      "index:3": 1,
+      "invert:1": 0,
+      "name:8": "The Nether",
+      "posX:3": 0,
+      "posY:3": 0,
+      "posZ:3": 0,
+      "range:3": -1,
+      "structure:8": "",
+      "taskID:8": "bq_standard:location",
+      "taxiCabDist:1": 0,
+      "visible:1": 0
     }
   }
 }
