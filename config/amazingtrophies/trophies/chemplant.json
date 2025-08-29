@@ -6,6 +6,6 @@
   },
   "model": {
     "type": "item",
-    "registryName": "hbm:tile.machine_chemplant"
+    "registryName": "hbm:tile.machine_chemical_plant"
   }
 }

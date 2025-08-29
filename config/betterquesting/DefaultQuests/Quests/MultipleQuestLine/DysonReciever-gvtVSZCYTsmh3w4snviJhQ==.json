@@ -1,0 +1,77 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 3029761146375281,
+      "questIDLow:4": -6719388168448259682
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "This mechanism receives energy from the Dyson swarm and converts it into a beam. It requires a satellite ID chip with a specific frequency to operate. Note that by default, the receiver only receives energy during daylight hours, not at night or in the rain! (We\u0027ll talk about night mode later). Also, remember that operation will cease if sunlight is blocked by blocks or other mechanisms. This beam can be converted into various forms of energy using the mechanisms described below. Be careful: the beam explodes blocks and entities that fall into the affected area!\n\nWhen hovering the cursor, it displays the number of Dyson swarm modules and consumers of its energy. There can be multiple receivers, and the output energy will be divided equally among all devices.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "hbm:tile.dyson_receiver"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Dyson Reciever",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -9008512855177670967,
+  "questIDLow:4": -6782686928988239483,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag",
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "id:2": 35,
+                "lvl:2": 3
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:tile.dyson_receiver"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

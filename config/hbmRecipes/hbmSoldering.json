@@ -1,5 +1,128 @@
 {
   "recipes": [
+	{ 
+      "toppings": [
+        ["dict","wireFineCopper",8],
+        ["dict","oc:floppy",1]
+      ],
+      "pcb": [],             
+      "solder": [],
+      "output": ["openfm:MemoryCard",1,0],
+      "duration": 80,
+      "consumption": 100
+    },
+	{ 
+      "toppings": [
+        ["item","appliedenergistics2:item.ItemMultiMaterial",8,10],
+        ["item","hbm:item.plate_polymer",16],
+        ["item","hbm:item.ingot_desh",1]
+      ],
+      "pcb": [],             
+      "solder": [
+        ["dict","wireFineLead",32]
+      ],
+      "output": ["ae2fc:fluid_part",1,0],
+      "duration": 100,
+      "consumption": 150
+    },
+	{ 
+      "toppings": [
+        ["item","appliedenergistics2:item.ItemMultiMaterial",8,10],
+        ["item","hbm:item.plate_polymer",16],
+        ["item","ae2fc:fluid_part",3,0]
+      ],
+      "pcb": [],             
+      "solder": [
+        ["dict","wireFineLead",32]
+      ],
+      "output": ["ae2fc:fluid_part",1,1],
+      "duration": 100,
+      "consumption": 150
+    },
+	{ 
+      "toppings": [
+        ["item","appliedenergistics2:item.ItemMultiMaterial",8,10],
+        ["item","hbm:item.plate_polymer",16],
+        ["item","ae2fc:fluid_part",3,1]
+      ],
+      "pcb": [],             
+      "solder": [
+        ["dict","wireFineLead",32]
+      ],
+      "output": ["ae2fc:fluid_part",1,2],
+      "duration": 100,
+      "consumption": 150
+    },
+	{ 
+      "toppings": [
+        ["item","appliedenergistics2:item.ItemMultiMaterial",8,10],
+        ["item","hbm:item.plate_polymer",16],
+        ["item","ae2fc:fluid_part",3,2]
+      ],
+      "pcb": [],             
+      "solder": [
+        ["dict","wireFineLead",32]
+      ],
+      "output": ["ae2fc:fluid_part",1,3],
+      "duration": 100,
+      "consumption": 150
+    },
+	{ 
+      "toppings": [
+        ["item","appliedenergistics2:item.ItemMultiMaterial",8,10],
+        ["item","hbm:item.plate_polymer",16],
+        ["item","ae2fc:fluid_part",3,3]
+      ],
+      "pcb": [],             
+      "solder": [
+        ["dict","wireFineLead",32]
+      ],
+      "output": ["ae2fc:fluid_part",1,4],
+      "duration": 100,
+      "consumption": 150
+    },
+	{ 
+      "toppings": [
+        ["item","appliedenergistics2:item.ItemMultiMaterial",8,10],
+        ["item","hbm:item.plate_polymer",16],
+        ["item","ae2fc:fluid_part",3,4]
+      ],
+      "pcb": [],             
+      "solder": [
+        ["dict","wireFineLead",32]
+      ],
+      "output": ["ae2fc:fluid_part",1,5],
+      "duration": 100,
+      "consumption": 150
+    },
+	{ 
+      "toppings": [
+        ["item","appliedenergistics2:item.ItemMultiMaterial",8,10],
+        ["item","hbm:item.plate_polymer",16],
+        ["item","ae2fc:fluid_part",3,5]
+      ],
+      "pcb": [],             
+      "solder": [
+        ["dict","wireFineLead",32]
+      ],
+      "output": ["ae2fc:fluid_part",1,6],
+      "duration": 100,
+      "consumption": 150
+    },
+	{ 
+      "toppings": [
+        ["item","appliedenergistics2:item.ItemMultiMaterial",8,10],
+        ["item","hbm:item.plate_polymer",16],
+        ["item","ae2fc:fluid_part",3,6]
+      ],
+      "pcb": [],             
+      "solder": [
+        ["dict","wireFineLead",32]
+      ],
+      "output": ["ae2fc:fluid_part",1,7],
+      "duration": 100,
+      "consumption": 150
+    },
     {
       "toppings": [
         ["item","minecraft:redstone",1],
@@ -10,8 +133,8 @@
       ],             
       "solder": [],
       "output": ["OpenComputers:item",1,23],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 90,
+      "consumption": 120
     },
     {
       "toppings": [
@@ -22,8 +145,8 @@
       "pcb": [],             
       "solder": [],
       "output": ["OpenComputers:item",8,24],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 120,
+      "consumption": 200
     },
     {
       "toppings": [
@@ -34,8 +157,8 @@
       "pcb": [],             
       "solder": [],
       "output": ["OpenComputers:item",4,25],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 120,
+      "consumption": 200
     },
     {
       "toppings": [
@@ -46,8 +169,8 @@
       "pcb": [],             
       "solder": [],
       "output": ["OpenComputers:item",2,26],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 120,
+      "consumption": 200
     },
     {
       "toppings": [
@@ -58,8 +181,8 @@
       "pcb": [],             
       "solder": [],
       "output": ["OpenComputers:item",1,27],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 150,
+      "consumption": 300
     },
     {
       "toppings": [
@@ -70,8 +193,8 @@
       "pcb": [],             
       "solder": [],
       "output": ["OpenComputers:item",1,28],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 150,
+      "consumption": 300
     },
     {
       "toppings": [
@@ -82,8 +205,8 @@
       "pcb": [],             
       "solder": [],
       "output": ["OpenComputers:item",1,29],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 180,
+      "consumption": 400
     },
     {
       "toppings": [
@@ -94,8 +217,8 @@
       "pcb": [],             
       "solder": [],
       "output": ["OpenComputers:item",1,42],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 180,
+      "consumption": 400
     },
     {
       "toppings": [
@@ -106,8 +229,8 @@
       "pcb": [],             
       "solder": [],
       "output": ["OpenComputers:item",1,43],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 180,
+      "consumption": 400
     },
     {
       "toppings": [
@@ -118,7 +241,7 @@
       "solder": [],
       "output": ["OpenComputers:item",1,1],
       "duration": 100,
-      "consumption": 1000
+      "consumption": 150
     },
     {
       "toppings": [
@@ -129,7 +252,7 @@
       "solder": [],
       "output": ["OpenComputers:item",1,2],
       "duration": 100,
-      "consumption": 1000
+      "consumption": 150
     },
     {
       "toppings": [
@@ -140,7 +263,7 @@
       "solder": [],
       "output": ["OpenComputers:item",1,38],
       "duration": 100,
-      "consumption": 1000
+      "consumption": 150
     },
     {
       "toppings": [
@@ -152,8 +275,8 @@
       ],             
       "solder": [],
       "output": ["OpenComputers:item",1,33],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 90,
+      "consumption": 120
     },
     {
       "toppings": [
@@ -164,8 +287,8 @@
       "pcb": [],             
       "solder": [],
       "output": ["OpenComputers:item",1,8],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 180,
+      "consumption": 400
     },
     {
       "toppings": [
@@ -176,8 +299,8 @@
       "pcb": [],             
       "solder": [],
       "output": ["OpenComputers:item",1,9],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 180,
+      "consumption": 400
     },
     {
       "toppings": [
@@ -188,8 +311,8 @@
       "pcb": [],             
       "solder": [],
       "output": ["OpenComputers:item",1,10],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 180,
+      "consumption": 400
     },
     {
       "toppings": [
@@ -199,8 +322,8 @@
       "pcb": ["item","hbm:item.circuit",1,3],             
       "solder": [],
       "output": ["OpenComputers:item",1,70],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 120,
+      "consumption": 200
     },
     {
       "toppings": [
@@ -210,8 +333,8 @@
       "pcb": ["item","hbm:item.circuit",1,3],             
       "solder": [],
       "output": ["OpenComputers:item",1,71],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 120,
+      "consumption": 200
     },
     {
       "toppings": [
@@ -221,8 +344,8 @@
       "pcb": ["item","hbm:item.circuit",1,3],             
       "solder": [],
       "output": ["OpenComputers:item",1,72],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 120,
+      "consumption": 200
     },
     {
       "toppings": [
@@ -233,8 +356,8 @@
       "pcb": [],             
       "solder": [],
       "output": ["OpenComputers:item",1,101],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 200,
+      "consumption": 500
     },
     {
       "toppings": [
@@ -245,8 +368,8 @@
       "pcb": [],             
       "solder": [],
       "output": ["OpenComputers:item",1,102],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 200,
+      "consumption": 500
     },
     {
       "toppings": [
@@ -257,8 +380,8 @@
       "pcb": [],             
       "solder": [],
       "output": ["OpenComputers:item",1,104],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 200,
+      "consumption": 500
     },
     {
       "toppings": [
@@ -269,8 +392,8 @@
       "pcb": [],             
       "solder": [],
       "output": ["OpenComputers:item",1,105],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 200,
+      "consumption": 500
     },
     {
       "toppings": [
@@ -281,8 +404,8 @@
       "pcb": [],             
       "solder": [],
       "output": ["OpenComputers:item",1,106],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 200,
+      "consumption": 500
     },
     {
       "toppings": [
@@ -293,7 +416,7 @@
       "solder": [],
       "output": ["OpenComputers:item",1,5],
       "duration": 100,
-      "consumption": 1000
+      "consumption": 150
     },
     {
       "toppings": [
@@ -304,7 +427,7 @@
       "solder": [],
       "output": ["OpenComputers:item",1,6],
       "duration": 100,
-      "consumption": 1000
+      "consumption": 150
     },
     {
       "toppings": [
@@ -315,7 +438,7 @@
       "solder": [],
       "output": ["OpenComputers:item",1,7],
       "duration": 100,
-      "consumption": 1000
+      "consumption": 150
     },
     {
       "toppings": [
@@ -326,8 +449,8 @@
       "pcb": [],             
       "solder": [],
       "output": ["OpenComputers:item",1,11],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 120,
+      "consumption": 200
     },
     {
       "toppings": [
@@ -338,8 +461,8 @@
       "pcb": [],             
       "solder": [],
       "output": ["OpenComputers:item",1,113],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 150,
+      "consumption": 300
     },
     {
       "toppings": [
@@ -350,8 +473,8 @@
       "pcb": [],             
       "solder": [],
       "output": ["OpenComputers:item",1,13],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 150,
+      "consumption": 300
     },
     {
       "toppings": [
@@ -362,8 +485,8 @@
       "pcb": [],             
       "solder": [],
       "output": ["OpenComputers:item",1,51],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 180,
+      "consumption": 400
     },
     {
       "toppings": [
@@ -374,8 +497,8 @@
       "pcb": [],             
       "solder": [],
       "output": ["OpenComputers:item",1,44],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 150,
+      "consumption": 300
     },
     {
       "toppings": [
@@ -386,8 +509,8 @@
       "pcb": [],             
       "solder": [],
       "output": ["OpenComputers:item",1,66],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 120,
+      "consumption": 200
     },
     {
       "toppings": [
@@ -398,8 +521,8 @@
       "pcb": [],             
       "solder": [],
       "output": ["OpenComputers:item",1,12],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 120,
+      "consumption": 200
     },
     {
       "toppings": [
@@ -410,8 +533,8 @@
       "pcb": [],             
       "solder": [],
       "output": ["OpenComputers:item",1,45],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 180,
+      "consumption": 400
     },
     {
       "toppings": [
@@ -422,8 +545,8 @@
       "pcb": [],             
       "solder": [],
       "output": ["OpenComputers:item",1,46],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 180,
+      "consumption": 400
     },
     {
       "toppings": [
@@ -434,8 +557,8 @@
       "pcb": [],             
       "solder": [],
       "output": ["OpenComputers:item",1,40],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 180,
+      "consumption": 400
     },
     {
       "toppings": [
@@ -445,8 +568,8 @@
       "pcb": ["item","hbm:item.circuit",1,3],             
       "solder": [],
       "output": ["OpenComputers:item",1,74],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 120,
+      "consumption": 200
     },
     {
       "toppings": [
@@ -456,8 +579,8 @@
       "pcb": ["item","hbm:item.circuit",1,3],             
       "solder": [],
       "output": ["OpenComputers:item",1,92],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 120,
+      "consumption": 200
     },
     {
       "toppings": [
@@ -467,8 +590,8 @@
       "pcb": ["item","hbm:item.circuit",1,3],             
       "solder": [],
       "output": ["OpenComputers:item",1,82],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 120,
+      "consumption": 200
     },
     {
       "toppings": [
@@ -478,8 +601,8 @@
       "pcb": ["item","hbm:item.circuit",1,3],             
       "solder": [],
       "output": ["OpenComputers:item",1,86],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 120,
+      "consumption": 200
     },
     {
       "toppings": [
@@ -490,8 +613,8 @@
       "pcb": [],             
       "solder": [],
       "output": ["OpenComputers:item",1,83],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 200,
+      "consumption": 500
     },
     {
       "toppings": [
@@ -502,8 +625,8 @@
       "pcb": [],             
       "solder": [],
       "output": ["OpenComputers:item",1,87],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 200,
+      "consumption": 500
     },
     {
       "toppings": [
@@ -513,8 +636,8 @@
       "pcb": ["item","hbm:item.circuit",1,3],             
       "solder": [],
       "output": ["OpenComputers:item",1,108],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 150,
+      "consumption": 300
     },
     {
       "toppings": [
@@ -525,8 +648,8 @@
       "pcb": [],             
       "solder": [],
       "output": ["OpenComputers:item",1,41],
-      "duration": 100,
-      "consumption": 1000
+      "duration": 150,
+      "consumption": 300
     },  
     { 
       "toppings": [
@@ -540,7 +663,7 @@
       ],
       "output": ["appliedenergistics2:item.ItemMultiMaterial",1,35],
       "duration": 100,
-      "consumption": 1000
+      "consumption": 150
     },
     {
       "toppings": [
@@ -554,7 +677,7 @@
       ],
       "output": ["appliedenergistics2:item.ItemMultiMaterial",1,36],
       "duration": 100,
-      "consumption": 1000
+      "consumption": 150
     },
     {
       "toppings": [
@@ -568,7 +691,7 @@
       ],
       "output": ["appliedenergistics2:item.ItemMultiMaterial",1,37],
       "duration": 100,
-      "consumption": 1000
+      "consumption": 150
     },
     {
       "toppings": [
@@ -582,7 +705,7 @@
       ],
       "output": ["appliedenergistics2:item.ItemMultiMaterial",1,38],
       "duration": 100,
-      "consumption": 1000
+      "consumption": 150
     },
     {
       "toppings": [
@@ -596,7 +719,7 @@
       ],
       "output": ["appliedenergistics2:item.ItemMultiMaterial",1,57],
       "duration": 100,
-      "consumption": 1000
+      "consumption": 150
     },
     {
       "toppings": [
@@ -610,7 +733,7 @@
       ],
       "output": ["appliedenergistics2:item.ItemMultiMaterial",1,58],
       "duration": 100,
-      "consumption": 1000
+      "consumption": 150
     },
     {
       "toppings": [
@@ -624,7 +747,7 @@
       ],
       "output": ["appliedenergistics2:item.ItemMultiMaterial",1,59],
       "duration": 100,
-      "consumption": 1000
+      "consumption": 150
     },
     {
       "toppings": [
@@ -638,7 +761,7 @@
       ],
       "output": ["appliedenergistics2:item.ItemMultiMaterial",1,60],
       "duration": 100,
-      "consumption": 1000
+      "consumption": 150
     },
     {
       "toppings": [
@@ -651,9 +774,107 @@
         ["dict","wireFineLead",64]
       ],
       "output": ["appliedenergistics2:item.ItemExtremeStorageCell.Quantum",1],
-      "duration": 350,
-      "consumption": 100000000
+      "duration": 300,
+      "consumption": 1500
     },    
+    {
+      "toppings": [
+        ["item","appliedenergistics2:item.ItemMultiMaterial",1,20],
+        ["item","minecraft:redstone",1],
+        ["item","appliedenergistics2:item.ItemMultiMaterial",1,17]
+      ],
+      "pcb": [],             
+      "solder": [
+        ["dict","wireFineLead",8]
+      ],
+      "output": ["appliedenergistics2:item.ItemMultiMaterial",1,24],
+      "duration": 90,
+      "consumption": 120
+    },
+    {
+      "toppings": [
+        ["item","appliedenergistics2:item.ItemMultiMaterial",1,20],
+        ["item","minecraft:redstone",1],
+        ["item","appliedenergistics2:item.ItemMultiMaterial",1,18]
+      ],
+      "pcb": [],             
+      "solder": [
+        ["dict","wireFineLead",8]
+      ],
+      "output": ["appliedenergistics2:item.ItemMultiMaterial",1,22],
+      "duration": 90,
+      "consumption": 120
+    },
+    { 
+      "toppings": [
+        ["item","appliedenergistics2:item.ItemMultiMaterial",1,20],
+        ["item","minecraft:redstone",1],
+        ["item","appliedenergistics2:item.ItemMultiMaterial",1,16]
+      ],
+      "pcb": [],             
+      "solder": [
+        ["dict","wireFineLead",8]
+      ],
+      "output": ["appliedenergistics2:item.ItemMultiMaterial",1,23],
+      "duration": 90,
+      "consumption": 120
+    },
+    { 
+      "toppings": [
+        ["item","appliedenergistics2:item.ItemMultiMaterial",8,9],
+        ["item","hbm:item.plate_polymer",16],
+        ["item","hbm:item.nugget_technetium",2]
+      ],
+      "pcb": [],             
+      "solder": [
+        ["dict","wireFineLead",32]
+      ],
+      "output": ["appliedenergistics2:item.ItemMultiMaterial",1,32],
+      "duration": 100,
+      "consumption": 150
+    },
+    { 
+      "toppings": [
+        ["item","appliedenergistics2:item.ItemMultiMaterial",8,9],
+        ["item","hbm:item.plate_polymer",16],
+        ["item","appliedenergistics2:item.ItemMultiMaterial",3,32]
+      ],
+      "pcb": [],             
+      "solder": [
+        ["dict","wireFineLead",32]
+      ],
+      "output": ["appliedenergistics2:item.ItemMultiMaterial",1,33],
+      "duration": 100,
+      "consumption": 150
+    },
+    { 
+      "toppings": [
+        ["item","appliedenergistics2:item.ItemMultiMaterial",8,9],
+        ["item","hbm:item.plate_polymer",16],
+        ["item","appliedenergistics2:item.ItemMultiMaterial",3,33]
+      ],
+      "pcb": [],             
+      "solder": [
+        ["dict","wireFineLead",32]
+      ],
+      "output": ["appliedenergistics2:item.ItemMultiMaterial",1,34],
+      "duration": 100,
+      "consumption": 150
+    },
+    {
+      "toppings": [
+        ["item","ae2fc:fluid_part",1,7],
+        ["item","hbm:item.circuit",1,16],
+        ["item","appliedenergistics2:item.ItemMultiMaterial",1,60]
+      ],
+      "pcb": [],             
+      "solder": [
+        ["dict","wireFineLead",64]
+      ],
+      "output": ["ae2fc:fluid_storage.quantum",1],
+      "duration": 300,
+      "consumption": 1500
+    },
     {
       "toppings": [
         ["item","appliedenergistics2:item.ItemMultiMaterial",1,20],
@@ -738,118 +959,6 @@
       "duration": 100,
       "consumption": 1000
     },
-	{ 
-      "toppings": [
-        ["item","appliedenergistics2:item.ItemMultiMaterial",8,10],
-        ["item","hbm:item.plate_polymer",16],
-        ["item","hbm:item.ingot_desh",1]
-      ],
-      "pcb": [],             
-      "solder": [
-        ["dict","wireFineLead",32]
-      ],
-      "output": ["ae2fc:fluid_part",1,0],
-      "duration": 100,
-      "consumption": 1000
-    },
-	{ 
-      "toppings": [
-        ["item","appliedenergistics2:item.ItemMultiMaterial",8,10],
-        ["item","hbm:item.plate_polymer",16],
-        ["item","ae2fc:fluid_part",3,0]
-      ],
-      "pcb": [],             
-      "solder": [
-        ["dict","wireFineLead",32]
-      ],
-      "output": ["ae2fc:fluid_part",1,1],
-      "duration": 100,
-      "consumption": 1000
-    },
-	{ 
-      "toppings": [
-        ["item","appliedenergistics2:item.ItemMultiMaterial",8,10],
-        ["item","hbm:item.plate_polymer",16],
-        ["item","ae2fc:fluid_part",3,1]
-      ],
-      "pcb": [],             
-      "solder": [
-        ["dict","wireFineLead",32]
-      ],
-      "output": ["ae2fc:fluid_part",1,2],
-      "duration": 100,
-      "consumption": 1000
-    },
-	{ 
-      "toppings": [
-        ["item","appliedenergistics2:item.ItemMultiMaterial",8,10],
-        ["item","hbm:item.plate_polymer",16],
-        ["item","ae2fc:fluid_part",3,2]
-      ],
-      "pcb": [],             
-      "solder": [
-        ["dict","wireFineLead",32]
-      ],
-      "output": ["ae2fc:fluid_part",1,3],
-      "duration": 100,
-      "consumption": 1000
-    },
-	{ 
-      "toppings": [
-        ["item","appliedenergistics2:item.ItemMultiMaterial",8,10],
-        ["item","hbm:item.plate_polymer",16],
-        ["item","ae2fc:fluid_part",3,3]
-      ],
-      "pcb": [],             
-      "solder": [
-        ["dict","wireFineLead",32]
-      ],
-      "output": ["ae2fc:fluid_part",1,4],
-      "duration": 100,
-      "consumption": 1000
-    },
-	{ 
-      "toppings": [
-        ["item","appliedenergistics2:item.ItemMultiMaterial",8,10],
-        ["item","hbm:item.plate_polymer",16],
-        ["item","ae2fc:fluid_part",3,4]
-      ],
-      "pcb": [],             
-      "solder": [
-        ["dict","wireFineLead",32]
-      ],
-      "output": ["ae2fc:fluid_part",1,5],
-      "duration": 100,
-      "consumption": 1000
-    },
-	{ 
-      "toppings": [
-        ["item","appliedenergistics2:item.ItemMultiMaterial",8,10],
-        ["item","hbm:item.plate_polymer",16],
-        ["item","ae2fc:fluid_part",3,5]
-      ],
-      "pcb": [],             
-      "solder": [
-        ["dict","wireFineLead",32]
-      ],
-      "output": ["ae2fc:fluid_part",1,6],
-      "duration": 100,
-      "consumption": 1000
-    },
-	{ 
-      "toppings": [
-        ["item","appliedenergistics2:item.ItemMultiMaterial",8,10],
-        ["item","hbm:item.plate_polymer",16],
-        ["item","ae2fc:fluid_part",3,6]
-      ],
-      "pcb": [],             
-      "solder": [
-        ["dict","wireFineLead",32]
-      ],
-      "output": ["ae2fc:fluid_part",1,7],
-      "duration": 100,
-      "consumption": 1000
-    },
     {
       "toppings": [
         ["item","hbm:item.circuit",3],
@@ -925,6 +1034,23 @@
         ["dict","wireFineLead",12]
       ],
       "fluid": ["SOLVENT",1000],
+      "output": ["hbm:item.circuit",1,12],
+      "duration": 400,
+      "consumption": 10000
+    },
+    {
+      "toppings": [
+        ["item","hbm:item.circuit",4,7],
+        ["item","hbm:item.circuit",2,26],
+        ["item","hbm:item.circuit",8,1]
+      ],
+      "pcb": [
+        ["item","hbm:item.circuit",6,3]
+      ],
+      "solder": [
+        ["dict","wireFineLead",6]
+      ],
+      "fluid": ["POLYTHYLENE",1000],
       "output": ["hbm:item.circuit",1,12],
       "duration": 400,
       "consumption": 10000

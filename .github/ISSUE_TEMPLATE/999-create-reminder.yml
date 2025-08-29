@@ -1,5 +1,7 @@
 name: Create a Reminder
 description: Create a reminder for developer(s).
+labels:
+- "Status: Triage"
 body:
 - type: markdown
   attributes:

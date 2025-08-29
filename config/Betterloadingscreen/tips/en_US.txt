@@ -6,28 +6,19 @@
 #Adventurer's backpack? Did you mean integrated crafting grid, bed and fluid
 #
 Got a question? Join our Discord server: discord.gg/wtNVzeE5QB
-Make sure you have installed a backup mod
 You can bind the quests menu to a key, instead of using the book
-Pam's gardens can be picked up with right-click
-Placing a garden makes it spread
-Water gardens can grow on land
 Be sure to check out what you can do with Mouse Tweaks
 Build multiblocks within the same chunk!
-Forestry Worktables are a must!
 Try the Midnight Theme for the questbook
-Try the Realistic Sky resourcepack
 Literally flint and steel!
-Tinker's tools can levelup: more modifiers and minig level bonus!
 Adventurer's backpack: integrated crafting grid, bed and fluid storage
 Beware of pollution!
 Found a bug? Report it on GitHub or Discord
-Tinker's smeltery does not double ores
 You can bookmark items with NEI ("a" by default)
 It's NEI, not JEI. Use it frequently.
 Your pick is not ready
 Also try GT:NH!
 Put the "Mine" back in Minecraft
-If you aren't lucky enough, try enchanting your lootbags with Fortune III!
 Don't go out at night!
 Abandon all vanilla knowledge all ye who enter here
 Sometimes it's better to flee than fight some mobs
@@ -41,7 +32,7 @@ Press F9 to see chunk borders!
 Microcrafting is love, microcrafting is life
 If you're making a Project Red system, make sure to use a wall of drawers!
 How many circuits have you crafted in your life?
-XAERO's MAP: PRESS[M]
+XAERO's WORLD MAP: PRESS[M]
 sqrt(-1) loves you!
 (MultiMC > Curse) && (Technic > Curse): true
 All you had to do was tho follow the damn quest line, CJ!
@@ -57,16 +48,13 @@ I WANT ROCKET I WANT MOON - St4o
 Hello @Bufka2011 why did you copied our (GTNH) rules :kekwhat:
 Did you already crafted AE2 system?
 Press O to hide NEI overlay
-Making chamelium in Chemplant is efficient
 Also try GregTech: New Horizons!
-Don't use shaders - it's breaking Darkerer mod
 3.6 Roentegen?
 Factory Must Grow!
 Did you tried Schematica?
 There is a swarm ahead!
 Beware of glyphids
 Hydrogen Bomb VS Coughing Baby
-TODO: create MORE tips
 Say hello to DreamMaster from Bufka2011!
 What? Warden is a hard boss? Pff... Martian Invasion Ship
 This is not a bug, this is an anomaly!
@@ -75,24 +63,16 @@ Too hard? Well, get outta here
 ZIRNOX going brrrrrr
 Oh no, ZIRNOX going BOOOOOM
 PotatOS is funny :D
-Did you know that you can see Gerald explode from another planet?
-Multiplayer is awful... At least for now.
-Did you checked graphic settings?
-Chunks are loading too slow? We'll try to fix it.
-How many RAM do you have? 6GB for NT:NH is perfect!
-Balance? Nah, never heard
+Did you checked graphics settings?
+How many RAM do you have? 6GB fo NT:NH is perfect!
 Wdym you lost all your inventory?
 Historically accurate! Maybe...
 50% scientific accurate!
 How about to share this modpack with your friends?
 The freaking meteorite landed INSIDE our rock cave!
-Oh no, pollution.
+Yaaay, pollution! >:D
+Oh no, pollution. :(
 Do you have radiation protection with you?
-Hello Canada!
-Hello USA!
-Hello Russia! / Привет Россия!
-Hello Ukraine! / Привіт Україно!
-Peace to all! / Всем мира! / Мир усім!
 Be sure to check out if there is a new update!
 The best way to process ore is Acidizer + Centrifuge
 Crystallized ore gives you 2 ingots when smelting
@@ -110,17 +90,75 @@ World loading can take a while
 It's better to pregen your world
 You can suggest your ideas on NTNH's GitHub repo
 You need help with NTM? Find SavageVegeta on YouTube!
-If you're russian try watching Ocelot's videos!
-If you're russian try watching Waldemar's videos!
 Do you know math? You'll need it
 2 idiots 1 reactor
 Night is REALLY scary!
 OMGWTF NUCLEAR CREEPER
 Pain-In-The-Ass modpack!
-If you're casual enable LBM mode in hbm.cfg
-If you're real hardcore enjoyer, enable 528 mode in hbm.cfg
-If you're real Pain-In-The-Ass enjoyer, enable 528 mode in hbm.cfg
+Hello Mellow!
 Hello HBMTheBobcat!
 Hello DreamMaster!
 Hello JamesH2!
 Hello everyone!
+Explore structures like antennas for early resources  
+Build multiple furnaces to speed up alloy production  
+Sirens are doing UUUUUUUUUAAAAAAAAAAAAAAAAAAAAAAAAUUUUUUUUUUUUUUU
+Monitor reactor temperature to prevent meltdowns  
+Use control rods to adjust RBMK output  
+Ensure cooling systems are functional  
+Check reactors for radiation leaks  
+Always wear hazmat suits near radioactive materials  
+Carry a Geiger counter to measure radiation levels  
+Store radioactive items in lead crates
+Craft bombs and missiles for defense
+Turrets are doing RATATATATATA
+Brother. The darkness is coming.
+Use HE to RF converters!
+Use RF to HE converters!  
+Search abandoned structures for rare components  
+Follow the questline
+Check the mod’s wiki for detailed information  
+Join the NTNH Discord for community support  
+Experiment with machine upgrades to increase efficiency 
+Account for pollution mechanics — they impact gameplay  
+Control soot emissions to avoid issues  
+Use soot towers to reduce pollution  
+Monitor heavy metal output from processes  
+Learn how pollution affects Glyphids and plan accordingly  
+Integrate with OpenComputers for automation 
+Use fire extinguishers for explosion fires  
+Craft armor and tools from advanced materials like desh  
+Be cautious with powerful weapons — they’re game-changers  
+Have fun and experiment — NTM offers endless possibilities
+Creepers are TERRIFYING
+Also try S.T.A.L.K.E.R. Anomaly GAMMA!
+Also try Factorio!
+NTM: Extended Edition is awfully contentless
+Call your mom, make her happy
+There's meteors. Build a roof.
+The blast furnace extension increases speed
+Don't want to use buckets for water? Use an infinite barrel instead
+Iron furnaces are more fuel efficient, and don't burn while idle
+Shred wheat to triple your bread
+how many breads have you eaten
+Dyson swarm units decay faster the more of them there are
+Clay is valuable in space!
+Don't land at Y=63 on Moho, Laythe, or Eve!
+Friendly fire will not be tolerated!
+Craft flippers to swim faster
+Press F1 for help
+Bricked furnaces smelt construction materials faster
+Standard boilers may explode when running full
+Unlike standart boilers, industrial boilers will stop when full
+Is your RBMK leaking radiation? Use cover panels
+Flow control pumps can be used to change fluid distribution priority
+Pneumatic pipes move items instantly, and through unloaded chunks
+Fans are activated by redstone and push entities around
+Don't set the microwave to the highest setting
+Fractioning towers connect vertically,$stacking them increases throughout
+Fullerite too difficult? Make fine soot with a pyrolysis oven
+Exploration pays off. Who knows what you'll find
+Feeling sick? Check for nearby asbestos
+Need a lot of fuel early on? The nether is full of flaming coal
+Get a gun.
+Alexandrite needs explosives to be mined

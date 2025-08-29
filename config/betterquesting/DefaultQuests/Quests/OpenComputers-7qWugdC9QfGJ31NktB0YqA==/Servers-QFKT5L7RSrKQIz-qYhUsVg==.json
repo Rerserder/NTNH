@@ -20,7 +20,7 @@
         "OreDict:8": "",
         "id:8": "OpenComputers:item"
       },
-      "isMain:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Servers",
@@ -30,7 +30,7 @@
       "simultaneous:1": 0,
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "AND",
+      "taskLogic:8": "OR",
       "visibility:8": "NORMAL"
     }
   },
@@ -43,7 +43,7 @@
       "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 0,
+      "index:3": 3,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
@@ -53,14 +53,14 @@
           "id:8": "OpenComputers:item"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 1,
+      "index:3": 4,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
@@ -70,14 +70,14 @@
           "id:8": "OpenComputers:item"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "2:10": {
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 2,
+      "index:3": 5,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
@@ -87,7 +87,7 @@
           "id:8": "OpenComputers:item"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

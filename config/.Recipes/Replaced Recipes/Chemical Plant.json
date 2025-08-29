@@ -1,0 +1,16 @@
+{
+      "name": "chem.strawberryicecream",
+      "inputItem": [
+        ["item","hbm:item.butter",2],
+        ["item","minecraft:packed_ice"],
+        ["item","harvestcraft:strawberryItem",4]
+      ],
+      "inputFluid": [
+        ["CREAM",1000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.s_cream",4]]
+      ],
+      "duration": 150,
+      "power": 100
+    },

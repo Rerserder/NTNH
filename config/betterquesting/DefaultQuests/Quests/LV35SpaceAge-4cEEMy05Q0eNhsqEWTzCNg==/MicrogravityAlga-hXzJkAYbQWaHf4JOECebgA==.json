@@ -1,0 +1,60 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 5091114072294771997,
+      "questIDLow:4": -5545061285848322781
+    },
+    "1:10": {
+      "questIDHigh:4": -4414222095862512001,
+      "questIDLow:4": -8130293137270123816,
+      "type:1": 2
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The Microgravity Algae Film is a machine is made of specialized layers of Laythe plants that will convert CO2 directly into liquid oxygen. They however only function when in orbit.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "hbm:tile.algae_film"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Microgravity Algae Film",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -8827959549138091674,
+  "questIDLow:4": -8683078284756935808,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:tile.algae_film"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

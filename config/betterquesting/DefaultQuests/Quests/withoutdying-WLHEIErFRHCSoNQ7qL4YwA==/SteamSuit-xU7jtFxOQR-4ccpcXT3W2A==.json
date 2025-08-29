@@ -1,0 +1,92 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -8011387148990332876,
+      "questIDLow:4": -8919934240696666827
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 66
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Ever wanted an power armor that is not using electricity power? Here it is, steam-powered power armor!\n\nSlows you down a little bit but gives you Haste V.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "hbm:item.steamsuit_helmet",
+        "tag:10": {
+          "fuel:3": 64000
+        }
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Steam Suit",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -4229192636272066273,
+  "questIDLow:4": -5156117600312371496,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:item.steamsuit_helmet",
+          "tag:10": {
+            "fuel:3": 64000
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:item.steamsuit_plate",
+          "tag:10": {
+            "fuel:3": 64000
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:item.steamsuit_legs",
+          "tag:10": {
+            "fuel:3": 64000
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:item.steamsuit_boots",
+          "tag:10": {
+            "fuel:3": 64000
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

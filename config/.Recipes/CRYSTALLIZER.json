@@ -1,0 +1,14 @@
+	{
+      "duration": 400,
+      "fluid": ["SULFURIC_ACID",300],
+      "input": ["item","minecraft:quartz",1],
+      "output": ["appliedenergistics2:item.ItemMultiMaterial",1],
+      "productivity": 0.0
+    },
+    {
+      "duration": 600,
+      "fluid": ["HYDROGEN",300],
+      "input": ["item","appliedenergistics2:item.ItemMultiMaterial",1],
+      "output": ["appliedenergistics2:item.ItemMultiMaterial",1,1],
+      "productivity": 0.0
+    },

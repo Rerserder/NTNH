@@ -1,0 +1,11 @@
+{
+  "id": "stardar",
+  "condition": {
+    "type": "achievement",
+    "id": "stardar"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "hbm:tile.machine_stardar"
+  }
+}

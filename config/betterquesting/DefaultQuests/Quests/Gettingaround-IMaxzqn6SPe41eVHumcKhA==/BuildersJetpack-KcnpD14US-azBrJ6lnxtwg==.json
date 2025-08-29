@@ -1,0 +1,61 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 32
+    },
+    "1:10": {
+      "questIDHigh:4": 8305715207461948985,
+      "questIDLow:4": -8981288908290429925
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Unlike the regular jetpack, pressing the Spacebar allows you to rise and levitate in the air (without holding Spacebar). Pressing Shift lowers the player down, and the \"C\" button allows you to turn the jetpack on and off.\n\nVelocity - 0.4-0.2m/1t\nFuel consumption - 5-10t/1mb\nFuel type - Kerosene",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "hbm:item.jetpack_break",
+        "tag:10": {}
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Builder\u0027s Jetpack",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 3011194078086056934,
+  "questIDLow:4": -5546549651479695934,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:item.jetpack_break",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

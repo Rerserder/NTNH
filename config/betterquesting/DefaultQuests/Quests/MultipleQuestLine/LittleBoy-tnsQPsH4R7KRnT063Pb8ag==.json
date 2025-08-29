@@ -1,0 +1,122 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 2396324157097135073,
+      "questIDLow:4": -8851977916261385789
+    },
+    "1:10": {
+      "questIDHigh:4": 8091402871222846269,
+      "questIDLow:4": -7974199508376060562
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The Little Boy is the first atomic bomb, usually made to extract Shrabidium from Uranium or War Crimes.\n\nYou can use a Detonator or Redstone Signal to detonate the bomb.\n\nThe nuclear explosion converts the ore into something more valuable, such as Coal into Diamonds or Uranium into Shrabidium. Make sure to have some Radiation Resistant Armor before you risk entering the crater.\n\nBe sure to stand behind some hard cover if you want to see the explosion up close.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "hbm:tile.nuke_boy"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Little Boy",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -5297622674942965838,
+  "questIDLow:4": -7954134043841856406,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag",
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "id:2": 35,
+                "lvl:2": 3
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:item.boy_shielding"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:item.boy_target"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:item.boy_bullet"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:item.boy_propellant"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:item.boy_igniter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:tile.nuke_boy"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

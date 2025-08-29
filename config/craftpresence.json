@@ -32,9 +32,13 @@
       "default": {
         "textOverride": "In the {dimension.name}"
       },
+      "overworld": {
+        "textOverride": "On the Kerbin (Earth)",
+        "iconOverride": "kerbin"
+      },
       "earth": {
-        "textOverride": "On the {dimension.name}",
-        "iconOverride": "earth"
+        "textOverride": "On the Kerbin (Earth)",
+        "iconOverride": "kerbin"
       },
       "mun": {
         "textOverride": "On the {dimension.name}",
@@ -67,6 +71,10 @@
       "laythe": {
         "textOverride": "On the {dimension.name}",
         "iconOverride": "laythe"
+      },
+      "tekto": {
+        "textOverride": "On the {dimension.name}",
+        "iconOverride": "tekto"
       },
       "orbit": {
         "textOverride": "On the {dimension.name}",

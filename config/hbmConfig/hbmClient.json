@@ -14,9 +14,10 @@
   "ITEM_TOOLTIP_SHOW_CUSTOM_NUKE": true,
   "ITEM_TOOLTIP_SHOW_OREDICT": true,
   "MAIN_MENU_WACKY_SPLASHES": true,
-  "NEI_HIDE_SECRETS": true,
+  "NEI_HIDE_SECRETS": false,
   "NUKE_HUD_FLASH": true,
   "NUKE_HUD_SHAKE": true,
   "RENDER_CABLE_HANG": true,
+  "RENDER_REBAR_SIMPLE": false,
   "RENDER_REEDS": false
 }

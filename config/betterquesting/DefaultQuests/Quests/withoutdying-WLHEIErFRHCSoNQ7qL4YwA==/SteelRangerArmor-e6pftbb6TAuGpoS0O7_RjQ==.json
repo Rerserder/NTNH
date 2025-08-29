@@ -1,0 +1,96 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 32
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 66
+    },
+    "2:10": {
+      "questIDHigh:4": -4062167807947553329,
+      "questIDLow:4": -6534500201856880264
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Steel Ranger Armor is very similar in characteristics to T45 armor, but it is still better in protecting against physical damage, explosions, radiation and other, and also gives the effect of a jump boost in addition to strength.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "hbm:item.ajr_helmet",
+        "tag:10": {
+          "charge:4": 2500000
+        }
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Steel Ranger Armor Set",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 8911040046769523723,
+  "questIDLow:4": -8744155716861832819,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:item.ajr_helmet",
+          "tag:10": {
+            "charge:4": 2500000
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:item.ajr_plate",
+          "tag:10": {
+            "charge:4": 2500000
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:item.ajr_legs",
+          "tag:10": {
+            "charge:4": 2500000
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:item.ajr_boots",
+          "tag:10": {
+            "charge:4": 2500000
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
