@@ -12,6 +12,7 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<vending:vendingMachineAdvanced:*>);
 recipes.remove(<ae2fc:fluid_storage.quantum>);
 recipes.remove(<ae2fc:fluid_storage.singularity>);
 recipes.remove(<appliedenergistics2:item.ItemExtremeStorageCell.Universe>);
