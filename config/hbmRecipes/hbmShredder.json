@@ -442,6 +442,10 @@
       "output": ["hbm:item.ore_enriched",1,15]
     },
     {
+      "input": ["hbm:tile.pvc_planks"],
+      "output": ["hbm:item.powder_pvc"]
+    },
+    {
       "input": ["hbm:item.ore_bedrock",1,17],
       "output": ["hbm:item.ore_enriched",1,17]
     },
@@ -496,6 +500,10 @@
     {
       "input": ["hbm:tile.bobblehead",1,25],
       "output": ["hbm:item.scrap_plastic",1,9]
+    },
+    {
+      "input": ["hbm:tile.vinyl_planks"],
+      "output": ["hbm:item.powder_rubber"]
     },
     {
       "input": ["minecraft:glowstone"],
@@ -603,6 +611,14 @@
     },
     {
       "input": ["hbm:tile.brick_concrete_cracked"],
+      "output": ["minecraft:gravel"]
+    },
+    {
+      "input": ["netherlicious:Stem",1,32767],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
+      "input": ["hbm:tile.basalt"],
       "output": ["minecraft:gravel"]
     },
     {
@@ -768,6 +784,10 @@
     {
       "input": ["hbm:tile.ore_nickel",1,32767],
       "output": ["hbm:item.chunk_ore",2,3]
+    },
+    {
+      "input": ["netherlicious:Stem2",1,32767],
+      "output": ["hbm:item.powder_sawdust",4]
     },
     {
       "input": ["hbm:tile.sellafield",1,4],
@@ -1010,6 +1030,10 @@
       "output": ["hbm:item.powder_gold",2]
     },
     {
+      "input": ["netherlicious:FullWood",1,32767],
+      "output": ["hbm:item.powder_sawdust",4]
+    },
+    {
       "input": ["hbm:item.dust_tiny"],
       "output": ["hbm:item.dust_tiny"]
     },
@@ -1198,6 +1222,10 @@
       "output": ["hbm:item.powder_sawdust",4]
     },
     {
+      "input": ["netherlicious:Blackstone"],
+      "output": ["minecraft:gravel"]
+    },
+    {
       "input": ["hbm:item.ore_cleaned",1,13],
       "output": ["hbm:item.ore_enriched",1,13]
     },
@@ -1228,6 +1256,10 @@
     {
       "input": ["hbm:item.fragment_lanthanium"],
       "output": ["hbm:item.powder_lanthanium_tiny"]
+    },
+    {
+      "input": ["netherlicious:Planks",1,32767],
+      "output": ["hbm:item.powder_sawdust"]
     },
     {
       "input": ["hbm:item.ore_separated",1,17],
@@ -1423,6 +1455,10 @@
     },
     {
       "input": ["hbm:tile.ike_stone"],
+      "output": ["minecraft:gravel"]
+    },
+    {
+      "input": ["hbm:tile.basalt_smooth"],
       "output": ["minecraft:gravel"]
     },
     {

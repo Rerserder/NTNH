@@ -29,7 +29,7 @@
 	{
       "name": "ass.row.funnellarge",
       "inputItem": [
-        ["dict","plateSteelIron",4]
+        ["dict","plateTripleSteel",4]
       ],
       "outputItem": [
         ["single",["row:item.row.funnellarge"]]
@@ -40,7 +40,7 @@
 	{
       "name": "ass.row.funnelsmall",
       "inputItem": [
-        ["dict","plateSteelIron",2]
+        ["dict","plateTripleIron",2]
       ],
       "outputItem": [
         ["single",["row:item.row.funnelsmall"]]
@@ -51,9 +51,8 @@
 	{
       "name": "ass.row.light",
       "inputItem": [
-        ["dict","plateTripleIron",3],
-        ["item","minecraft:glass_pane",1],
-        ["dict","paneGlass",1],
+        ["dict","plateSteel",4],
+        ["dict","paneGlass",1]
       ],
       "outputItem": [
         ["single",["row:item.row.light"]]

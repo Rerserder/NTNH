@@ -53,3 +53,4 @@ mods.nei.NEI.hide(<structurelib:item.structurelib.frontRotationTool>);
 mods.nei.NEI.hide(<structurelib:item.structurelib.constructableTrigger>);
 mods.nei.NEI.hide(<opensecurity:SecurityDoor>);
 mods.nei.NEI.hide(<opensecurity:SecurityDoorPrivate>);
+mods.nei.NEI.hide(<ForgeMicroblock:microblock:*>);

@@ -4,14 +4,17 @@
       "inputs": [
         ["dict","plateTripleIron",2]
       ],
+	  "fluid": ["WATER",500],
       "output": ["row:item.row.cartwheel"],
       "duration": 200,
       "consumption": 50
     },
 	{
       "inputs": [
-        ["dict","plateTripleIron",4]
+        ["dict","plateTripleSteel",2],
+        ["dict","plateTripleAluminum",2]
       ],
+	  "fluid": ["WATER",500],
       "output": ["row:item.row.enginewheel"],
       "duration": 200,
       "consumption": 100
@@ -20,6 +23,7 @@
       "inputs": [
         ["dict","plateTripleSteel",4]
       ],
+	  "fluid": ["WATER",500],
       "output": ["hbm:tile.case"],
       "duration": 200,
       "consumption": 250

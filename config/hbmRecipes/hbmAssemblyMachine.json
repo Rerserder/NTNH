@@ -1,6 +1,6 @@
 {
   "recipes": [
-	{
+    {
       "name": "ass.adv.jetpack",
       "inputItem": [
         ["dict","plateTripleCopper",2],
@@ -31,7 +31,7 @@
 	{
       "name": "ass.row.funnellarge",
       "inputItem": [
-        ["dict","plateSteelIron",4]
+        ["dict","plateTripleSteel",4]
       ],
       "outputItem": [
         ["single",["row:item.row.funnellarge"]]
@@ -42,7 +42,7 @@
 	{
       "name": "ass.row.funnelsmall",
       "inputItem": [
-        ["dict","plateSteelIron",2]
+        ["dict","plateTripleIron",2]
       ],
       "outputItem": [
         ["single",["row:item.row.funnelsmall"]]
@@ -53,9 +53,8 @@
 	{
       "name": "ass.row.light",
       "inputItem": [
-        ["dict","plateTripleIron",3],
-        ["item","minecraft:glass_pane",1],
-        ["dict","paneGlass",1],
+        ["dict","plateSteel",4],
+        ["dict","paneGlass",1]
       ],
       "outputItem": [
         ["single",["row:item.row.light"]]
@@ -1458,6 +1457,20 @@
       "power": 100
     },
     {
+      "name": "ass.assembler",
+      "inputItem": [
+        ["dict","ingotSteel",4],
+        ["dict","plateCopper",4],
+        ["item","hbm:item.motor",2],
+        ["item","hbm:item.circuit",1,8]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.machine_assembly_machine"]]
+      ],
+      "duration": 200,
+      "power": 100
+    },
+    {
       "name": "ass.chemplant",
       "inputItem": [
         ["dict","ingotSteel",8],
@@ -2144,6 +2157,23 @@
         ["single",["hbm:tile.machine_strand_caster"]]
       ],
       "duration": 200,
+      "power": 100
+    },
+    {
+      "name": "ass.assemfac",
+      "inputItem": [
+        ["dict","ingotDuraSteel",16],
+        ["dict","ingotAnyResistantAlloy",8],
+        ["dict","ingotRubber",16],
+        ["dict","ingotBoron",8],
+        ["dict","shellSteel",4],
+        ["item","hbm:item.motor",12],
+        ["item","hbm:item.circuit",16,9]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.machine_assembly_factory"]]
+      ],
+      "duration": 400,
       "power": 100
     },
     {
@@ -5961,7 +5991,7 @@
         ["item","hbm:item.seg_20",2],
         ["item","hbm:tile.steel_scaffold",16],
         ["dict","shellTitanium",12],
-        ["dict","plateSextupleAluminum"]
+        ["dict","plateSextupleAluminum",8]
       ],
       "outputItem": [
         ["single",["hbm:item.rp_f_20_12"]]
@@ -5975,7 +6005,7 @@
         ["item","hbm:item.seg_20",2],
         ["item","hbm:tile.steel_scaffold",8],
         ["dict","shellTitanium",6],
-        ["dict","plateSextupleAluminum",8]
+        ["dict","plateSextupleAluminum",4]
       ],
       "outputItem": [
         ["single",["hbm:item.rp_f_20_6"]]
@@ -5989,7 +6019,7 @@
         ["item","hbm:item.seg_20",2],
         ["item","hbm:tile.steel_scaffold",4],
         ["dict","shellTitanium",3],
-        ["dict","plateSextupleAluminum",4]
+        ["dict","plateSextupleAluminum",2]
       ],
       "outputItem": [
         ["single",["hbm:item.rp_f_20_3"]]
@@ -6003,7 +6033,7 @@
         ["item","hbm:item.seg_20",2],
         ["item","hbm:tile.steel_scaffold",2],
         ["dict","shellTitanium"],
-        ["dict","plateSextupleAluminum",2]
+        ["dict","plateSextupleAluminum"]
       ],
       "outputItem": [
         ["single",["hbm:item.rp_f_20_1"]]
@@ -6044,8 +6074,8 @@
     {
       "name": "ass.rp_legs_20",
       "inputItem": [
-        ["dict","ntmpipeSteel",8],
-        ["dict","plateAluminum",12],
+        ["dict","ntmpipeSteel",4],
+        ["dict","plateAluminum",8],
         ["item","hbm:item.motor",4]
       ],
       "outputItem": [

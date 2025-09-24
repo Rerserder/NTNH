@@ -36,8 +36,6 @@ resourcepacks
 server-resource-packs
 config/betterquesting.7z
 signpic
-config/xaerominimap.txt
-config/xaerominimap.txt
 config/signpic.cfg
 config/splash.properties
 config/hodgepodgeEarly.properties
@@ -57,3 +55,5 @@ map exports
 config/NEI/client.cfg
 config/iChunUtil.cfg
 config/shaders.properties
+config/gliby_vc/ClientSettings.ini
+settings.rtg
