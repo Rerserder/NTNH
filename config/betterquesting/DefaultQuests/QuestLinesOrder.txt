@@ -11,7 +11,7 @@ WLHEIErFRHCSoNQ7qL4YwA==: ...without dying.
 IvOaHFdvTem9AKGdPDgBaA==: Dimensional Adventures
 PUpgFX1lTJePHTcvicBC8g==: Three hundred caps
 VIthQchWRnKIQ6qTwFcPFg==: Reward Area
-AAAAAAAAAAAAAAAAAAAABQ==: AE2
+AAAAAAAAAAAAAAAAAAAABQ==: Applied Energistics 2
 7qWugdC9QfGJ31NktB0YqA==: OpenComputers
 DR3m8TVpSxKspj_MDcVlIA==: Kill All the Things
 9ZY-Ej-RTUWqgCVPkvTdVQ==: Hardcore Challenges
