@@ -134,7 +134,6 @@
 - Air intake is no longer decorative, can create compressed air
         Will consume air inside pressurized rooms and convert it into compressed air at a 1:100 ratio
         This means a klystron will consume 25mB/t of oxygen if used in an orbital station, just a tad more than the old fusion reactor consumed
-- Stardar and drive processors now require blueprints to assemble, like the Soyuz recipes
 - Entanglement kits now use krypton instead of xenon, which can be acquired on Earth after stainless steel
 - T-51 armor can now be used as a spacesuit
 - Minor circuit rework
@@ -145,7 +144,6 @@
 - Removed the old ZOMG beams, negative energy type explosions now use DFC-like effects instead
 - Removed the old multitool (it sucked)
 - Stages now decouple in two steps, with the engine shroud decoupling shortly after the prior stage
-- Remove template requirement for Stardar and Drive Processor
 
 
 
