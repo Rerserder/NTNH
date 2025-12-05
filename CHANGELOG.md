@@ -66,6 +66,7 @@
 - Added provisional emergency brake to drone pathfinding, pathfinding will simply fail if it goes on for too long
 - Fixed ore acidizer partitioner freezing the game
 - Fixed ore acidizer partitioner trash slots not being accessible via automation
+- Fixed recipe for the measuring tape
 
 
 
