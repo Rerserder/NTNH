@@ -5,8 +5,8 @@
       "questIDLow:4": 48
     },
     "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 35
+      "questIDHigh:4": -6542062107870935314,
+      "questIDLow:4": -6500343898679542889
     },
     "2:10": {
       "questIDHigh:4": 0,
@@ -16,13 +16,13 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The §3Fusion Reactor§r is a large, expensive, and advanced reactor type that runs by fusing various plasma types to generate heat to then produce §bSteam§r, which in turn generates large amounts of electricity. \n\nThe different plasma types also generate different useful byproducts and differing levels of neutron flux for breeding bulk quantities of materials, such as §6Lithium§r into §6Tritium§r. It works in conjunction with the §3Plasma Heater§r, which provides the plasma. It requires a \"§6blanket§r\" lining to protect it from the heat and neutron flux, otherwise it will break the reactor.",
+      "desc:8": "The §3Fusion Reactor§r is a large, expensive, and advanced reactor type that runs by fusing various plasma types to generate heat.\n\nThe main part of the fusion reactor, the §3\"Torus\"§r, features four connecting ports for external components. It requires electricity and §bPerfluoromethyl§r cooling to operate.\n\nThe §3Klystron§r is the main power source of the fusion reactor, which uses electricity and compressed air, to generate input energy, §eKyU§r, for the connected torus. It will throttle if the buffered electricity or compressed air falls below §e50%§r, and if it falls below the torus\u0027 required input level, the plasma will extinguish.\n\nThe different plasma types also generate different useful byproducts and differing levels of neutron flux for breeding bulk quantities of materials, such as §6Lithium§r into §6Tritium§r.\n\nWelding the coils will require a §6Blowtorch§r or an §6Acetylene Welding Torch§r.\n\n§2For the additional components and power generation methods, please check out the two quests below.§r",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "hbm:tile.iter"
+        "id:8": "hbm:tile.fusion_torus"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
@@ -38,8 +38,8 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 176,
+  "questIDHigh:4": -1137739474903742698,
+  "questIDLow:4": -6514017938369638213,
   "rewards:9": {
     "0:10": {
       "ignoreDisabled:1": 0,
@@ -63,45 +63,39 @@
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 292,
+          "Count:3": 484,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:tile.fusion_conductor"
+          "id:8": "hbm:tile.fusion_component"
         },
         "1:10": {
-          "Count:3": 292,
+          "Count:3": 484,
           "Damage:2": 30,
           "OreDict:8": "",
           "id:8": "hbm:item.plate_cast"
         },
         "2:10": {
-          "Count:3": 64,
-          "Damage:2": 0,
+          "Count:3": 280,
+          "Damage:2": 3,
           "OreDict:8": "",
-          "id:8": "hbm:tile.fusion_center"
+          "id:8": "hbm:tile.fusion_component"
         },
         "3:10": {
-          "Count:3": 8,
-          "Damage:2": 0,
+          "Count:3": 160,
+          "Damage:2": 2,
           "OreDict:8": "",
-          "id:8": "hbm:tile.reinforced_glass"
+          "id:8": "hbm:tile.fusion_component"
         },
         "4:10": {
-          "Count:3": 4,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "hbm:tile.fusion_motor"
-        },
-        "5:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:tile.struct_iter_core"
+          "id:8": "hbm:tile.struct_torus_core"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -115,16 +109,10 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 135,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "hbm:tile.fusion_heater"
-        },
-        "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:tile.struct_plasma_core"
+          "id:8": "hbm:tile.fusion_klystron"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -141,9 +129,10 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:item.blowtorch",
+          "id:8": "hbm:item.acetylene_torch",
           "tag:10": {
-            "23:3": 4000
+            "39:3": 16000,
+            "68:3": 8000
           }
         }
       },
@@ -161,29 +150,10 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:item.acetylene_torch",
+          "id:8": "hbm:item.blowtorch",
           "tag:10": {
-            "39:3": 16000,
-            "68:3": 8000
+            "23:3": 4000
           }
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "4:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 4,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "hbm:item.fusion_shield_tungsten",
-          "tag:10": {}
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

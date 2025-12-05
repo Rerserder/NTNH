@@ -2,45 +2,35 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 48
+      "questIDLow:4": 32
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 32
+      "questIDLow:4": 66
     },
     "2:10": {
-      "questIDHigh:4": -2549337488949951986,
-      "questIDLow:4": -8633188481776331784
-    },
-    "3:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 39
-    },
-    "4:10": {
-      "questIDHigh:4": -6787868727436752418,
-      "questIDLow:4": -6054408173306640877
-    },
-    "5:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 60
+      "questIDLow:4": 111
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The §6Neutrino Lens§r is an armor modification which can detect and highlight special blocks, such as §eBedrock Ore deposits§r, the §6Pink Log§r and §6Alexandrite§r. \n\nFor the lens to work, it must first be linked to a §6Depth-Resource Scanning Module Satellite§r and then inserted into an armor piece using the §3Armor Modification Table§r.\n\n§2The HUD key has to be activated for it to work.",
+      "desc:8": "The §6HEV Mark IV§r is a strong electric armor set, with the intent of keeping the user safe primarely from dangerous hazards, such as high levels of radiation, fire, certain air particles and more. The suit comes equiped with an §6Geiger Counter§r and custom hud.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "hbm:item.neutrino_lens",
-        "tag:10": {}
+        "id:8": "hbm:item.hev_helmet",
+        "tag:10": {
+          "charge:4": 1000000
+        }
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Neutrino Lens",
+      "name:8": "HEV Mark IV",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -52,7 +42,7 @@
     }
   },
   "questIDHigh:4": 0,
-  "questIDLow:4": 112,
+  "questIDLow:4": 132,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
@@ -67,21 +57,37 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:item.sat_scanner",
-          "tag:10": {}
+          "id:8": "hbm:item.hev_helmet",
+          "tag:10": {
+            "charge:4": 1000000
+          }
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:item.neutrino_lens",
-          "tag:10": {}
+          "id:8": "hbm:item.hev_plate",
+          "tag:10": {
+            "charge:4": 1000000
+          }
         },
         "2:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:tile.machine_satlinker"
+          "id:8": "hbm:item.hev_legs",
+          "tag:10": {
+            "charge:4": 1000000
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:item.hev_boots",
+          "tag:10": {
+            "charge:4": 1000000
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"
