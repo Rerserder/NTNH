@@ -145,6 +145,7 @@
 - Removed the old ZOMG beams, negative energy type explosions now use DFC-like effects instead
 - Removed the old multitool (it sucked)
 - Stages now decouple in two steps, with the engine shroud decoupling shortly after the prior stage
+- Most seeds can now be obtained by plowing the land
 
 
 
