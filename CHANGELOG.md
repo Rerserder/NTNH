@@ -102,6 +102,11 @@
 - Fixed splitting of items with max stack size of 1 during sorting (Bogosorter)
 - Fixed Bogosorter Keybindings
 - Fixed Bogosorter refill sync issue
+- Fixed various p2p binding issues
+- Fixed issues when changing p2p type that involves conversion
+- Fixed conversion to p2p-static doesn't return replaced p2p to inventory
+- Fixed conversion to p2p-normal doesn't consume p2p from inventory
+- Fixed drops in p2p are only dropped when no space in player inventory
 
 
 
