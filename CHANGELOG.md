@@ -72,6 +72,7 @@
 
 
 **Changed**
+- **REMOVED IRON BACKPACKS - EMPTY THEM BEFORE UPDATING**
 - **REWORKED WHOLE QUESTBOOK** (thank you \_SkippyPlaysMC_!)
 - Added completely new crash reportation system
 - Debuffed mobs
@@ -147,6 +148,7 @@
 - Removed the old multitool (it sucked)
 - Stages now decouple in two steps, with the engine shroud decoupling shortly after the prior stage
 - Most seeds can now be obtained by plowing the land
+- Removed GregCaves
 
 
 
