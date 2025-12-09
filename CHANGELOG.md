@@ -69,6 +69,7 @@
 - Fixed recipe for the measuring tape
 - Fixed Witch Spider infinite projectile duplication
 - Fixed crash when opening lunch box from offhand
+- Fixed some crashes when grabbing items from drawers
 
 
 
@@ -150,6 +151,7 @@
 - Stages now decouple in two steps, with the engine shroud decoupling shortly after the prior stage
 - Most seeds can now be obtained by plowing the land
 - Removed GregCaves
+- Added Backhand Support for Storage Drawers
 
 
 
