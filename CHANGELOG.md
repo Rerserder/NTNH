@@ -95,6 +95,9 @@
 - Fixed NEI favorite state refresh
 - Fixed NEI recipe collapsing
 - Fixed pressing space in text box close UI if space is your inventory key
+- Fixed glider showing upside-down for other players
+- Fixed non-deployed glider position for other players
+- Fixed a Haunted Miner research requiring itself (HEE)
 
 
 
