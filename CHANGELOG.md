@@ -152,6 +152,7 @@
 - Most seeds can now be obtained by plowing the land
 - Removed GregCaves
 - Added Backhand Support for Storage Drawers
+- Paused Bloodmoon for a couple of days after world creation
 
 
 
