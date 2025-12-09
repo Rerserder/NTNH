@@ -107,6 +107,7 @@
 - Fixed conversion to p2p-static doesn't return replaced p2p to inventory
 - Fixed conversion to p2p-normal doesn't consume p2p from inventory
 - Fixed drops in p2p are only dropped when no space in player inventory
+- Fixed the quest name in the notification is not localized (in multiplayer)
 
 
 
