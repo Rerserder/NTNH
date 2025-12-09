@@ -68,6 +68,7 @@
 - Fixed ore acidizer partitioner trash slots not being accessible via automation
 - Fixed recipe for the measuring tape
 - Fixed Witch Spider infinite projectile duplication
+- Fixed crash when opening lunch box from offhand
 
 
 
