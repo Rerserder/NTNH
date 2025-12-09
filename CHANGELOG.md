@@ -193,6 +193,7 @@
 - Optimized cross-dimension loading
 - Disabled Bogosorter keybindings by default
 - Backhand slot is now being skipped during dropoff
+- Optimized FMP Rendering and memory leaks
 
 
 
