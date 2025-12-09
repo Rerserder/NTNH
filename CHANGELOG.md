@@ -36,6 +36,13 @@
    └ Avoid collecting this near your base, the fracking damage is a fair bit more pronounced than other bedrock deposits!
 - Synthetic leather/pleather
    └ Very useful for Martian playthroughs
+- Created Recipe Widget; Recipe GUI: Infinity Scroll; Recipe GUI: Max Height Settings
+- Added NEI function to copy item name and meta
+- Added Scroll to NEI Recipe Catalysts
+- Implemented Dynamic Handler Height (NEI)
+- Added NEI 'Bookmark recipe with count' Option
+
+
 
 **Fixed**
 - Fixed arc furnace only allowing electrodes to be inserted when the lid is down instead of up
@@ -71,6 +78,23 @@
 - Fixed crash when opening lunch box from offhand
 - Fixed some crashes when grabbing items from drawers
 - Fixed teleport task player reference crashes
+- Fixed pressing '2' when hovering crafting output not putting the crafted item(s) in the hotbar (NEI)
+- Fixed missing lang key for NEI favorite keybind
+- Fixed NEI Permutation Filter 
+- Fixed NEI Favorite Recipes in bookmarks for ingredients
+- Fixed NEI Bookmarks Shadow Items
+- Fixed NEI None hotkeys for java8
+- Fixed NEI tooltip item lighting
+- Fixed NEI HUD flickering
+- Fixed recipe result count
+- Fixed NEI Bookmarks Chain Tooltip Height
+- Fixed NEI Button Texture
+- Fixed shift+scroll of ingredients in the recipe GUI
+- Fixed 'Delete Item' tooltip not showing in Creative Mode
+- Fixed small mouse movement while double-clicking causing drop all items
+- Fixed NEI favorite state refresh
+- Fixed NEI recipe collapsing
+- Fixed pressing space in text box close UI if space is your inventory key
 
 
 
@@ -154,6 +178,12 @@
 - Removed GregCaves
 - Added Backhand Support for Storage Drawers
 - Paused Bloodmoon for a couple of days after world creation
+- Speedup NEI rendering
+- Improved NEI recipe search
+- Optimized NEI Bookmark Chains
+- Optimized NEI permutations
+- Removed Permutations from Output (NEI)
+- Optimized cross-dimension loading
 
 
 
