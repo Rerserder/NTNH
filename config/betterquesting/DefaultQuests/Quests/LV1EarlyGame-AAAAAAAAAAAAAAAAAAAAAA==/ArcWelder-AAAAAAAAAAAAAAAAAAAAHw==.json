@@ -1,8 +1,8 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 29
+      "questIDHigh:4": -6504268382655527520,
+      "questIDLow:4": -5691612610862427359
     }
   },
   "properties:10": {
@@ -16,7 +16,7 @@
         "OreDict:8": "",
         "id:8": "hbm:tile.machine_arc_welder"
       },
-      "isMain:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Arc Welder",
