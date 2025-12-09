@@ -41,6 +41,7 @@
 - Added Scroll to NEI Recipe Catalysts
 - Implemented Dynamic Handler Height (NEI)
 - Added NEI 'Bookmark recipe with count' Option
+- Added option to sort the player's inventory with the keybind while the GUI is closed
 
 
 
@@ -98,6 +99,9 @@
 - Fixed glider showing upside-down for other players
 - Fixed non-deployed glider position for other players
 - Fixed a Haunted Miner research requiring itself (HEE)
+- Fixed splitting of items with max stack size of 1 during sorting (Bogosorter)
+- Fixed Bogosorter Keybindings
+- Fixed Bogosorter refill sync issue
 
 
 
@@ -187,6 +191,8 @@
 - Optimized NEI permutations
 - Removed Permutations from Output (NEI)
 - Optimized cross-dimension loading
+- Disabled Bogosorter keybindings by default
+- Backhand slot is now being skipped during dropoff
 
 
 
