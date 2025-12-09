@@ -67,6 +67,7 @@
 - Fixed ore acidizer partitioner freezing the game
 - Fixed ore acidizer partitioner trash slots not being accessible via automation
 - Fixed recipe for the measuring tape
+- Fixed Witch Spider infinite projectile duplication
 
 
 
