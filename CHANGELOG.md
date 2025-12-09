@@ -70,6 +70,7 @@
 - Fixed Witch Spider infinite projectile duplication
 - Fixed crash when opening lunch box from offhand
 - Fixed some crashes when grabbing items from drawers
+- Fixed teleport task player reference crashes
 
 
 
