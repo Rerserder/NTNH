@@ -325,15 +325,10 @@
     "modId": "HardcoreEnderExpansion",
     "version": "1.12.16-GTNH"
   },
-  "HBM-NTM-[1.0.27_X5527_NTNH].jar": {
-    "jarName": "HBM-NTM-[1.0.27_X5527_NTNH].jar",
+  "HBM-NTM-[1.0.27_X5539_NTNH].jar": {
+    "jarName": "HBM-NTM-[1.0.27_X5539_NTNH].jar",
     "modId": "hbm",
-    "version": "1.0.27_X5527_NTNH"
-  },
-  "hbmaeaddon-3.0.jar": {
-    "jarName": "hbmaeaddon-3.0.jar",
-    "modId": "hbmaeaddon",
-    "version": "3.0"
+    "version": "1.0.27_X5539_NTNH"
   },
   "HelpFixer-1.3.0.jar": {
     "jarName": "HelpFixer-1.3.0.jar",
