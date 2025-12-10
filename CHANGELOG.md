@@ -42,6 +42,8 @@
 - Implemented Dynamic Handler Height (NEI)
 - Added NEI 'Bookmark recipe with count' Option
 - Added option to sort the player's inventory with the keybind while the GUI is closed
+- Added terracota variations
+- Integrated AppleCore food tooltips into all NEI GUI panels
 
 
 
@@ -108,6 +110,13 @@
 - Fixed conversion to p2p-normal doesn't consume p2p from inventory
 - Fixed drops in p2p are only dropped when no space in player inventory
 - Fixed the quest name in the notification is not localized (in multiplayer)
+- Fixed chisel slot voiding in some conditions
+- Fixed fast clouds rendering with setting off after game restart
+- Fixed Tileentities not casting shadows
+- Fixed entity/item textures and lighting break with shaders
+- Fixed Bibliocraft clipboard skipping a page
+- Fixed offhand attack dealing 1 damage
+- Fixed offhand item switching animations
 
 
 
@@ -200,6 +209,11 @@
 - Disabled Bogosorter keybindings by default
 - Backhand slot is now being skipped during dropoff
 - Optimized FMP Rendering and memory leaks
+- Moved Snakestone head and body blocks into the Smooth Stone chisel 
+- Network Visualizer now shows connections between a Crafting Input Bus/Buffer and its proxies
+- Improved zoom key handling (reset on GUI enter and compatibility with mouse buttons)
+- Optimized in-world item rendering
+- [Shaders] Basic compatibility with NTM:Space skybox & more
 
 
 
