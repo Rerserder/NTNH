@@ -1,15 +1,3 @@
-mods.nei.NEI.hide(<ae2fc:ec2placeholder.storage.fluid>);
-mods.nei.NEI.hide(<ae2fc:ec2placeholder.storage.physical>);
-mods.nei.NEI.hide(<ae2fc:ec2placeholder.storage.physical.advanced.quantum>);
-mods.nei.NEI.hide(<ae2fc:ec2placeholder.storage.physical.advanced.singularity>);
-mods.nei.NEI.hide(<ae2fc:ec2placeholder.storage.physical.void>);
-mods.nei.NEI.hide(<ae2fc:ec2placeholder.pattern.fluid>);
-mods.nei.NEI.hide(<ae2fc:ec2placeholder.terminal.fluid.wireless>);
-mods.nei.NEI.hide(<ae2fc:ec2placeholder.storage.casing>);
-mods.nei.NEI.hide(<ae2fc:ec2placeholder.storage.component>);
-mods.nei.NEI.hide(<ae2fc:ec2placeholder.terminal.universal.wireless>);
-mods.nei.NEI.hide(<ae2fc:ec2placeholder.part.base>);
-mods.nei.NEI.hide(<ae2fc:ec2placeholder.oc.upgrade>);
 mods.nei.NEI.hide(<hbm:item.achievement_icon:*>);
 mods.nei.NEI.hide(<hbm:item.cloud1>);
 mods.nei.NEI.hide(<hbm:item.cloud2>);
