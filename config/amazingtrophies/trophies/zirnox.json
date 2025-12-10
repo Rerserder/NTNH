@@ -6,6 +6,7 @@
   },
   "model": {
     "type": "item",
-    "registryName": "hbm:tile.machine_zirnox"
+    "registryName": "hbm:tile.machine_zirnox",
+    "scale": 0.75
   }
 }

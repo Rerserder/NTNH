@@ -1,12 +1,12 @@
 {
-  "id": "arc_furnace",
+  "id": "dfc",
   "condition": {
     "type": "achievement",
-    "id": "arc_furnace"
+    "id": "dfc"
   },
   "model": {
     "type": "item",
-    "registryName": "hbm:tile.machine_arc_furnace",
+    "registryName": "hbm:tile.dfc_emitter",
     "scale": 0.75
   }
 }

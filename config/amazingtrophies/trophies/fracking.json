@@ -1,12 +1,12 @@
 {
-  "id": "arc_furnace",
+  "id": "fracking",
   "condition": {
     "type": "achievement",
-    "id": "arc_furnace"
+    "id": "fracking"
   },
   "model": {
     "type": "item",
-    "registryName": "hbm:tile.machine_arc_furnace",
+    "registryName": "hbm:tile.machine_fracking_tower",
     "scale": 0.75
   }
 }

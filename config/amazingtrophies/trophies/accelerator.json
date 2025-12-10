@@ -1,12 +1,12 @@
 {
-  "id": "arc_furnace",
+  "id": "accelerator",
   "condition": {
     "type": "achievement",
-    "id": "arc_furnace"
+    "id": "accelerator"
   },
   "model": {
     "type": "item",
-    "registryName": "hbm:tile.machine_arc_furnace",
+    "registryName": "hbm:tile.pa_detector",
     "scale": 0.75
   }
 }

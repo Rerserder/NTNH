@@ -1,11 +1,12 @@
 {
-  "id": "stardar",
+  "id": "watz",
   "condition": {
     "type": "achievement",
-    "id": "stardar"
+    "id": "watz"
   },
   "model": {
     "type": "item",
-    "registryName": "hbm:tile.machine_stardar"
+    "registryName": "hbm:tile.watz",
+    "scale": 0.70
   }
 }
