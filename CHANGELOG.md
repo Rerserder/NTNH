@@ -47,6 +47,9 @@
 - Seeding slurry is now appreciably boosted in growing power
    └ Will only work in atmospheres with at least trace amounts of CO2
    └ As an upside, will now convert CO2 into O2 at a rate of 100mB of O2 per block of grass
+- Added Bob Fluid Translator
+   └ This allows better NTM-AE2 compatibility
+- Added Immersive Cave Gen
 
 
 
