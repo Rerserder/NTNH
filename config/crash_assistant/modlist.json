@@ -345,6 +345,11 @@
     "modId": "iChunUtil",
     "version": "4.2.3"
   },
+  "immersivecavegen-1.2g-hotfix5.jar": {
+    "jarName": "immersivecavegen-1.2g-hotfix5.jar",
+    "modId": "immersivecavegen",
+    "version": "1.2g-hotfix5"
+  },
   "InGameInfoXML-2.9.0.jar": {
     "jarName": "InGameInfoXML-2.9.0.jar",
     "modId": "InGameInfoXML",
