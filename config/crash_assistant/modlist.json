@@ -59,6 +59,11 @@
     "modId": "appliedenergistics2",
     "version": "rv3-beta-753-GTNH-pre"
   },
+  "aquaacrobatics-0.0.6-1-7-10.27+e60560276e.jar": {
+    "jarName": "aquaacrobatics-0.0.6-1-7-10.27+e60560276e.jar",
+    "modId": "aquaacrobatics",
+    "version": "0.0.6-1-7-10.27+e60560276e"
+  },
   "archaicfix-0.7.6.jar": {
     "jarName": "archaicfix-0.7.6.jar",
     "modId": "archaicfix",
@@ -247,20 +252,30 @@
     "modId": "customskinloader",
     "version": "14.24"
   },
+  "DMod-1.7.10-1.0.3.5+nomixin.jar": {
+    "jarName": "DMod-1.7.10-1.0.3.5+nomixin.jar",
+    "modId": "dmod",
+    "version": "1.0.3.5+nomixin"
+  },
   "duradisplay-1.4.0.jar": {
     "jarName": "duradisplay-1.4.0.jar",
     "modId": "duradisplay",
     "version": "1.4.0"
+  },
+  "DynamicSurroundings-1.7.10-1.0.6.4.jar": {
+    "jarName": "DynamicSurroundings-1.7.10-1.0.6.4.jar",
+    "modId": "dsurround",
+    "version": "1.0.6.4"
   },
   "Emotes 1.0.1.jar": {
     "jarName": "Emotes 1.0.1.jar",
     "modId": "Emotes",
     "version": "1.0.1"
   },
-  "endercore-0.5.2-pre.jar": {
-    "jarName": "endercore-0.5.2-pre.jar",
+  "EnderCore-1.7.10-0.2.0.40_beta.jar": {
+    "jarName": "EnderCore-1.7.10-0.2.0.40_beta.jar",
     "modId": "endercore",
-    "version": "0.5.2-pre"
+    "version": "1.7.10-0.2.0.40_beta"
   },
   "EnderZoo-1.3.3.jar": {
     "jarName": "EnderZoo-1.3.3.jar",
@@ -574,10 +589,20 @@
     "modId": "signpic",
     "version": "2.8.0"
   },
+  "SkinPort-1.7.10-v10d.jar": {
+    "jarName": "SkinPort-1.7.10-v10d.jar",
+    "modId": "skinport",
+    "version": "1.7.10-v10d"
+  },
   "SlimeVoid-Library-1.7.10.jar": {
     "jarName": "SlimeVoid-Library-1.7.10.jar",
     "modId": "SlimevoidLib",
     "version": "2.0.4.7"
+  },
+  "SoundFilters-0.8_for_1.7.X.jar": {
+    "jarName": "SoundFilters-0.8_for_1.7.X.jar",
+    "modId": "soundfilters",
+    "version": "0.7_for_1.7.X"
   },
   "SpecialAI-1.2.0.jar": {
     "jarName": "SpecialAI-1.2.0.jar",
@@ -619,6 +644,11 @@
     "modId": "structurelib",
     "version": "1.4.24"
   },
+  "tabfaces-1.0.11-rc1.jar": {
+    "jarName": "tabfaces-1.0.11-rc1.jar",
+    "modId": "tabfaces",
+    "version": "1.0.11-rc1"
+  },
   "TooManyDanyOres-1.7.10-b1.0-3-forge-1199.jar": {
     "jarName": "TooManyDanyOres-1.7.10-b1.0-3-forge-1199.jar",
     "modId": "TooManyDanyOres",
@@ -643,6 +673,11 @@
     "jarName": "VendingBlockRevived-v1.2.3.jar",
     "modId": "Vending",
     "version": "1.2.3"
+  },
+  "VillageNames-1.7.10-4.4.13.jar": {
+    "jarName": "VillageNames-1.7.10-4.4.13.jar",
+    "modId": "VillageNames",
+    "version": ""
   },
   "vorbisspi-1.0.3-1.jar": {
     "jarName": "vorbisspi-1.0.3-1.jar"

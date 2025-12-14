@@ -50,6 +50,15 @@
 - Added Bob Fluid Translator
    └ This allows better NTM-AE2 compatibility
 - Added Immersive Cave Gen
+- Added ability to swim underwater
+- Added foxes
+- Added bundles (who asked bruh)
+- Added new sound system
+   └ Overworld now has an ambient
+   └ Your surrounding can affect sounds
+- Player face now showing in chat and tab menu
+- Added skin layer support
+- Reworked villages
 
 
 
@@ -136,6 +145,7 @@
 - **REWORKED WHOLE QUESTBOOK** (thank you \_SkippyPlaysMC_!)
 - Added completely new crash reportation system
 - Debuffed mobs
+   └ Decreased their spawn rate
    └ Now there are no Bosses (Infernal Mobs)
 - Rebalanced food system
    └ Now snacks, meals meaty meals are giving you way more saturation
@@ -226,6 +236,8 @@
 - Optimized in-world item rendering
 - [Shaders] Basic compatibility with NTM:Space skybox & more
 - Removed HBMAEAddon
+- Updated tips in loading screen
+   └ Should be less cringe
 
 
 
