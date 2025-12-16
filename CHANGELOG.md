@@ -61,6 +61,11 @@
 - Reworked villages
 - Annihilator
    └ Destroys items and fluids and keeps track of how much has been destroyed
+- NEI handlers for
+   └ Atmospheric Extraction via Compression
+   └ Celestial Bedrock Ore Processing
+   └ Celestial Fluid Table Extraction
+   └ Celestial Oil Extraction
 
 
 
@@ -143,6 +148,7 @@
 - Fixed panzerschreck equip animation not speeding up with the sawed off mod
 - Fixed FENSU not keeping its charge when broken
 - Added more null checks to world generation, hopefully preventing weird one-off crashes
+- Fixed arc furnace queue slots inserting too many items, causing the output to exceed max stack size
 
 
 
@@ -274,6 +280,9 @@
 - Containment boxes now use ferrouranium instead of raw U-238
 - Added missing recipes to two legendary weapons
 - Trash can is now forbidden
+- Hunger depletes slower now
+- Updated russian localization
+- Changed the recipe change button on the mixer to be bright red with arrows on it (since the "C" looked too much like it meant "clear")
 
 
 
