@@ -44,10 +44,10 @@
     "modId": "amazingtrophies",
     "version": "1.4.0"
   },
-  "angelica-1.0.0-beta76-pre.jar": {
-    "jarName": "angelica-1.0.0-beta76-pre.jar",
+  "angelica-1.0.0-beta77-pre.jar": {
+    "jarName": "angelica-1.0.0-beta77-pre.jar",
     "modId": "angelica",
-    "version": "1.0.0-beta76-pre"
+    "version": "1.0.0-beta77-pre"
   },
   "AppleCore-3.3.8.jar": {
     "jarName": "AppleCore-3.3.8.jar",
@@ -251,6 +251,11 @@
     "jarName": "CustomSkinLoader_ForgeV1-14.24.jar",
     "modId": "customskinloader",
     "version": "14.24"
+  },
+  "Decocraft-2.4.2_1.7.10.jar": {
+    "jarName": "Decocraft-2.4.2_1.7.10.jar",
+    "modId": "props",
+    "version": "2.4.2_1.7.10"
   },
   "DMod-1.7.10-1.0.3.5+nomixin.jar": {
     "jarName": "DMod-1.7.10-1.0.3.5+nomixin.jar",

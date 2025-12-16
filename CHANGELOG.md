@@ -59,6 +59,8 @@
 - Player face now showing in chat and tab menu
 - Added skin layer support
 - Reworked villages
+- Annihilator
+   └ Destroys items and fluids and keeps track of how much has been destroyed
 
 
 
@@ -137,6 +139,10 @@
    └ Due to some vanilla shenanigans, you'll sometimes encounter visual issues if you hold the key, but now you'll still remain in the capsule
    └ To prevent potential gamebreaking issues, you can force-leave a capsule by holding crouch for three seconds (unless in deep space, where you'll always be fully blocked from leaving)
 - Fixed the old fusion station thruster appearing as the new. as-of-yet unimplemented one
+- Fixed gamebreaking issue causing crashes and world corruption where the multi detonator had its tooltip misspelled
+- Fixed panzerschreck equip animation not speeding up with the sawed off mod
+- Fixed FENSU not keeping its charge when broken
+- Added more null checks to world generation, hopefully preventing weird one-off crashes
 
 
 
@@ -238,6 +244,38 @@
 - Removed HBMAEAddon
 - Updated tips in loading screen
    └ Should be less cringe
+- Removed legacy fusion reactor parts from the creative inventory
+- Removed the legacy fusion reactor core components
+- If a legacy fusion reactor explodes, it is now destroyed forever and cannot be reassembled
+- Legacy fusion reactors no longer disassemble when being mined, rather they drop as one block
+- Legacy templates are no longer listed in the creative tab
+- Removed the old meltdown achievement
+- Eating canned fists now hurts
+- Due to repeated incidents regarding canned black holes, the mechanics have changed
+   └ Vortices spawned now have a flag set that prevents them from breaking blocks entirely
+   └ Vortices decay 4x faster than those spawned by singularity items, it should last about 2.5 seconds in total
+   └ It will still very much kill you instantly and destroy your items
+- Storage crates can no longer be placed into containment boxes
+- Both types of blueprint booklets are now obtainable via precision assembler
+   └ The recipes are lengthy, require a lot of power and have a low chance of succeeding
+   └ Recipes require the divine pufferfish, driver of all innovation
+   └ Where can you get this much pufferfish? Go figure it out
+- Bedrock coltan is no longer a dedicated bedrock ore type
+- Alt fire is now available for 10ga double barrel shotguns, allowing only a single barrel to be fired at once
+- Drainage pipes, flare stacks and the annihilator now have the default fluid priority of LOW, meaning that excess removal using those no longer requires flow control pumps
+- Halved base energy consumption for the solidifier and liquefactor
+- Changed cracking tower recipe to use desh instead of polymer, as well as a little bit more niobium in favor of all the clay catalysts it used to have
+- Iron and corroded barrels have been deprecated and are no longer obtainable
+- Steel barrels and 256k tanks no longer use tar in their recipes
+- Solidifying biogas into compressed biomass now yields 4x more, making the biogas route twice as efficient as simply compressing biomass
+- Finally removed the long deprecated ambience radiation generator and geothermal generator
+- Nerfed the ballistic jackets, as they are comically cheap and made some zombies impossible to kill in early game
+- RBMK fuel rod items can now be inserted directly into fuel rods via right click, instead of having to open the GUI
+- Containment boxes now use ferrouranium instead of raw U-238
+- Added missing recipes to two legendary weapons
+- Trash can is now forbidden
+
+
 
 
 
