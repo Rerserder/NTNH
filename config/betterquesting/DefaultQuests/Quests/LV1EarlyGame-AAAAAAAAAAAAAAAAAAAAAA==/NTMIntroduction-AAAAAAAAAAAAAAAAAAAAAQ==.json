@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "This is the begining of the tech tree of §dHBM\u0027s Nuclear Tech Mod§r. Before proceeding it is recommended that you stock up on materials such as §6Iron§r, §6Coal§r, §6Copper§r and §6Redstone§r.\n\n§a§2Some advanced machinery can be obtained by salvaging them from structures scattered across the world, such as Centrifuges from abandoned nuclear powerplants found in deserts, or by rare mob drops such as a Geiger Counter.\n\nFor those who want more of a challenge, Expensive mode can be enabled in the hbm.cfg file. Progression will be slightly changed due to new components.\n\nMartian Mode is also available in the world creation screen.",
+      "desc:8": "This is the begining of the tech tree of §dHBM\u0027s Nuclear Tech Mod§r. Before proceeding it is recommended that you stock up on materials such as §6Iron§r, §6Coal§r, §6Copper§r and §6Redstone§r.\n\n§a§2Some advanced machinery can be obtained by salvaging them from structures scattered across the world, such as Centrifuges from abandoned nuclear powerplants found in deserts, or by rare mob drops such as a Geiger Counter.\n\nMartian Mode is also available in the world creation screen.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
