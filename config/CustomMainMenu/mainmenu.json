@@ -24,8 +24,8 @@
     "buttons":
     {
 		"singleplayer": {
-			"text": "Singleplayer",
-			"hoverText": "> Singleplayer",				
+			"text": "menu.ntnh.singleplayer",
+			"hoverText": "menu.ntnh.singleplayer.hover",
 			"alignment": "center",
 			"normalTextColor": 5111297,
 			"hoverTextColor": 5111297,			
@@ -35,7 +35,7 @@
 			"height": 20,
 			"imageWidth": 150,
 			"imageHeight": 20,
-			"texture": "mainmenu:textures/button_top_left.png",			
+			"texture": "mainmenu:textures/button_top_left.png",
 			"action": {
 				"type": "openGui",
 				"gui": "singleplayer"
@@ -44,8 +44,8 @@
 
         "multiplayer":
         {
-            "text": "Multiplayer",
-			"hoverText": "> Multiplayer",				
+            "text": "menu.ntnh.multiplayer",
+			"hoverText": "menu.ntnh.multiplayer.hover",
 			"alignment": "center",
 			"normalTextColor": 5111297,
 			"hoverTextColor": 5111297,			   			
@@ -65,8 +65,8 @@
         
         "mods":
         {
-			"text": "Mods",
-			"hoverText": "> Mods (#modsloaded#/#modsactive#)",				
+			"text": "menu.ntnh.mods",
+			"hoverText": "(#modsloaded#/#modsactive#)",
 			"alignment": "center",
 			"normalTextColor": 5111297,
 			"hoverTextColor": 5111297,			
@@ -86,8 +86,8 @@
             
         "options":
         {
-			"text": "Options",
-			"hoverText": "> Options",				
+			"text": "menu.ntnh.options",
+			"hoverText": "menu.ntnh.options.hover",
 			"alignment": "center",
 			"normalTextColor": 5111297,
 			"hoverTextColor": 5111297,
@@ -107,8 +107,8 @@
         
         "quit":
         {
-			"text": "Quit",
-			"hoverText": "> STAY HERE",
+			"text": "menu.ntnh.quit",
+			"hoverText": "menu.ntnh.quit.hover",
 			"alignment": "center",
 			"posX": -150,
 			"posY": 55,
@@ -146,8 +146,8 @@
 		},  
 
         		"github": {
-			"text": "Report Bugs",
-			"hoverText": "> Report Bugs",				
+			"text": "menu.ntnh.feedback",
+			"hoverText": "menu.ntnh.feedback.hover",
 			"alignment": "center",
 			"normalTextColor": 5111297,
 			"hoverTextColor": 5111297,			
@@ -167,8 +167,8 @@
 
 		"open_folder": 
         {
-			"text": "Open Game Files",
-			"hoverText": "> Open Game Files",				
+			"text": "menu.ntnh.files",
+			"hoverText": "menu.ntnh.files.hover",
 			"alignment": "center",
 			"normalTextColor": 5111297,
 			"hoverTextColor": 5111297,			
@@ -185,8 +185,8 @@
 			}
         },
             "website": {
-			"text": "Our Website",
-			"hoverText": "> Our Website",				
+			"text": "menu.ntnh.web",
+			"hoverText": "menu.ntnh.web.hover",
 			"alignment": "center",
 			"normalTextColor": 5111297,
 			"hoverTextColor": 5111297,			
@@ -220,7 +220,7 @@
         {
             "text" : "",
             "posX" : 2,
-            "posY" : -50,
+            "posY" : -65,
             "color" : -1,
             "alignment" : "bottom_left"
         }
