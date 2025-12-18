@@ -149,6 +149,11 @@
 - Fixed FENSU not keeping its charge when broken
 - Added more null checks to world generation, hopefully preventing weird one-off crashes
 - Fixed arc furnace queue slots inserting too many items, causing the output to exceed max stack size
+- Fixed MHD turbines requiring a 528 blueprint in normal mode
+   └ The game will now crash when the default pool list has a 528 blueprint entry, preventing this from happening again
+   └ Configured recipes do not have this check, you can use 528 mode templates in normal mode if you really want for some reason
+- Fixed ancient misspelling of "ketamine" on the splash screens
+- Fixed tantalum fragments not using autogen correctly, becoming unusable
 
 
 
@@ -283,6 +288,7 @@
 - Hunger depletes slower now
 - Updated russian localization
 - Changed the recipe change button on the mixer to be bright red with arrows on it (since the "C" looked too much like it meant "clear")
+- For consistency with the crucible material, all tantalium items now go by "tantalum"
 
 
 
