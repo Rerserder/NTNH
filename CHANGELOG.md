@@ -66,6 +66,7 @@
    └ Celestial Bedrock Ore Processing
    └ Celestial Fluid Table Extraction
    └ Celestial Oil Extraction
+- Beernox resourcepack included by default
 
 
 
