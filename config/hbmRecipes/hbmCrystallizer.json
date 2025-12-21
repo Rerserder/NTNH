@@ -16,6 +16,13 @@
       "productivity": 0.0
     },
     {
+      "duration": 1000,
+      "fluid": ["HYDROGEN",300],
+      "input": ["item","appliedenergistics2:item.ItemMultiMaterial",16,1],
+      "output": ["buddingpolar:budding_certus_queartz_block",1],
+      "productivity": 0.0
+    },
+    {
       "duration": 200,
       "fluid": ["HYDROGEN",250],
       "input": ["item","hbm:item.bedrock_ore",1,2084],
