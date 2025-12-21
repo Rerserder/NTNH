@@ -154,6 +154,11 @@
     "modId": "bookshelf",
     "version": "1.7.10-1.0.4.187"
   },
+  "buddingpolar-v1.0.6-1.7.10.jar": {
+    "jarName": "buddingpolar-v1.0.6-1.7.10.jar",
+    "modId": "buddingpolar",
+    "version": "1.0.6"
+  },
   "campfirebackport-1.7.10-1.11.3.jar": {
     "jarName": "campfirebackport-1.7.10-1.11.3.jar",
     "modId": "campfirebackport",
