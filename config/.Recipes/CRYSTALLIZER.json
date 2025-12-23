@@ -16,6 +16,6 @@
       "duration": 1000,
       "fluid": ["HYDROGEN",300],
       "input": ["item","appliedenergistics2:item.ItemMultiMaterial",16,1],
-      "output": ["buddingpolar:budding_certus_queartz_block",1],
+      "output": ["buddingpolar:budding_certus_quartz_block",1],
       "productivity": 0.0
     },
