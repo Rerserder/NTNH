@@ -1462,7 +1462,7 @@
     {
       "name": "ass.shredder",
       "inputItem": [
-        ["item","hbm:item.item_expensive"],
+        ["dict","plateSteel",8],
         ["dict","plateCopper",4],
         ["item","hbm:item.motor",2]
       ],
@@ -1489,12 +1489,12 @@
     {
       "name": "ass.chemplant",
       "inputItem": [
-        ["item","hbm:item.item_expensive",3],
+        ["dict","ingotSteel",8],
         ["dict","ntmpipeCopper",2],
         ["item","hbm:item.plate_polymer",16],
         ["item","hbm:item.motor",2],
         ["item","hbm:item.coil_tungsten",2],
-        ["item","hbm:item.circuit",3,8]
+        ["item","hbm:item.circuit",1,8]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_chemical_plant"]]
@@ -1505,11 +1505,11 @@
     {
       "name": "ass.purex",
       "inputItem": [
-        ["item","hbm:item.item_expensive",2,3],
         ["dict","shellSteel",4],
-        ["dict","ntmpipeRubber",12],
-        ["item","hbm:item.motor_desh",3],
-        ["item","hbm:item.item_expensive",2,2]
+        ["dict","ntmpipeRubber",8],
+        ["dict","plateTripleLead",4],
+        ["item","hbm:item.motor_desh"],
+        ["item","hbm:item.circuit",4,9]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_purex"]]
@@ -1520,10 +1520,10 @@
     {
       "name": "ass.precass",
       "inputItem": [
-        ["item","hbm:item.item_expensive",4],
+        ["dict","plateTripleSteel",8],
         ["dict","ingotZirconium",8],
         ["item","hbm:item.motor",4],
-        ["item","hbm:item.circuit",8,11]
+        ["item","hbm:item.circuit",4,11]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_precass"]]
@@ -1536,8 +1536,8 @@
       "inputItem": [
         ["item","hbm:item.centrifuge_element"],
         ["dict","ingotAnyPlastic",4],
-        ["item","hbm:item.item_expensive",3],
-        ["dict","plateTripleCopper",4],
+        ["dict","plateSteel",8],
+        ["dict","plateCopper",4],
         ["item","hbm:item.circuit",1,8]
       ],
       "outputItem": [
@@ -1550,9 +1550,10 @@
       "name": "ass.gascent",
       "inputItem": [
         ["item","hbm:item.centrifuge_element",4],
-        ["dict","plateSextupleSteel",4],
-        ["item","hbm:item.item_expensive",1,1],
-        ["item","hbm:item.item_expensive",1,2]
+        ["dict","ingotAnyPlastic",8],
+        ["dict","ingotDesh",2],
+        ["dict","plateSteel",8],
+        ["item","hbm:item.circuit",1,10]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_gascent"]]
@@ -1564,10 +1565,11 @@
       "name": "ass.arcfurnace",
       "inputItem": [
         ["dict","anyConcrete",12],
-        ["item","hbm:item.item_expensive",4,1],
+        ["dict","ingotAnyPlastic",8],
         ["item","hbm:item.ingot_firebrick",16],
+        ["dict","plateTripleSteel",8],
         ["item","hbm:tile.machine_transformer"],
-        ["item","hbm:item.circuit",3,8]
+        ["item","hbm:item.circuit",1,8]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_arc_furnace"]]
@@ -1578,10 +1580,11 @@
     {
       "name": "ass.acidizer",
       "inputItem": [
-        ["item","hbm:item.item_expensive",2,1],
+        ["dict","plateSextupleSteel",2],
         ["dict","shellTitanium",3],
+        ["dict","ingotDesh",4],
         ["item","hbm:item.motor"],
-        ["item","hbm:item.item_expensive",1,2]
+        ["item","hbm:item.circuit",2,9]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_crystallizer"]]
@@ -1592,12 +1595,13 @@
     {
       "name": "ass.electrolyzer",
       "inputItem": [
-        ["item","hbm:item.item_expensive",4,1],
+        ["dict","plateTripleSteel",8],
+        ["dict","plateCopper",16],
         ["dict","shellTitanium",3],
         ["dict","ingotRubber",8],
         ["item","hbm:item.ingot_firebrick",16],
         ["item","hbm:item.coil_copper",16],
-        ["item","hbm:item.item_expensive",4,2]
+        ["item","hbm:item.circuit",8,9]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_electrolyser"]]
@@ -1622,9 +1626,10 @@
     {
       "name": "ass.derrick",
       "inputItem": [
-        ["item","hbm:item.item_expensive",2],
+        ["dict","plateSteel",8],
+        ["dict","plateTripleCopper",2],
         ["dict","ntmpipeSteel",4],
-        ["item","hbm:item.motor",3],
+        ["item","hbm:item.motor"],
         ["item","hbm:item.drill_titanium"]
       ],
       "outputItem": [
@@ -1636,9 +1641,10 @@
     {
       "name": "ass.pumpjack",
       "inputItem": [
-        ["item","hbm:item.item_expensive",1,1],
+        ["dict","plateDuraSteel",8],
+        ["dict","plateSextupleSteel",8],
         ["dict","ntmpipeSteel",12],
-        ["item","hbm:item.motor_desh",3],
+        ["item","hbm:item.motor_desh"],
         ["item","hbm:item.drill_titanium"]
       ],
       "outputItem": [
@@ -1650,13 +1656,13 @@
     {
       "name": "ass.fracker",
       "inputItem": [
-        ["item","hbm:item.item_expensive",4,1],
-        ["item","hbm:item.item_expensive",2,4],
+        ["dict","shellSteel",24],
         ["dict","ntmpipeSteel",12],
         ["item","hbm:tile.concrete_smooth",64],
         ["item","hbm:item.drill_titanium"],
-        ["item","hbm:item.motor_desh",5],
-        ["item","hbm:item.item_expensive",4,2]
+        ["item","hbm:item.motor_desh",2],
+        ["item","hbm:item.plate_desh",24],
+        ["item","hbm:item.circuit",16,1]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_fracking_tower"]]
@@ -1667,8 +1673,9 @@
     {
       "name": "ass.flarestack",
       "inputItem": [
-        ["item","hbm:item.item_expensive",8],
+        ["dict","plateSteel",12],
         ["dict","plateCopper",4],
+        ["dict","shellSteel",4],
         ["item","hbm:item.thermo_element",3]
       ],
       "outputItem": [
@@ -1680,10 +1687,12 @@
     {
       "name": "ass.refinery",
       "inputItem": [
-        ["item","hbm:item.item_expensive",4],
+        ["dict","plateSextupleSteel",3],
+        ["dict","plateCopper",8],
+        ["dict","shellSteel",4],
         ["dict","ntmpipeSteel",12],
         ["item","hbm:item.plate_polymer",8],
-        ["item","hbm:item.circuit",5,8]
+        ["item","hbm:item.circuit",3,8]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_refinery"]]
@@ -1694,9 +1703,9 @@
     {
       "name": "ass.crackingtower",
       "inputItem": [
-        ["item","hbm:item.item_expensive",2,1],
-        ["item","hbm:item.item_expensive",8],
-        ["dict","ingotAnyPlastic",16],
+        ["item","hbm:tile.steel_scaffold",16],
+        ["dict","shellSteel",6],
+        ["dict","ingotDesh",12],
         ["dict","ingotNiobium",4]
       ],
       "outputItem": [
@@ -1708,10 +1717,11 @@
     {
       "name": "ass.radiolysis",
       "inputItem": [
-        ["item","hbm:item.item_expensive",2,1],
-        ["item","hbm:item.item_expensive",4,3],
+        ["dict","shellSteel",4],
+        ["dict","ingotAnyResistantAlloy",4],
+        ["dict","plateLead",12],
         ["dict","plateTripleCopper",4],
-        ["dict","ingotRubber",16],
+        ["dict","ingotRubber",8],
         ["item","hbm:item.thermo_element",8]
       ],
       "outputItem": [
@@ -1723,9 +1733,10 @@
     {
       "name": "ass.coker",
       "inputItem": [
-        ["item","hbm:item.item_expensive",4,1],
-        ["item","hbm:item.item_expensive",8],
-        ["dict","ingotRubber",16],
+        ["dict","plateSextupleSteel",8],
+        ["dict","shellSteel",4],
+        ["dict","plateCopper",8],
+        ["dict","ingotRubber",4],
         ["dict","ingotNiobium",4]
       ],
       "outputItem": [
@@ -1737,12 +1748,13 @@
     {
       "name": "ass.vaccumrefinery",
       "inputItem": [
-        ["item","hbm:item.item_expensive",2,6],
-        ["item","hbm:item.item_expensive",2,4],
-        ["dict","ntmpipeDuraSteel",16],
+        ["dict","plateTripleSteel",16],
+        ["dict","plateCopper",16],
+        ["dict","ingotAnyResistantAlloy",4],
+        ["item","hbm:item.sphere_steel"],
+        ["dict","ntmpipeSteel",12],
         ["item","hbm:item.motor_desh",3],
-        ["item","hbm:item.circuit",16,7],
-        ["item","hbm:item.item_expensive",1,5]
+        ["item","hbm:item.circuit",4,7]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_vacuum_distill"]]
@@ -1753,13 +1765,14 @@
     {
       "name": "ass.reformer",
       "inputItem": [
-        ["item","hbm:item.item_expensive",2,6],
+        ["dict","plateTripleSteel",12],
+        ["dict","plateCopper",8],
         ["dict","ingotNiobium",8],
         ["dict","ingotAnyResistantAlloy",4],
-        ["dict","ntmpipeDuraSteel",16],
-        ["item","hbm:item.motor",8],
-        ["item","hbm:item.circuit",4,12],
-        ["item","hbm:item.item_expensive",1,5]
+        ["dict","shellSteel",3],
+        ["dict","ntmpipeSteel",8],
+        ["item","hbm:item.motor"],
+        ["item","hbm:item.circuit",1,12]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_catalytic_reformer"]]
@@ -1770,13 +1783,14 @@
     {
       "name": "ass.hydrotreater",
       "inputItem": [
-        ["item","hbm:item.item_expensive",2,6],
+        ["dict","plateSextupleSteel",8],
+        ["dict","plateTripleCopper",4],
         ["dict","ingotNiobium",8],
         ["dict","ingotAnyResistantAlloy",4],
-        ["dict","ntmpipeDuraSteel",16],
-        ["item","hbm:item.motor_desh",8],
-        ["item","hbm:item.circuit",4,12],
-        ["item","hbm:item.item_expensive",1,5]
+        ["dict","shellSteel",2],
+        ["dict","ntmpipeSteel",8],
+        ["item","hbm:item.motor_desh",2],
+        ["item","hbm:item.circuit",1,12]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_hydrotreater"]]
@@ -1787,12 +1801,12 @@
     {
       "name": "ass.pyrooven",
       "inputItem": [
-        ["item","hbm:item.item_expensive",6,6],
-        ["dict","ingotAnyHardPlastic",32],
+        ["dict","plateSextupleSteel",16],
+        ["dict","ingotAnyHardPlastic",16],
         ["item","hbm:item.ingot_cft",4],
-        ["item","hbm:item.motor_bismuth",4],
-        ["item","hbm:item.circuit",4,12],
-        ["item","hbm:item.item_expensive",2,5]
+        ["dict","ntmpipeCopper",12],
+        ["item","hbm:item.motor_desh"],
+        ["item","hbm:item.circuit",1,12]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_pyrooven"]]
@@ -1803,9 +1817,11 @@
     {
       "name": "ass.liquefactor",
       "inputItem": [
-        ["item","hbm:item.item_expensive",1,1],
-        ["dict","anyTar",16],
-        ["item","hbm:item.circuit",16,1]
+        ["dict","shellSteel",4],
+        ["dict","plateCopper",12],
+        ["dict","anyTar",4],
+        ["item","hbm:item.circuit",12,1],
+        ["item","hbm:item.coil_tungsten",8]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_liquefactor"]]
@@ -1816,9 +1832,11 @@
     {
       "name": "ass.solidifier",
       "inputItem": [
-        ["item","hbm:item.item_expensive",1,1],
-        ["dict","ingotAnyPlastic",16],
-        ["item","hbm:item.circuit",16,1]
+        ["dict","shellSteel",4],
+        ["dict","plateAluminum",12],
+        ["dict","ingotAnyPlastic",4],
+        ["item","hbm:item.circuit",12,1],
+        ["item","hbm:item.coil_copper",4]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_solidifier"]]
@@ -1829,10 +1847,11 @@
     {
       "name": "ass.compressor",
       "inputItem": [
-        ["item","hbm:item.item_expensive",3],
-        ["dict","shellSteel",4],
+        ["dict","plateTripleSteel",8],
+        ["dict","plateCopper",4],
+        ["dict","shellSteel",2],
         ["item","hbm:item.motor",3],
-        ["item","hbm:item.circuit",3,8]
+        ["item","hbm:item.circuit",1,8]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_compressor"]]
@@ -1843,10 +1862,11 @@
     {
       "name": "ass.compactcompressor",
       "inputItem": [
-        ["item","hbm:item.item_expensive",4],
-        ["dict","ntmpipeCopper",16],
-        ["item","hbm:item.motor",3],
-        ["item","hbm:item.item_expensive",1,2]
+        ["dict","plateTripleSteel",8],
+        ["dict","shellTitanium",4],
+        ["dict","ntmpipeCopper",4],
+        ["item","hbm:item.motor",2],
+        ["item","hbm:item.circuit",4,9]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_compressor_compact"]]
@@ -1857,9 +1877,10 @@
     {
       "name": "ass.epress",
       "inputItem": [
-        ["item","hbm:item.item_expensive",1,1],
-        ["item","hbm:item.part_generic",4,1],
-        ["item","hbm:item.circuit",4,9]
+        ["dict","plateSteel",8],
+        ["dict","ingotAnyRubber",4],
+        ["item","hbm:item.part_generic",2,1],
+        ["item","hbm:item.circuit",1,9]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_epress"]]
@@ -1870,11 +1891,13 @@
     {
       "name": "ass.fel",
       "inputItem": [
-        ["item","hbm:item.item_expensive",3,4],
+        ["item","hbm:tile.machine_lithium_battery"],
         ["dict","wireDenseAdvancedAlloy",64],
+        ["dict","plateTripleSteel",12],
         ["dict","ingotAnyPlastic",16],
         ["item","hbm:item.part_generic",4,5],
-        ["item","hbm:item.item_expensive",3,2]
+        ["item","hbm:item.circuit",16,1],
+        ["item","hbm:item.circuit",4,9]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_fel"]]
@@ -1885,9 +1908,11 @@
     {
       "name": "ass.silex",
       "inputItem": [
-        ["item","hbm:item.item_expensive",2,4],
         ["item","hbm:tile.glass_quartz",16],
-        ["dict","ingotRubber",16]
+        ["dict","plateTripleSteel",8],
+        ["dict","ingotDesh",4],
+        ["dict","ingotRubber",8],
+        ["dict","ntmpipeSteel",8]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_silex"]]
@@ -2052,11 +2077,13 @@
     {
       "name": "ass.mininglaser",
       "inputItem": [
-        ["item","hbm:item.item_expensive",4,1],
+        ["dict","plateSteel",16],
+        ["dict","shellTitanium",4],
         ["dict","plateDuraSteel",4],
-        ["item","hbm:item.crystal_redstone",12],
-        ["dict","ingotAnyPlastic",16],
-        ["item","hbm:item.motor_desh",3]
+        ["item","hbm:item.crystal_redstone",3],
+        ["item","minecraft:diamond",3],
+        ["dict","ingotAnyPlastic",8],
+        ["item","hbm:item.motor",3]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_mining_laser"]]
@@ -2082,10 +2109,11 @@
     {
       "name": "ass.radar",
       "inputItem": [
-        ["item","hbm:item.item_expensive",2,1],
-        ["item","hbm:item.magnetron",16],
-        ["item","hbm:item.motor",3],
-        ["item","hbm:item.item_expensive",2,2],
+        ["dict","plateSteel",12],
+        ["dict","ingotAnyRubber",12],
+        ["item","hbm:item.magnetron",5],
+        ["item","hbm:item.motor"],
+        ["item","hbm:item.circuit",8,9],
         ["item","hbm:item.crt_display",4]
       ],
       "outputItem": [
@@ -2097,12 +2125,12 @@
     {
       "name": "ass.radarlarge",
       "inputItem": [
-        ["item","hbm:item.item_expensive",4,1],
-        ["dict","ingotAnyResistantAlloy",8],
+        ["dict","plateSextupleSteel",6],
+        ["dict","ingotAnyResistantAlloy",4],
         ["dict","ingotAnyRubber",24],
         ["item","hbm:item.magnetron",16],
-        ["item","hbm:item.motor_desh",3],
-        ["item","hbm:item.item_expensive",6,2],
+        ["item","hbm:item.motor_desh"],
+        ["item","hbm:item.circuit",4,10],
         ["item","hbm:item.crt_display",4]
       ],
       "outputItem": [
@@ -2148,9 +2176,10 @@
     {
       "name": "ass.strandcaster",
       "inputItem": [
-        ["item","hbm:item.item_expensive",1,1],
         ["item","hbm:item.ingot_firebrick",16],
-        ["dict","shellSteel",4],
+        ["dict","plateTripleSteel",6],
+        ["dict","plateSextupleCopper",2],
+        ["dict","shellSteel",2],
         ["dict","anyConcrete",8]
       ],
       "outputItem": [
@@ -2162,13 +2191,13 @@
     {
       "name": "ass.assemfac",
       "inputItem": [
-        ["item","hbm:item.item_expensive",4,1],
-        ["dict","ingotAnyResistantAlloy",16],
+        ["dict","ingotDuraSteel",16],
+        ["dict","ingotAnyResistantAlloy",8],
         ["dict","ingotRubber",16],
         ["dict","ingotBoron",8],
         ["dict","shellSteel",4],
-        ["item","hbm:item.motor",24],
-        ["item","hbm:item.item_expensive",4,2]
+        ["item","hbm:item.motor",12],
+        ["item","hbm:item.circuit",16,9]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_assembly_factory"]]
@@ -2179,13 +2208,14 @@
     {
       "name": "ass.chemfac",
       "inputItem": [
-        ["item","hbm:item.item_expensive",4,1],
-        ["dict","ingotAnyResistantAlloy",16],
+        ["dict","ingotDuraSteel",16],
+        ["dict","ingotAnyResistantAlloy",8],
         ["dict","ingotRubber",16],
         ["dict","shellSteel",12],
-        ["dict","ntmpipeCopper",16],
-        ["item","hbm:item.motor_desh",16],
-        ["item","hbm:item.item_expensive",4,2]
+        ["dict","ntmpipeCopper",8],
+        ["item","hbm:item.motor_desh",4],
+        ["item","hbm:item.coil_tungsten",16],
+        ["item","hbm:item.circuit",16,9]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_chemical_factory"]]
@@ -2196,8 +2226,8 @@
     {
       "name": "ass.dieselgen",
       "inputItem": [
-        ["item","hbm:item.item_expensive"],
-        ["dict","ntmpipeCopper",2],
+        ["dict","shellSteel"],
+        ["dict","plateTripleCopper",2],
         ["item","hbm:item.coil_copper",4]
       ],
       "outputItem": [
@@ -2209,10 +2239,11 @@
     {
       "name": "ass.combustiongen",
       "inputItem": [
-        ["item","hbm:item.item_expensive",2,1],
-        ["dict","wireDenseGold",16],
+        ["dict","plateSteel",16],
+        ["dict","ingotCopper",12],
+        ["dict","wireDenseGold",8],
         ["item","hbm:item.canister_empty",4],
-        ["item","hbm:item.item_expensive",1,2]
+        ["item","hbm:item.circuit",1,9]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_combustion_engine"]]
@@ -2281,11 +2312,12 @@
     {
       "name": "ass.turbofan",
       "inputItem": [
-        ["item","hbm:item.item_expensive",3,1],
-        ["dict","ingotAnyPlastic",16],
-        ["item","hbm:item.turbine_tungsten",3],
-        ["dict","wireDenseGold",16],
-        ["item","hbm:item.item_expensive",3,2]
+        ["dict","shellTitanium",8],
+        ["dict","ntmpipeDuraSteel",4],
+        ["dict","ingotAnyPlastic",12],
+        ["item","hbm:item.turbine_tungsten"],
+        ["dict","wireDenseGold",12],
+        ["item","hbm:item.circuit",3,9]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_turbofan"]]
@@ -2296,11 +2328,13 @@
     {
       "name": "ass.gasturbine",
       "inputItem": [
-        ["item","hbm:item.item_expensive",4,1],
-        ["dict","wireDenseGold",16],
-        ["dict","ntmpipeDuraSteel",16],
-        ["item","hbm:item.turbine_tungsten",2],
-        ["item","hbm:item.item_expensive",3,2]
+        ["dict","shellSteel",10],
+        ["dict","wireDenseGold",12],
+        ["dict","ntmpipeDuraSteel",4],
+        ["dict","ntmpipeSteel",4],
+        ["item","hbm:item.turbine_tungsten"],
+        ["item","hbm:item.ingot_rubber",12],
+        ["item","hbm:item.circuit",3,9]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_turbinegas"]]
@@ -2311,9 +2345,11 @@
     {
       "name": "ass.hephaestus",
       "inputItem": [
-        ["item","hbm:item.item_expensive",8,1],
-        ["dict","ingotNiobium",16],
-        ["dict","ingotRubber",16],
+        ["dict","ntmpipeSteel",12],
+        ["dict","ingotSteel",24],
+        ["dict","plateCopper",24],
+        ["dict","ingotNiobium",4],
+        ["dict","ingotRubber",12],
         ["item","hbm:tile.glass_quartz",16]
       ],
       "outputItem": [
@@ -2325,11 +2361,13 @@
     {
       "name": "ass.iturbine",
       "inputItem": [
-        ["item","hbm:item.item_expensive",4,1],
+        ["dict","plateSteel",12],
+        ["dict","ingotRubber",4],
         ["item","hbm:item.turbine_titanium",3],
-        ["dict","wireDenseGold",16],
-        ["dict","ntmpipeDuraSteel",16],
-        ["item","hbm:item.item_expensive",3,2]
+        ["dict","wireDenseGold",6],
+        ["dict","ntmpipeDuraSteel",3],
+        ["dict","ntmpipeSteel",4],
+        ["item","hbm:item.circuit",4,9]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_large_turbine"]]
@@ -2340,12 +2378,16 @@
     {
       "name": "ass.leviturbine",
       "inputItem": [
-        ["item","hbm:item.item_expensive",8,1],
-        ["item","hbm:item.item_expensive",4,4],
+        ["dict","shellSteel",6],
+        ["dict","plateSextupleSteel",16],
+        ["dict","plateTitanium",12],
+        ["dict","ingotAnyResistantAlloy",16],
         ["item","hbm:item.turbine_tungsten",5],
-        ["item","hbm:item.turbine_titanium",12],
+        ["item","hbm:item.turbine_titanium",3],
         ["item","hbm:item.flywheel_beryllium"],
-        ["dict","wireDenseGold",64]
+        ["dict","wireDenseGold",48],
+        ["dict","ntmpipeDuraSteel",16],
+        ["dict","ntmpipeSteel",16]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_chungus"]]
@@ -2356,12 +2398,14 @@
     {
       "name": "ass.radgen",
       "inputItem": [
-        ["item","hbm:item.item_expensive",4,1],
-        ["item","hbm:item.coil_magnetized_tungsten",16],
+        ["dict","ingotSteel",8],
+        ["dict","plateSteel",32],
+        ["item","hbm:item.coil_magnetized_tungsten",6],
+        ["dict","wireFineMagnetizedTungsten",24],
+        ["item","hbm:item.circuit",16,9],
         ["item","hbm:item.reactor_core",3],
         ["dict","ingotStarmetal"],
-        ["dict","dyeRed"],
-        ["item","hbm:item.item_expensive",3,2]
+        ["dict","dyeRed"]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_radgen"]]
@@ -2373,10 +2417,12 @@
     {
       "name": "ass.hpcondenser",
       "inputItem": [
-        ["item","hbm:item.item_expensive",4,4],
-        ["item","hbm:item.motor_desh",5],
+        ["dict","plateSextupleSteel",8],
+        ["dict","plateSextupleAnyResistantAlloy",4],
+        ["dict","plateCopper",16],
+        ["item","hbm:item.motor_desh",3],
         ["dict","ntmpipeSteel",24],
-        ["dict","container1000lubricant",16]
+        ["dict","container1000lubricant",4]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_condenser_powered"]]
@@ -2440,10 +2486,10 @@
     {
       "name": "ass.fensusan",
       "inputItem": [
-        ["item","hbm:item.ingot_electronium",64],
+        ["item","hbm:item.ingot_electronium",32],
         ["item","hbm:tile.machine_dineutronium_battery",16],
-        ["item","hbm:item.item_expensive",64,6],
-        ["item","hbm:item.item_expensive",64,4],
+        ["dict","plateSextupleAnyResistantAlloy",64],
+        ["dict","blockDuraSteel",16],
         ["dict","blockStarmetal",64],
         ["item","hbm:tile.machine_transformer_dnt",8],
         ["item","hbm:item.coil_magnetized_tungsten",24],
@@ -2462,8 +2508,8 @@
     {
       "name": "ass.tank",
       "inputItem": [
-        ["item","hbm:item.item_expensive",4],
-        ["dict","anyTar",16]
+        ["dict","plateSteel",8],
+        ["dict","shellSteel",4]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_fluidtank"]]
@@ -2474,7 +2520,8 @@
     {
       "name": "ass.bat9k",
       "inputItem": [
-        ["item","hbm:item.item_expensive",4,4],
+        ["dict","plateSteel",16],
+        ["dict","plateSextupleAnyResistantAlloy",2],
         ["item","hbm:tile.steel_scaffold",16],
         ["dict","anyTar",16]
       ],
@@ -2487,9 +2534,9 @@
     {
       "name": "ass.orbus",
       "inputItem": [
-        ["item","hbm:item.item_expensive",8,4],
-        ["dict","plateTripleSaturnite",16],
-        ["item","hbm:item.coil_advanced_alloy",24],
+        ["dict","plateSextupleAnyResistantAlloy",8],
+        ["dict","plateTripleSaturnite",4],
+        ["item","hbm:item.coil_advanced_alloy",12],
         ["item","hbm:item.battery_sc_polonium"]
       ],
       "outputItem": [
@@ -2501,11 +2548,15 @@
     {
       "name": "ass.cyclotron",
       "inputItem": [
-        ["item","hbm:item.item_expensive",8,4],
+        ["item","hbm:tile.machine_lithium_battery",3],
         ["dict","wireDenseNeodymium",32],
-        ["dict","plateSextupleAluminum",16],
-        ["dict","ingotRubber",32],
-        ["item","hbm:item.item_expensive",8,2]
+        ["dict","ingotSteel",16],
+        ["dict","plateSteel",32],
+        ["dict","plateAluminum",32],
+        ["dict","ingotAnyPlastic",24],
+        ["dict","ingotRubber",24],
+        ["dict","plateTripleCopper",8],
+        ["item","hbm:item.circuit",16,9]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_cyclotron"]]
@@ -2516,7 +2567,7 @@
     {
       "name": "ass.beamline",
       "inputItem": [
-        ["item","hbm:item.item_expensive",4],
+        ["dict","plateTripleSteel",8],
         ["dict","plateCopper",16],
         ["dict","wireDenseGold",4]
       ],
@@ -2530,7 +2581,7 @@
       "name": "ass.rfc",
       "inputItem": [
         ["item","hbm:tile.pa_beamline",3],
-        ["item","hbm:item.item_expensive",4,3],
+        ["dict","plateTripleSteel",16],
         ["dict","plateCopper",64],
         ["dict","ingotAnyHardPlastic",16],
         ["item","hbm:item.magnetron",16]
@@ -2545,10 +2596,9 @@
       "name": "ass.quadrupole",
       "inputItem": [
         ["item","hbm:tile.pa_beamline"],
-        ["item","hbm:item.item_expensive",4,3],
+        ["dict","plateTripleSteel",16],
         ["dict","ingotAnyHardPlastic",16],
-        ["item","hbm:item.circuit",4,12],
-        ["item","hbm:item.item_expensive",1,5]
+        ["item","hbm:item.circuit",1,12]
       ],
       "outputItem": [
         ["single",["hbm:tile.pa_quadrupole"]]
@@ -2560,10 +2610,9 @@
       "name": "ass.dipole",
       "inputItem": [
         ["item","hbm:tile.pa_beamline",2],
-        ["item","hbm:item.item_expensive",4,3],
+        ["dict","plateTripleSteel",16],
         ["dict","ingotAnyHardPlastic",32],
-        ["item","hbm:item.circuit",16,12],
-        ["item","hbm:item.item_expensive",1,5]
+        ["item","hbm:item.circuit",4,12]
       ],
       "outputItem": [
         ["single",["hbm:tile.pa_dipole"]]
@@ -2575,11 +2624,10 @@
       "name": "ass.source",
       "inputItem": [
         ["item","hbm:tile.pa_beamline",3],
-        ["item","hbm:item.item_expensive",16,3],
+        ["dict","plateTripleSteel",16],
         ["dict","ingotAnyHardPlastic",16],
         ["item","hbm:item.magnetron",16],
-        ["item","hbm:item.circuit",4,18],
-        ["item","hbm:item.item_expensive",4,5]
+        ["item","hbm:item.circuit",1,18]
       ],
       "outputItem": [
         ["single",["hbm:tile.pa_source"]]
@@ -2591,11 +2639,10 @@
       "name": "ass.detector",
       "inputItem": [
         ["item","hbm:tile.pa_beamline",3],
-        ["item","hbm:item.item_expensive",32,3],
-        ["dict","wireDenseGold",64],
+        ["dict","plateTripleSteel",24],
+        ["dict","wireDenseGold",16],
         ["dict","ingotAnyHardPlastic",16],
-        ["item","hbm:item.circuit",4,18],
-        ["item","hbm:item.item_expensive",8,5]
+        ["item","hbm:item.circuit",4,18]
       ],
       "outputItem": [
         ["single",["hbm:tile.pa_detector"]]
@@ -2655,11 +2702,14 @@
     {
       "name": "ass.exposurechamber",
       "inputItem": [
-        ["item","hbm:item.item_expensive",8,3],
-        ["dict","ingotAnyHardPlastic",24],
+        ["dict","plateTripleAluminum",12],
+        ["dict","ingotAnyResistantAlloy",4],
+        ["dict","ingotAnyHardPlastic",12],
         ["dict","wireDenseAdvancedAlloy",32],
+        ["item","hbm:item.motor_desh",2],
         ["item","hbm:item.circuit",4,12],
-        ["item","hbm:item.item_expensive",2,5]
+        ["item","hbm:tile.capacitor_tantalium"],
+        ["item","hbm:tile.glass_quartz",16]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_exposure_chamber"]]
@@ -2670,9 +2720,11 @@
     {
       "name": "ass.breedingreactor",
       "inputItem": [
-        ["item","hbm:item.item_expensive",4,3],
         ["item","hbm:item.reactor_core"],
-        ["dict","ingotAsbestos",16],
+        ["dict","ingotSteel",12],
+        ["dict","plateLead",16],
+        ["item","hbm:tile.reinforced_glass",4],
+        ["dict","ingotAsbestos",4],
         ["dict","ingotAnyResistantAlloy",4],
         ["item","hbm:item.crt_display"]
       ],
@@ -2685,10 +2737,13 @@
     {
       "name": "ass.researchreactor",
       "inputItem": [
-        ["item","hbm:item.item_expensive",4,4],
+        ["dict","ingotSteel",8],
+        ["dict","ingotAnyResistantAlloy",4],
         ["item","hbm:item.motor_desh",2],
+        ["dict","ingotBoron",5],
+        ["dict","plateLead",8],
         ["item","hbm:item.crt_display",3],
-        ["item","hbm:item.item_expensive",2,2]
+        ["item","hbm:item.circuit",4,9]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_reactor_small"]]
@@ -2699,11 +2754,13 @@
     {
       "name": "ass.cirnox",
       "inputItem": [
-        ["item","hbm:item.item_expensive",4,3],
+        ["dict","shellSteel",4],
+        ["dict","ntmpipeSteel",8],
+        ["dict","ingotBoron",8],
         ["dict","ingotGraphite",16],
         ["dict","ingotRubber",16],
         ["dict","anyConcrete",16],
-        ["item","hbm:item.item_expensive",2,2]
+        ["item","hbm:item.circuit",4,9]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_zirnox"]]
@@ -2715,8 +2772,9 @@
       "name": "ass.rbmk",
       "inputItem": [
         ["item","hbm:tile.concrete_asbestos",4],
-        ["item","hbm:item.item_expensive",1,4],
-        ["dict","plateCopper",16]
+        ["dict","plateTripleSteel",4],
+        ["dict","plateCopper",8],
+        ["item","hbm:item.plate_polymer",4]
       ],
       "outputItem": [
         ["single",["hbm:tile.rbmk_blank"]]
@@ -2727,8 +2785,10 @@
     {
       "name": "ass.rbmkautoloader",
       "inputItem": [
-        ["item","hbm:item.item_expensive",4,4],
-        ["item","hbm:item.motor_desh",3]
+        ["dict","plateSextupleSteel",4],
+        ["dict","plateTripleLead",4],
+        ["dict","ingotBoron",4],
+        ["item","hbm:item.motor",3]
       ],
       "outputItem": [
         ["single",["hbm:tile.rbmk_autoloader"]]
@@ -2739,7 +2799,7 @@
     {
       "name": "ass.pwrfuel",
       "inputItem": [
-        ["item","hbm:item.item_expensive",1,3],
+        ["dict","plateTripleLead",4],
         ["dict","plateSextupleZirconium",2]
       ],
       "outputItem": [
@@ -2751,7 +2811,7 @@
     {
       "name": "ass.pwrcontrol",
       "inputItem": [
-        ["item","hbm:item.item_expensive"],
+        ["dict","plateTripleSteel",2],
         ["dict","ingotBoron",4],
         ["item","hbm:item.motor"]
       ],
@@ -2764,8 +2824,8 @@
     {
       "name": "ass.pwrchannel",
       "inputItem": [
-        ["item","hbm:item.item_expensive",2],
-        ["dict","ntmpipeSteel",4]
+        ["dict","ntmpipeSteel",4],
+        ["dict","plateCopper",4]
       ],
       "outputItem": [
         ["single",["hbm:tile.pwr_channel",4]]
@@ -2776,11 +2836,8 @@
     {
       "name": "ass.pwrheatex",
       "inputItem": [
-        ["item","hbm:item.item_expensive",2],
-        ["dict","plateTripleCopper",4]
-      ],
-      "inputFluid": [
-        ["PERFLUOROMETHYL",4000]
+        ["dict","plateTripleCopper",4],
+        ["item","hbm:item.motor"]
       ],
       "outputItem": [
         ["single",["hbm:tile.pwr_heatex",4]]
@@ -2792,7 +2849,7 @@
       "name": "ass.pwrheatsink",
       "inputItem": [
         ["dict","plateTripleSaturnite",4],
-        ["item","hbm:item.item_expensive",1,4]
+        ["dict","plateTripleCopper",4]
       ],
       "outputItem": [
         ["single",["hbm:tile.pwr_heatsink",4]]
@@ -2803,8 +2860,8 @@
     {
       "name": "ass.pwrreflector",
       "inputItem": [
-        ["item","hbm:item.item_expensive"],
-        ["dict","plateTungCar",16]
+        ["dict","plateTripleSteel",2],
+        ["dict","plateTungCar",4]
       ],
       "outputItem": [
         ["single",["hbm:tile.pwr_reflector",4]]
@@ -2815,7 +2872,7 @@
     {
       "name": "ass.pwrcasing",
       "inputItem": [
-        ["item","hbm:item.item_expensive",1,3],
+        ["dict","plateLead",4],
         ["dict","anyConcrete",4]
       ],
       "outputItem": [
@@ -2827,8 +2884,9 @@
     {
       "name": "ass.pwrcontroller",
       "inputItem": [
-        ["item","hbm:item.item_expensive",1,3],
-        ["item","hbm:item.item_expensive",3,2]
+        ["dict","plateTripleLead",4],
+        ["dict","ingotRubber",4],
+        ["item","hbm:item.circuit",4,9]
       ],
       "outputItem": [
         ["single",["hbm:tile.pwr_controller"]]
@@ -2839,7 +2897,7 @@
     {
       "name": "ass.pwrport",
       "inputItem": [
-        ["item","hbm:item.item_expensive",1,3],
+        ["dict","plateLead",4],
         ["dict","anyConcrete",4],
         ["dict","ntmpipeSteel",4]
       ],
@@ -2852,7 +2910,6 @@
     {
       "name": "ass.pwrneutronsource",
       "inputItem": [
-        ["item","hbm:item.item_expensive",1,3],
         ["dict","plateSextupleZirconium"],
         ["item","hbm:item.billet_ra226be",3]
       ],
@@ -2876,9 +2933,9 @@
     {
       "name": "ass.fusioncore",
       "inputItem": [
-        ["item","hbm:item.item_expensive",8,4],
-        ["item","hbm:item.item_expensive",8,7],
-        ["item","hbm:item.circuit",16,12]
+        ["dict","plateSextupleAnyResistantAlloy",8],
+        ["dict","ingotAnyHardPlastic",32],
+        ["item","hbm:item.circuit",8,12]
       ],
       "outputItem": [
         ["single",["hbm:tile.struct_torus_core"]]
@@ -2889,9 +2946,10 @@
     {
       "name": "ass.fusionbscco",
       "inputItem": [
-        ["dict","wireDenseBSCCO",4],
-        ["item","hbm:item.item_expensive",1,4],
-        ["item","hbm:item.item_expensive",1,7]
+        ["dict","wireDenseBSCCO"],
+        ["dict","ntmpipeCopper"],
+        ["dict","ingotAnyResistantAlloy"],
+        ["dict","ingotAnyPlastic",4]
       ],
       "outputItem": [
         ["single",["hbm:tile.fusion_component",2]]
@@ -2902,8 +2960,8 @@
     {
       "name": "ass.fusionblanket",
       "inputItem": [
-        ["dict","plateSextupleTungsten",4],
-        ["item","hbm:item.item_expensive",1,1],
+        ["dict","plateSextupleTungsten"],
+        ["dict","plateSextupleSteel",2],
         ["dict","ingotBeryllium",4]
       ],
       "outputItem": [
@@ -2915,9 +2973,10 @@
     {
       "name": "ass.fusionpipes",
       "inputItem": [
-        ["item","hbm:item.item_expensive",1,7],
-        ["dict","ntmpipeCopper",4],
-        ["item","hbm:item.item_expensive",1,2]
+        ["dict","ingotAnyHardPlastic",4],
+        ["dict","ntmpipeCopper",2],
+        ["item","hbm:item.motor",2],
+        ["item","hbm:item.circuit",1,9]
       ],
       "outputItem": [
         ["single",["hbm:tile.fusion_component",4,3]]
@@ -2928,10 +2987,12 @@
     {
       "name": "ass.fusionklystron",
       "inputItem": [
-        ["dict","wireDenseBSCCO",32],
-        ["item","hbm:item.item_expensive",16,4],
-        ["item","hbm:item.item_expensive",8,7],
-        ["item","hbm:item.item_expensive",1,5]
+        ["dict","plateSextupleTungsten",4],
+        ["dict","plateTripleAnyResistantAlloy",16],
+        ["dict","plateCopper",32],
+        ["dict","ingotAnyHardPlastic",16],
+        ["dict","wireDenseBSCCO",8],
+        ["item","hbm:item.circuit",2,12]
       ],
       "outputItem": [
         ["single",["hbm:tile.fusion_klystron"]]
@@ -2942,9 +3003,10 @@
     {
       "name": "ass.fusioncollector",
       "inputItem": [
-        ["item","hbm:item.item_expensive",2,4],
-        ["dict","ingotGraphite",64],
-        ["item","hbm:item.item_expensive",4,7]
+        ["dict","plateTripleAnyResistantAlloy",4],
+        ["dict","plateSteel",16],
+        ["dict","ingotGraphite",16],
+        ["dict","ingotAnyHardPlastic",4]
       ],
       "outputItem": [
         ["single",["hbm:tile.fusion_collector"]]
@@ -2955,9 +3017,10 @@
     {
       "name": "ass.fusionbreeder",
       "inputItem": [
-        ["item","hbm:item.item_expensive",4,4],
-        ["dict","ingotBoron",64],
-        ["item","hbm:item.item_expensive",4,7]
+        ["dict","plateTripleAnyResistantAlloy",4],
+        ["dict","ntmpipeSteel",4],
+        ["dict","ingotBoron",16],
+        ["dict","ingotAnyHardPlastic",16]
       ],
       "outputItem": [
         ["single",["hbm:tile.fusion_breeder"]]
@@ -2968,9 +3031,10 @@
     {
       "name": "ass.fusionboiler",
       "inputItem": [
-        ["item","hbm:item.item_expensive",8,4],
-        ["item","hbm:item.item_expensive",8,1],
-        ["item","hbm:item.item_expensive",16,7]
+        ["dict","plateTripleAnyResistantAlloy",16],
+        ["dict","shellCopper",16],
+        ["dict","ntmpipeSteel",8],
+        ["dict","ingotAnyHardPlastic",16]
       ],
       "outputItem": [
         ["single",["hbm:tile.fusion_boiler"]]
@@ -2981,10 +3045,11 @@
     {
       "name": "ass.fusionmhdt",
       "inputItem": [
-        ["item","hbm:item.item_expensive",16,4],
-        ["item","hbm:item.item_expensive",16,7],
-        ["dict","plateTripleAnyBismoidBronze",32],
-        ["item","hbm:item.circuit",8,18]
+        ["dict","plateSextupleAnyResistantAlloy",16],
+        ["dict","plateSextupleCopper",64],
+        ["dict","plateTripleAnyBismoidBronze",16],
+        ["dict","wireDenseSchrabidate",64],
+        ["item","hbm:item.circuit",4,18]
       ],
       "outputItem": [
         ["single",["hbm:tile.fusion_mhdt"]]
@@ -2995,9 +3060,10 @@
     {
       "name": "ass.fusioncoupler",
       "inputItem": [
-        ["item","hbm:item.item_expensive",4,4],
+        ["dict","plateSextupleAnyResistantAlloy",4],
+        ["dict","plateCopper",32],
         ["dict","wireDenseBSCCO",16],
-        ["item","hbm:item.item_expensive",2,5]
+        ["item","hbm:item.circuit",4,12]
       ],
       "outputItem": [
         ["single",["hbm:tile.fusion_coupler"]]
@@ -3008,8 +3074,9 @@
     {
       "name": "ass.watzrod",
       "inputItem": [
-        ["item","hbm:item.item_expensive",3,4],
-        ["dict","ingotSaturnite",6],
+        ["dict","plateTripleSteel",2],
+        ["dict","ingotZirconium",2],
+        ["dict","ingotSaturnite",2],
         ["dict","ingotAnyHardPlastic",4]
       ],
       "outputItem": [
@@ -3021,8 +3088,9 @@
     {
       "name": "ass.watzcooler",
       "inputItem": [
-        ["item","hbm:item.item_expensive",3,4],
-        ["dict","ingotRubber",8]
+        ["dict","plateTripleSteel",2],
+        ["dict","plateTripleCopper",4],
+        ["dict","ingotRubber",2]
       ],
       "outputItem": [
         ["single",["hbm:tile.watz_cooler",3]]
@@ -3033,8 +3101,9 @@
     {
       "name": "ass.watzcasing",
       "inputItem": [
-        ["item","hbm:item.item_expensive",6,3],
-        ["dict","plateSextupleAnyResistantAlloy"]
+        ["dict","plateSextupleAnyResistantAlloy"],
+        ["dict","ingotBoron",3],
+        ["dict","plateSextupleSteel",2]
       ],
       "outputItem": [
         ["single",["hbm:tile.watz_end",3]]
@@ -3045,8 +3114,8 @@
     {
       "name": "ass.icfcell",
       "inputItem": [
-        ["item","hbm:item.item_expensive",2,6],
-        ["item","hbm:item.ingot_cft",8],
+        ["item","hbm:item.ingot_cft",2],
+        ["dict","plateTripleAnyBismoidBronze",4],
         ["item","hbm:tile.glass_quartz",16]
       ],
       "outputItem": [
@@ -3058,7 +3127,7 @@
     {
       "name": "ass.icfemitter",
       "inputItem": [
-        ["dict","plateSextupleTungsten",8],
+        ["dict","plateSextupleTungsten",4],
         ["dict","wireDenseMagnetizedTungsten",16]
       ],
       "inputFluid": [
@@ -3073,7 +3142,7 @@
     {
       "name": "ass.icfcapacitor",
       "inputItem": [
-        ["item","hbm:item.item_expensive",3,4],
+        ["dict","plateSextupleAnyResistantAlloy"],
         ["dict","wireDenseNeodymium",16],
         ["dict","wireDenseSchrabidate",2]
       ],
@@ -3086,8 +3155,8 @@
     {
       "name": "ass.icfturbo",
       "inputItem": [
-        ["dict","plateSextupleAnyResistantAlloy",8],
-        ["dict","wireDenseDineutronium",8],
+        ["dict","plateSextupleAnyResistantAlloy",2],
+        ["dict","wireDenseDineutronium",4],
         ["dict","wireDenseSchrabidate",4]
       ],
       "outputItem": [
@@ -3099,7 +3168,7 @@
     {
       "name": "ass.icfcasing",
       "inputItem": [
-        ["item","hbm:item.item_expensive",4,6],
+        ["dict","plateTripleAnyBismoidBronze",4],
         ["dict","plateTripleSaturnite",4],
         ["dict","ingotAnyHardPlastic",16]
       ],
@@ -3112,7 +3181,7 @@
     {
       "name": "ass.icfport",
       "inputItem": [
-        ["item","hbm:item.item_expensive",4,6],
+        ["dict","plateTripleAnyBismoidBronze",4],
         ["dict","ingotAnyHardPlastic",16],
         ["dict","wireDenseNeodymium",16]
       ],
@@ -3125,11 +3194,10 @@
     {
       "name": "ass.icfcontroller",
       "inputItem": [
-        ["item","hbm:item.item_expensive",4,6],
         ["item","hbm:item.ingot_cft",16],
+        ["dict","plateTripleAnyBismoidBronze",4],
         ["dict","ingotAnyHardPlastic",16],
-        ["item","hbm:item.circuit",32,12],
-        ["item","hbm:item.item_expensive",4,5]
+        ["item","hbm:item.circuit",16,12]
       ],
       "outputItem": [
         ["single",["hbm:tile.icf_controller"]]
@@ -3140,7 +3208,8 @@
     {
       "name": "ass.icfscaffold",
       "inputItem": [
-        ["item","hbm:item.item_expensive",8]
+        ["dict","plateSextupleSteel",4],
+        ["dict","plateSextupleTitanium",2]
       ],
       "outputItem": [
         ["single",["hbm:tile.icf_component"]]
@@ -3164,8 +3233,9 @@
     {
       "name": "ass.icfstructural",
       "inputItem": [
-        ["item","hbm:item.item_expensive",1,6],
-        ["dict","plateSextupleSteel",8]
+        ["dict","plateSextupleSteel",2],
+        ["dict","plateSextupleCopper",2],
+        ["dict","plateTripleAnyBismoidBronze"]
       ],
       "outputItem": [
         ["single",["hbm:tile.icf_component",1,3]]
@@ -3176,11 +3246,12 @@
     {
       "name": "ass.icfcore",
       "inputItem": [
-        ["item","hbm:item.item_expensive",16,6],
         ["dict","plateSextupleCMBSteel",16],
+        ["dict","plateSextupleAnyResistantAlloy",16],
+        ["dict","plateTripleAnyBismoidBronze",16],
         ["dict","wireDenseSchrabidate",32],
-        ["item","hbm:item.circuit",32,18],
-        ["item","hbm:item.item_expensive",16,5]
+        ["item","hbm:item.circuit",32,12],
+        ["item","hbm:item.circuit",16,18]
       ],
       "outputItem": [
         ["single",["hbm:tile.struct_icf_core"]]
@@ -4998,16 +5069,15 @@
       "name": "ass.gerald",
       "inputItem": [
         ["dict","plateTripleSchrabidate",64],
+        ["dict","plateTripleSchrabidate",64],
+        ["dict","wireDenseBSCCO",64],
         ["dict","wireDenseBSCCO",64],
         ["item","hbm:tile.det_nuke",64],
-        ["item","hbm:item.item_expensive",64,6],
-        ["item","hbm:item.item_expensive",64,6],
-        ["item","hbm:item.item_expensive",64,6],
+        ["item","hbm:item.part_generic",64,4],
         ["item","hbm:item.part_generic",64,4],
         ["item","hbm:item.part_generic",64,4],
         ["item","hbm:item.part_generic",64,4],
         ["item","hbm:item.circuit",64,20],
-        ["item","hbm:item.item_expensive",64,5],
         ["item","hbm:item.coin_ufo"]
       ],
       "outputItem": [
