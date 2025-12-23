@@ -2,24 +2,28 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
+      "questIDLow:4": 139
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
       "questIDLow:4": 47
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "§3Tanks§r and §3Barrels§r are useful storage devices that can hold various fluids in various amounts. Each tank and barrel supports holding different types of corrosive, hot, or exotic fluids, and knowing which ones can hold your desired fluids can be vital to your fluid processing and storage facilities.\n\nTanks can hold up to 256,000mb of fluids, while a Steel Barrel can hold 16,000.\n\n§4§2Tanks cant hold highly Antimatter and Corrosive fluids and as such a Big-Ass Tank 9000 or a Magnetic Tank is needed respectively.",
+      "desc:8": "The §3Precision Assembly Machine§r is a machine which can produce §6Blueprints§r. Due to the recipes having a low success rate, automation of the ingredient is recommended.\n\nPufferfish can be obtained from throwing §6Fishing Dynamite§r in water.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "hbm:tile.machine_fluidtank"
+        "id:8": "hbm:tile.machine_precass"
       },
-      "isMain:1": 0,
+      "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Tank",
+      "name:8": "Precision Assembly Machine",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -30,15 +34,15 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 94,
+  "questIDHigh:4": -5427783828413726290,
+  "questIDLow:4": -5558476693263304964,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "partialMatch:1": 1,
       "requiredItems:9": {
@@ -46,7 +50,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:tile.machine_fluidtank"
+          "id:8": "hbm:tile.machine_precass"
         }
       },
       "taskID:8": "bq_standard:retrieval"

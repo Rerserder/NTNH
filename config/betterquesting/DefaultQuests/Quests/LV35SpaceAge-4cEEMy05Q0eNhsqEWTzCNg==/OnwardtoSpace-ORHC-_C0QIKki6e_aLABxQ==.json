@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "You\u0027ve assembled your first rocket, and you\u0027ll likely be heading to the moon first, where there is (almost) no hostile fauna. Good luck!",
+      "desc:8": "Due to the expansive nature of rocket assembly, it is highly recommend that the wiki is checked out as it provides more information.\n\n[url]https://nucleartech.wiki/wiki/Vehicle_Assembly_Base_(NTM:_Space)[/url]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -19,7 +19,7 @@
       "isMain:1": 1,
       "isSilent:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Onward to Space!!!",
+      "name:8": "Onward to Space!",
       "questLogic:8": "AND",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
@@ -57,56 +57,8 @@
   },
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
       "index:3": 0,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "hbm:item.rp_c_20"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "hbm:item.rp_f_20_6"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "hbm:item.mp_thruster_20_kerosene_triple"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "hbm:item.mp_thruster_20_methalox_triple"
-        },
-        "2:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "hbm:item.mp_thruster_20_hydrogen_triple"
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:checkbox"
     }
   }
 }
