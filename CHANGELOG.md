@@ -1,5 +1,8 @@
 # 2.3.0 Release
 ### This is a big one, make sure to backup your worlds before updating!
+### Note: Dynamic Surrounding mod sounds are temporarily disabled
+### You can enable them if you want in minecraft/config/dsurround/dsurround.cfg
+### Line #210 B:"Enable Biome Sounds"=false -> B:"Enable Biome Sounds"=true
 
 ## What's changed?
 **Added**
