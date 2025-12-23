@@ -69,6 +69,7 @@
 - Beernox resourcepack included by default
 - ForgeEssentials for easy server login
 - Added budding certus quartz
+- Added sugarcane seeds recipe
 
 
 

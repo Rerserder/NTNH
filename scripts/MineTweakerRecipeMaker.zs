@@ -25,6 +25,7 @@ recipes.remove(<BiblioCraft:item.tape>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<AgriCraft:seedSugarcane>, [<ore:cropSugarcane>, <AgriCraft:clipper>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
