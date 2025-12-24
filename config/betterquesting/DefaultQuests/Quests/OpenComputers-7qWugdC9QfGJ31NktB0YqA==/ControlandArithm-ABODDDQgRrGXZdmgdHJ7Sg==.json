@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Control Unit is used to create CPUs and Component Buses.\n\nThe Arithmetic Logic Unit is used for crafting components that perform calculations, such as CPUs and Graphics Cards.",
+      "desc:8": "The §6Control Unit§r is used to create §6CPUs§r and §6Component Buses§r.\n\nThe §6Arithmetic Logic Unit§r is used for crafting components that perform calculations, such as CPUs and §6Graphics Cards§r.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

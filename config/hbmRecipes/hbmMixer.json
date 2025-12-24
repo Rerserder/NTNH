@@ -1,80 +1,64 @@
 {
   "recipes": [
     {
-      "outputType": "SULFURIC_ACID",
-      "recipes": [
-        {
-          "duration": 50,
-          "outputAmount": 500,
-          "input1": ["PEROXIDE",800],
-          "solidInput": ["dict","dustSulfur"]
-        }
-      ]
-    },
-    {
-      "outputType": "FULLERENE",
-      "recipes": [
-        {
-          "duration": 50,
-          "outputAmount": 250,
-          "input1": ["RADIOSOLVENT",500],
-          "solidInput": ["item","hbm:item.powder_ash",1,4]
-        }
-      ]
-    },
-    {
-      "outputType": "CONGLOMERA",
-      "recipes": [
-        {
-          "duration": 70,
-          "outputAmount": 1000,
-          "input1": ["SULFURIC_ACID",350],
-          "solidInput": ["item","hbm:tile.stone_resource",1,6]
-        }
-      ]
-    },
-    {
-      "outputType": "COOLANT",
-      "recipes": [
-        {
-          "duration": 50,
-          "outputAmount": 2000,
-          "input1": ["WATER",1800],
-          "solidInput": ["dict","dustSaltpeter"]
-        }
-      ]
-    },
-    {
-      "outputType": "CBENZ",
+      "outputType": "PHOSGENE",
       "recipes": [
         {
           "duration": 20,
-          "outputAmount": 250,
-          "input1": ["HCL",500],
-          "solidInput": ["item","hbm:item.pet_leaves",32]
+          "outputAmount": 1000,
+          "input1": ["UNSATURATEDS",500],
+          "input2": ["CHLORINE",500]
         }
       ]
     },
     {
-      "outputType": "CHLOROCALCITE_MIX",
+      "outputType": "DIESEL_CRACK_REFORM",
       "recipes": [
         {
           "duration": 50,
           "outputAmount": 1000,
-          "input1": ["CHLOROCALCITE_SOLUTION",500],
-          "input2": ["SULFURIC_ACID",500],
-          "solidInput": ["item","hbm:item.powder_flux"]
+          "input1": ["DIESEL_CRACK",900],
+          "input2": ["REFORMATE",100]
         }
       ]
     },
     {
-      "outputType": "SMILK",
+      "outputType": "DICYANOACETYLENE",
       "recipes": [
         {
           "duration": 50,
-          "outputAmount": 500,
-          "input1": ["MILK",500],
-          "solidInput": ["item","harvestcraft:strawberryItem",4]
+          "outputAmount": 750,
+          "input1": ["AMMONIA",300],
+          "input2": ["UNSATURATEDS",500]
+        }
+      ]
+    },
+    {
+      "outputType": "SOLVENT",
+      "recipes": [
+        {
+          "duration": 50,
+          "outputAmount": 1000,
+          "input1": ["NAPHTHA",500],
+          "input2": ["AROMATICS",500]
+        },
+        {
+          "duration": 50,
+          "outputAmount": 1000,
+          "input1": ["NAPHTHA_CRACK",500],
+          "input2": ["AROMATICS",500]
+        },
+        {
+          "duration": 50,
+          "outputAmount": 1000,
+          "input1": ["NAPHTHA_DS",500],
+          "input2": ["AROMATICS",500]
+        },
+        {
+          "duration": 50,
+          "outputAmount": 1000,
+          "input1": ["NAPHTHA_COKER",500],
+          "input2": ["AROMATICS",500]
         }
       ]
     },
@@ -91,14 +75,24 @@
       ]
     },
     {
-      "outputType": "NITAN",
+      "outputType": "ELBOWGREASE",
       "recipes": [
         {
           "duration": 50,
           "outputAmount": 1000,
-          "input1": ["KEROSENE",600],
-          "input2": ["MERCURY",200],
-          "solidInput": ["item","hbm:item.powder_nitan_mix"]
+          "input1": ["REFORMGAS",500],
+          "input2": ["SYNGAS",500]
+        }
+      ]
+    },
+    {
+      "outputType": "ETHANOL",
+      "recipes": [
+        {
+          "duration": 30,
+          "outputAmount": 450,
+          "input1": ["CHLOROETHANE",250],
+          "input2": ["REDMUD",300]
         }
       ]
     },
@@ -115,17 +109,6 @@
       ]
     },
     {
-      "outputType": "EGG",
-      "recipes": [
-        {
-          "duration": 50,
-          "outputAmount": 1000,
-          "input1": ["RADIOSOLVENT",500],
-          "solidInput": ["item","minecraft:egg"]
-        }
-      ]
-    },
-    {
       "outputType": "GASOLINE_LEADED",
       "recipes": [
         {
@@ -137,85 +120,13 @@
       ]
     },
     {
-      "outputType": "LYE",
-      "recipes": [
-        {
-          "duration": 100,
-          "outputAmount": 50,
-          "input1": ["WATER",500],
-          "solidInput": ["item","hbm:item.powder_ash",2]
-        }
-      ]
-    },
-    {
-      "outputType": "AQUEOUS_NICKEL",
-      "recipes": [
-        {
-          "duration": 80,
-          "outputAmount": 1000,
-          "input1": ["BRINE",250],
-          "solidInput": ["dict","dustNickel"]
-        }
-      ]
-    },
-    {
-      "outputType": "ELBOWGREASE",
+      "outputType": "SULFURIC_ACID",
       "recipes": [
         {
           "duration": 50,
-          "outputAmount": 1000,
-          "input1": ["REFORMGAS",500],
-          "input2": ["SYNGAS",500]
-        }
-      ]
-    },
-    {
-      "outputType": "AQUEOUS_COPPER",
-      "recipes": [
-        {
-          "duration": 80,
-          "outputAmount": 1000,
-          "input1": ["BRINE",250],
-          "solidInput": ["item","hbm:item.chunk_ore",1,1]
-        }
-      ]
-    },
-    {
-      "outputType": "NITRIC_ACID",
-      "recipes": [
-        {
-          "duration": 50,
-          "outputAmount": 1000,
-          "input1": ["AMMONIA",1000],
-          "input2": ["WATER",500]
-        },
-        {
-          "duration": 50,
-          "outputAmount": 1000,
-          "input1": ["SULFURIC_ACID",500],
-          "solidInput": ["dict","dustSaltpeter"]
-        }
-      ]
-    },
-    {
-      "outputType": "PETROIL_LEADED",
-      "recipes": [
-        {
-          "duration": 40,
-          "outputAmount": 12000,
-          "input1": ["PETROIL",10000],
-          "solidInput": ["item","hbm:item.fuel_additive"]
-        }
-      ]
-    },
-    {
-      "outputType": "ETHANOL",
-      "recipes": [
-        {
-          "duration": 30,
-          "outputAmount": 450,
-          "input1": ["CHLOROETHANE",250],
-          "input2": ["REDMUD",300]
+          "outputAmount": 500,
+          "input1": ["PEROXIDE",800],
+          "solidInput": ["dict","dustSulfur"]
         }
       ]
     },
@@ -232,74 +143,47 @@
       ]
     },
     {
-      "outputType": "RADIOSOLVENT",
+      "outputType": "COFFEE",
       "recipes": [
         {
           "duration": 50,
-          "outputAmount": 1000,
-          "input1": ["REFORMGAS",750],
-          "input2": ["CHLORINE",250]
-        },
-        {
-          "duration": 20,
-          "outputAmount": 5000,
-          "input1": ["REFORMGAS",500],
-          "solidInput": ["item","hbm:tile.geysir_chloric"]
-        }
-      ]
-    },
-    {
-      "outputType": "COLLOID",
-      "recipes": [
-        {
-          "duration": 20,
-          "outputAmount": 500,
+          "outputAmount": 100,
           "input1": ["WATER",500],
-          "solidInput": ["item","hbm:item.dust"]
+          "solidInput": ["item","hbm:item.powder_coffee",4]
         }
       ]
     },
     {
-      "outputType": "DIESEL_REFORM",
+      "outputType": "LYE",
+      "recipes": [
+        {
+          "duration": 100,
+          "outputAmount": 50,
+          "input1": ["WATER",500],
+          "solidInput": ["item","hbm:item.powder_ash",2]
+        }
+      ]
+    },
+    {
+      "outputType": "CHLOROCALCITE_MIX",
       "recipes": [
         {
           "duration": 50,
           "outputAmount": 1000,
-          "input1": ["DIESEL",900],
-          "input2": ["REFORMATE",100]
+          "input1": ["CHLOROCALCITE_SOLUTION",500],
+          "input2": ["SULFURIC_ACID",500],
+          "solidInput": ["item","hbm:item.powder_flux"]
         }
       ]
     },
     {
-      "outputType": "MINSOL",
+      "outputType": "BAUXITE_SOLUTION",
       "recipes": [
         {
-          "duration": 50,
-          "outputAmount": 500,
-          "input1": ["NITRIC_ACID",500],
-          "solidInput": ["item","hbm:tile.ore_mineral",1,32767]
-        }
-      ]
-    },
-    {
-      "outputType": "OXYHYDROGEN",
-      "recipes": [
-        {
-          "duration": 50,
-          "outputAmount": 1000,
-          "input1": ["HYDROGEN",500],
-          "input2": ["OXYGEN",500]
-        }
-      ]
-    },
-    {
-      "outputType": "PHOSGENE",
-      "recipes": [
-        {
-          "duration": 20,
-          "outputAmount": 1000,
-          "input1": ["UNSATURATEDS",500],
-          "input2": ["CHLORINE",500]
+          "duration": 80,
+          "outputAmount": 300,
+          "input1": ["LYE",50],
+          "solidInput": ["item","hbm:tile.stone_resource",1,5]
         }
       ]
     },
@@ -327,80 +211,20 @@
       ]
     },
     {
-      "outputType": "ENDERJUICE",
+      "outputType": "FRACKSOL",
       "recipes": [
         {
-          "duration": 100,
-          "outputAmount": 100,
-          "input1": ["XPJUICE",500],
-          "solidInput": ["dict","dustDiamond"]
-        }
-      ]
-    },
-    {
-      "outputType": "PHEROMONE_M",
-      "recipes": [
-        {
-          "duration": 10,
-          "outputAmount": 2000,
-          "input1": ["PHEROMONE",1500],
-          "input2": ["BLOOD",500],
-          "solidInput": ["item","hbm:item.pill_herbal"]
-        }
-      ]
-    },
-    {
-      "outputType": "BAUXITE_SOLUTION",
-      "recipes": [
-        {
-          "duration": 80,
-          "outputAmount": 300,
-          "input1": ["LYE",50],
-          "solidInput": ["item","hbm:tile.stone_resource",1,5]
-        }
-      ]
-    },
-    {
-      "outputType": "CRYOGEL",
-      "recipes": [
-        {
-          "duration": 50,
-          "outputAmount": 2000,
-          "input1": ["COOLANT",1800],
-          "solidInput": ["item","hbm:item.powder_ice"]
-        }
-      ]
-    },
-    {
-      "outputType": "DIESEL_CRACK_REFORM",
-      "recipes": [
-        {
-          "duration": 50,
+          "duration": 20,
           "outputAmount": 1000,
-          "input1": ["DIESEL_CRACK",900],
-          "input2": ["REFORMATE",100]
-        }
-      ]
-    },
-    {
-      "outputType": "HTCO4",
-      "recipes": [
+          "input1": ["SULFURIC_ACID",900],
+          "input2": ["PETROLEUM",100]
+        },
         {
-          "duration": 50,
-          "outputAmount": 250,
-          "input1": ["NITRIC_ACID",500],
-          "solidInput": ["item","hbm:item.nugget_technetium"]
-        }
-      ]
-    },
-    {
-      "outputType": "SYNGAS",
-      "recipes": [
-        {
-          "duration": 50,
+          "duration": 20,
           "outputAmount": 1000,
-          "input1": ["COALOIL",500],
-          "input2": ["STEAM",500]
+          "input1": ["WATER",1000],
+          "input2": ["PETROLEUM",100],
+          "solidInput": ["dict","dustSulfur"]
         }
       ]
     },
@@ -446,35 +270,37 @@
       ]
     },
     {
-      "outputType": "KEROSENE_REFORM",
+      "outputType": "IONGEL",
       "recipes": [
         {
           "duration": 50,
           "outputAmount": 1000,
-          "input1": ["KEROSENE",900],
-          "input2": ["REFORMATE",100]
+          "input1": ["WATER",1000],
+          "input2": ["HYDROGEN",200],
+          "solidInput": ["item","hbm:item.pellet_charged"]
         }
       ]
     },
     {
-      "outputType": "REDMUD",
+      "outputType": "COALGAS_LEADED",
       "recipes": [
         {
-          "duration": 100,
-          "outputAmount": 50,
-          "input1": ["HCL",1400],
-          "solidInput": ["item","hbm:tile.duna_sands",4]
+          "duration": 40,
+          "outputAmount": 12000,
+          "input1": ["COALGAS",10000],
+          "solidInput": ["item","hbm:item.fuel_additive"]
         }
       ]
     },
     {
-      "outputType": "THORIUM_SALT",
+      "outputType": "PHEROMONE_M",
       "recipes": [
         {
-          "duration": 30,
-          "outputAmount": 1000,
-          "input1": ["CHLORINE",1000],
-          "solidInput": ["dict","dustThorium232"]
+          "duration": 10,
+          "outputAmount": 2000,
+          "input1": ["PHEROMONE",1500],
+          "input2": ["BLOOD",500],
+          "solidInput": ["item","hbm:item.pill_herbal"]
         }
       ]
     },
@@ -491,6 +317,70 @@
       ]
     },
     {
+      "outputType": "REDMUD",
+      "recipes": [
+        {
+          "duration": 100,
+          "outputAmount": 50,
+          "input1": ["HCL",1400],
+          "solidInput": ["item","hbm:tile.duna_sands",4]
+        }
+      ]
+    },
+    {
+      "outputType": "FULLERENE",
+      "recipes": [
+        {
+          "duration": 50,
+          "outputAmount": 250,
+          "input1": ["RADIOSOLVENT",500],
+          "solidInput": ["item","hbm:item.powder_ash",1,4]
+        }
+      ]
+    },
+    {
+      "outputType": "ENDERJUICE",
+      "recipes": [
+        {
+          "duration": 100,
+          "outputAmount": 100,
+          "input1": ["XPJUICE",500],
+          "solidInput": ["dict","dustDiamond"]
+        }
+      ]
+    },
+    {
+      "outputType": "SUNFLOWEROIL",
+      "recipes": [
+        {
+          "duration": 50,
+          "outputAmount": 100,
+          "solidInput": ["item","minecraft:double_plant"]
+        }
+      ]
+    },
+    {
+      "outputType": "OXYHYDROGEN",
+      "recipes": [
+        {
+          "duration": 50,
+          "outputAmount": 1000,
+          "input1": ["HYDROGEN",500],
+          "input2": ["OXYGEN",500]
+        }
+      ]
+    },
+    {
+      "outputType": "FISHOIL",
+      "recipes": [
+        {
+          "duration": 50,
+          "outputAmount": 100,
+          "solidInput": ["item","minecraft:fish",1,32767]
+        }
+      ]
+    },
+    {
       "outputType": "SALIENT",
       "recipes": [
         {
@@ -502,70 +392,19 @@
       ]
     },
     {
-      "outputType": "NITROGLYCERIN",
+      "outputType": "RADIOSOLVENT",
       "recipes": [
         {
-          "duration": 20,
+          "duration": 50,
           "outputAmount": 1000,
-          "input1": ["PETROLEUM",1000],
-          "input2": ["NITRIC_ACID",1000]
+          "input1": ["REFORMGAS",750],
+          "input2": ["CHLORINE",250]
         },
         {
           "duration": 20,
-          "outputAmount": 1000,
-          "input1": ["FISHOIL",500],
-          "input2": ["NITRIC_ACID",500]
-        }
-      ]
-    },
-    {
-      "outputType": "IONGEL",
-      "recipes": [
-        {
-          "duration": 50,
-          "outputAmount": 1000,
-          "input1": ["WATER",1000],
-          "input2": ["HYDROGEN",200],
-          "solidInput": ["item","hbm:item.pellet_charged"]
-        }
-      ]
-    },
-    {
-      "outputType": "FRACKSOL",
-      "recipes": [
-        {
-          "duration": 20,
-          "outputAmount": 1000,
-          "input1": ["SULFURIC_ACID",900],
-          "input2": ["PETROLEUM",100]
-        },
-        {
-          "duration": 20,
-          "outputAmount": 1000,
-          "input1": ["WATER",1000],
-          "input2": ["PETROLEUM",100],
-          "solidInput": ["dict","dustSulfur"]
-        }
-      ]
-    },
-    {
-      "outputType": "SCUTTERBLOOD",
-      "recipes": [
-        {
-          "duration": 50,
-          "outputAmount": 550,
-          "input1": ["HCL",300],
-          "solidInput": ["item","hbm:item.scuttertail"]
-        }
-      ]
-    },
-    {
-      "outputType": "FISHOIL",
-      "recipes": [
-        {
-          "duration": 50,
-          "outputAmount": 100,
-          "solidInput": ["item","minecraft:fish",1,32767]
+          "outputAmount": 5000,
+          "input1": ["REFORMGAS",500],
+          "solidInput": ["item","hbm:tile.geysir_chloric"]
         }
       ]
     },
@@ -587,6 +426,50 @@
       ]
     },
     {
+      "outputType": "PETROIL_LEADED",
+      "recipes": [
+        {
+          "duration": 40,
+          "outputAmount": 12000,
+          "input1": ["PETROIL",10000],
+          "solidInput": ["item","hbm:item.fuel_additive"]
+        }
+      ]
+    },
+    {
+      "outputType": "SYNGAS",
+      "recipes": [
+        {
+          "duration": 50,
+          "outputAmount": 1000,
+          "input1": ["COALOIL",500],
+          "input2": ["STEAM",500]
+        }
+      ]
+    },
+    {
+      "outputType": "KEROSENE_REFORM",
+      "recipes": [
+        {
+          "duration": 50,
+          "outputAmount": 1000,
+          "input1": ["KEROSENE",900],
+          "input2": ["REFORMATE",100]
+        }
+      ]
+    },
+    {
+      "outputType": "MINSOL",
+      "recipes": [
+        {
+          "duration": 50,
+          "outputAmount": 500,
+          "input1": ["NITRIC_ACID",500],
+          "solidInput": ["item","hbm:tile.ore_mineral",1,32767]
+        }
+      ]
+    },
+    {
       "outputType": "PETROIL",
       "recipes": [
         {
@@ -598,42 +481,35 @@
       ]
     },
     {
-      "outputType": "DICYANOACETYLENE",
+      "outputType": "AQUEOUS_COPPER",
       "recipes": [
         {
-          "duration": 50,
-          "outputAmount": 750,
-          "input1": ["AMMONIA",300],
-          "input2": ["UNSATURATEDS",500]
+          "duration": 80,
+          "outputAmount": 1000,
+          "input1": ["BRINE",250],
+          "solidInput": ["item","hbm:item.chunk_ore",1,1]
         }
       ]
     },
     {
-      "outputType": "SOLVENT",
+      "outputType": "COOLANT",
+      "recipes": [
+        {
+          "duration": 50,
+          "outputAmount": 2000,
+          "input1": ["WATER",1800],
+          "solidInput": ["dict","dustSaltpeter"]
+        }
+      ]
+    },
+    {
+      "outputType": "EGG",
       "recipes": [
         {
           "duration": 50,
           "outputAmount": 1000,
-          "input1": ["NAPHTHA",500],
-          "input2": ["AROMATICS",500]
-        },
-        {
-          "duration": 50,
-          "outputAmount": 1000,
-          "input1": ["NAPHTHA_CRACK",500],
-          "input2": ["AROMATICS",500]
-        },
-        {
-          "duration": 50,
-          "outputAmount": 1000,
-          "input1": ["NAPHTHA_DS",500],
-          "input2": ["AROMATICS",500]
-        },
-        {
-          "duration": 50,
-          "outputAmount": 1000,
-          "input1": ["NAPHTHA_COKER",500],
-          "input2": ["AROMATICS",500]
+          "input1": ["RADIOSOLVENT",500],
+          "solidInput": ["item","minecraft:egg"]
         }
       ]
     },
@@ -649,34 +525,158 @@
       ]
     },
     {
-      "outputType": "COFFEE",
+      "outputType": "SMILK",
       "recipes": [
         {
           "duration": 50,
-          "outputAmount": 100,
+          "outputAmount": 500,
+          "input1": ["MILK",500],
+          "solidInput": ["item","harvestcraft:strawberryItem",4]
+        }
+      ]
+    },
+    {
+      "outputType": "DIESEL_REFORM",
+      "recipes": [
+        {
+          "duration": 50,
+          "outputAmount": 1000,
+          "input1": ["DIESEL",900],
+          "input2": ["REFORMATE",100]
+        }
+      ]
+    },
+    {
+      "outputType": "NITAN",
+      "recipes": [
+        {
+          "duration": 50,
+          "outputAmount": 1000,
+          "input1": ["KEROSENE",600],
+          "input2": ["MERCURY",200],
+          "solidInput": ["item","hbm:item.powder_nitan_mix"]
+        }
+      ]
+    },
+    {
+      "outputType": "CRYOGEL",
+      "recipes": [
+        {
+          "duration": 50,
+          "outputAmount": 2000,
+          "input1": ["COOLANT",1800],
+          "solidInput": ["item","hbm:item.powder_ice"]
+        }
+      ]
+    },
+    {
+      "outputType": "HTCO4",
+      "recipes": [
+        {
+          "duration": 50,
+          "outputAmount": 250,
+          "input1": ["NITRIC_ACID",500],
+          "solidInput": ["item","hbm:item.nugget_technetium"]
+        }
+      ]
+    },
+    {
+      "outputType": "NITROGLYCERIN",
+      "recipes": [
+        {
+          "duration": 20,
+          "outputAmount": 1000,
+          "input1": ["PETROLEUM",1000],
+          "input2": ["NITRIC_ACID",1000]
+        },
+        {
+          "duration": 20,
+          "outputAmount": 1000,
+          "input1": ["FISHOIL",500],
+          "input2": ["NITRIC_ACID",500]
+        }
+      ]
+    },
+    {
+      "outputType": "THORIUM_SALT",
+      "recipes": [
+        {
+          "duration": 30,
+          "outputAmount": 1000,
+          "input1": ["CHLORINE",1000],
+          "solidInput": ["dict","dustThorium232"]
+        }
+      ]
+    },
+    {
+      "outputType": "COLLOID",
+      "recipes": [
+        {
+          "duration": 20,
+          "outputAmount": 500,
           "input1": ["WATER",500],
-          "solidInput": ["item","hbm:item.powder_coffee",4]
+          "solidInput": ["item","hbm:item.dust"]
         }
       ]
     },
     {
-      "outputType": "SUNFLOWEROIL",
+      "outputType": "NITRIC_ACID",
       "recipes": [
         {
           "duration": 50,
-          "outputAmount": 100,
-          "solidInput": ["item","minecraft:double_plant"]
+          "outputAmount": 1000,
+          "input1": ["AMMONIA",1000],
+          "input2": ["WATER",500]
+        },
+        {
+          "duration": 50,
+          "outputAmount": 1000,
+          "input1": ["SULFURIC_ACID",500],
+          "solidInput": ["dict","dustSaltpeter"]
         }
       ]
     },
     {
-      "outputType": "COALGAS_LEADED",
+      "outputType": "AQUEOUS_NICKEL",
       "recipes": [
         {
-          "duration": 40,
-          "outputAmount": 12000,
-          "input1": ["COALGAS",10000],
-          "solidInput": ["item","hbm:item.fuel_additive"]
+          "duration": 80,
+          "outputAmount": 1000,
+          "input1": ["BRINE",250],
+          "solidInput": ["dict","dustNickel"]
+        }
+      ]
+    },
+    {
+      "outputType": "CBENZ",
+      "recipes": [
+        {
+          "duration": 20,
+          "outputAmount": 250,
+          "input1": ["HCL",500],
+          "solidInput": ["item","hbm:item.pet_leaves",32]
+        }
+      ]
+    },
+    {
+      "outputType": "CONGLOMERA",
+      "recipes": [
+        {
+          "duration": 70,
+          "outputAmount": 1000,
+          "input1": ["SULFURIC_ACID",350],
+          "solidInput": ["item","hbm:tile.stone_resource",1,6]
+        }
+      ]
+    },
+    {
+      "outputType": "SCUTTERBLOOD",
+      "recipes": [
+        {
+          "duration": 50,
+          "outputAmount": 550,
+          "input1": ["HCL",300],
+          "solidInput": ["item","hbm:item.scuttertail"]
         }
       ]
     }

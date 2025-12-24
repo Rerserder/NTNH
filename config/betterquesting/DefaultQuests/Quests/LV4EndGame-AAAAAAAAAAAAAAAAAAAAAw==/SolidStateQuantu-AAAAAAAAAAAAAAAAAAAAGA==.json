@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Solid State Quantum Processors are the lowest tier of Quantum Circuits, needed to make Quantum Processing Units and Quantum Computers.",
+      "desc:8": "The §6Solid State Quantum Processor§r is the first quantum circuit related component needed to make §6Quantum Processing Units§r and §6Quantum Computers§r.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

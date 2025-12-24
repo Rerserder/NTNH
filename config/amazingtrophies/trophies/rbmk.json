@@ -6,6 +6,7 @@
   },
   "model": {
     "type": "item",
-    "registryName": "hbm:tile.rbmk_console"
+    "registryName": "hbm:tile.rbmk_console",
+    "scale": 0.75
   }
 }

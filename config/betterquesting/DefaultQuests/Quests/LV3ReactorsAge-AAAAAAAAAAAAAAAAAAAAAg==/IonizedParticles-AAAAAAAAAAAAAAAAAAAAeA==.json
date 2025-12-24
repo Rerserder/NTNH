@@ -1,14 +1,14 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 176
+      "questIDHigh:4": -1137739474903742698,
+      "questIDLow:4": -6514017938369638213
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Ionized Particles are the main product of the fusion reactor and are used in making Ferric Scrabidate, aswell as some particle capsules needed in the Particle Accelerator. Ionized Particles can be infinitely produced by utilizing Ionic Gel.",
+      "desc:8": "§6Ionized Particles§r are the main product of the §3Fusion Reactor§r and are used in making §6Ferric Scrabidate§r, aswell as some particle capsules needed in the §3Particle Accelerator§r.\n\n§2Ionized Particles can be infinitely produced by utilizing Ionic Gel.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

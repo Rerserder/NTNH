@@ -17,7 +17,7 @@
     "translucency_sorting": true
   },
   "performance": {
-    "chunk_builder_threads": 8,
+    "chunk_builder_threads": 12,
     "always_defer_chunk_updates": true,
     "use_no_error_g_l_context": true
   }

@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Hardcore Ender Expansion (HEE) is a large-scale Minecraft mod that completely overhauls **The End** dimension, making it far more challenging, atmospheric, and rewarding. It introduces new biomes, structures, mobs, and resources, while also reworking the Ender Dragon fight into a much more tactical and difficult encounter.\n\nKey features:\n\n* A fully redesigned End with unique landscapes and biomes.\n* New mobs and bosses that greatly increase the challenge.\n* Expanded and more strategic Ender Dragon battle.\n* Exclusive blocks, items, and resources found only in the End.\n* A true “hardcore” feel — entering the End becomes a real endgame trial.",
+      "desc:8": "§eThe End§r is home to §6Trixite§r, a unique extraterrestrial mineral that when processed can yield §6Plutonium§r, §6Cobalt§r and §6Niobium§r. The Niobium is of great interest as it is a great source for early §3Catalytic Cracking Towers§r.\n\nDue to only the main end island existing, Trixite Ore is a limited resourse.§r Trixite Crystals can also be obtained from an §6Asteroid Mining Ship§r, but it is not recommended.\n\n§dEt Futurum Requiem§r backports many modern end features, such as §eChorus Fruit§r, §eShulkers§r and a respawnable §eEnder Dragon§r using §6End Crystals§r.\n\nThe §6Dragon Egg§r can also be used to create a Backpack which provides passive §eNight Vision§r, §eStrength 2§r and §eFire resistance§r, aswell as some §eRegeneration§r when on low health.\n\nEnderman farms can also be made using §3Fans§r to push the endermen into the killing zone.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
@@ -49,6 +49,28 @@
       "taskID:8": "bq_standard:location",
       "taxiCabDist:1": 0,
       "visible:1": 0
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 22,
+          "OreDict:8": "",
+          "id:8": "adventurebackpack:adventureBackpack",
+          "tag:10": {
+            "wearableData:10": {
+              "type:1": 22
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }
