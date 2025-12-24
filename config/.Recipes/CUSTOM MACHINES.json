@@ -1,0 +1,25 @@
+    {
+      "recipeKey": "portalMaker",
+      "recipes": [
+        {
+          "inputFluids": [
+            ["STELLAR_FLUX",6000],
+            ["AMAT",6000]
+          ],
+          "inputItems": [
+            ["item","hbm:item.powder_sawdust"]
+          ],
+          "outputFluids": [],
+          "outputItems": [
+            ["minecraft:end_portal_frame",1,1.0]
+          ],
+          "duration": 120,
+          "consumptionPerTick": 10,
+          "pollutionType": "SOOT",
+          "pollutionAmount": 0.1,
+          "radiationAmount": 0.0,
+          "flux": 0,
+          "heat": 0
+        }
+      ]
+    },
