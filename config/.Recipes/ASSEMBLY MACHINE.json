@@ -120,7 +120,7 @@
       "name": "ass.oc.case2",
       "inputItem": [
         ["item","OpenComputers:case1",1],
-        ["dict","hbm:plateTripleSteel",2],
+        ["dict","plateTripleSteel",2],
         ["item","OpenComputers:item",1,25],
         ["item","hbm:item.circuit",1,8]
       ],
