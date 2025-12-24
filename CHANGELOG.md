@@ -73,6 +73,7 @@
 - ForgeEssentials for easy server login
 - Added budding certus quartz
 - Added sugarcane seeds recipe
+- Added Spatial Rift Synthesizer
 
 
 
