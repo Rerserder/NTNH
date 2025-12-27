@@ -566,6 +566,16 @@
     "modId": "harvestcraft",
     "version": "1.7.10i"
   },
+  "ProjectBlue-1.1.6-mc1.7.10.jar": {
+    "jarName": "ProjectBlue-1.1.6-mc1.7.10.jar",
+    "modId": "ProjectBlue",
+    "version": "1.1.6-mc1.7.10"
+  },
+  "ProjRed-4.12.10-GTNH-pre.jar": {
+    "jarName": "ProjRed-4.12.10-GTNH-pre.jar",
+    "modId": "ProjRed|Core",
+    "version": "4.12.10-GTNH-pre"
+  },
   "RailsOfWar-1.7.10-5.8-RC7.jar": {
     "jarName": "RailsOfWar-1.7.10-5.8-RC7.jar"
   },
