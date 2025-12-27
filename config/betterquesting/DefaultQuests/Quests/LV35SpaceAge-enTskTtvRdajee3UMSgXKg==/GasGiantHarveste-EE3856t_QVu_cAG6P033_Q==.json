@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The Gas Giant Harvester Station is a device for collecting atmospheric air samples from gas giants.\n\nThe concept is quite simple: on a planet that is a satellite of the giant (for example, to fly to the green giant Jool, you need to go to Laythe), the station is set up. After refueling with liquid oxygen and hydrogen, the harvester rocket is sent for air. In one trip, it delivers 16,000 mB. As you can understand, the harvester\u0027s functionality is completely analogous to the operation of mining modules.",
+      "desc:8": "The §3Gas Giant Harvester Station§r is a device for collecting atmospheric air samples from gas giants.\n\nThe concept is quite simple: on a planet that is a satellite of the giant (for example, to fly to the green giant Jool, you need to go to Laythe), the station is set up. After refueling with §bLiquid Oxygen§r and §bHydrogen§r, the §3harvester rocket§r is sent for air. In one trip, it delivers 16,000 mB§r. As you can understand, the harvester\u0027s§r functionality is completely analogous to the operation of §3MiningModules§r.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

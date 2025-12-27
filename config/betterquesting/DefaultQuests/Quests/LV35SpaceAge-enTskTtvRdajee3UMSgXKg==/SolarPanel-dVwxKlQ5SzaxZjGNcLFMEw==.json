@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The §3Solar Panel§r converts sunlight into §eelectricity§r. §2(Incredible)§r\n\nIt can operate on planet surfaces or in space. The device uses the general light level, so the panel\u0027s spatial orientation does not affect energy production. The energy output port is at the back.\n\n§2Energy production calculations for planets and their orbits:\n\nKerbin - 2kHE/s\nMun - 2kHE/s\nMinmus - 2kHE/s\nDuna - 880HE/s\nIke - 880HE/s\nMoho - 13.3kHE/s\nDres - 240HE/s\nEve - 3.84kHE/s\nLaythe - 80HE/s§r",
+      "desc:8": "The §3Solar Panel§r converts sunlight into §eelectricity§r. §2(Incredible)§r\n\nIt can operate on planet surfaces or in space. The device uses the general light level, so the panel\u0027s spatial orientation does not affect energy production. The energy output port is at the back.\n\n§2Energy production calculations for planets and their orbits:\n\nKerbin - §e2kHE/s§2\nMun - §e2kHE/s§2\nMinmus - §e2kHE/s§2\nDuna - §e880HE/s§2\nIke - §e880HE/s§2\nMoho - §e13.3kHE/s§2\nDres - §e240HE/s§2\nEve - §e3.84kHE/s§2\nLaythe - §e80HE/s§r",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
