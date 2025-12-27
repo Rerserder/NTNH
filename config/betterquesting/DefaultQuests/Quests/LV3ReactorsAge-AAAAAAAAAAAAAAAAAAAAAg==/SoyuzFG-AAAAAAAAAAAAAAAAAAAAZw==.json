@@ -10,7 +10,8 @@
     },
     "2:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 139
+      "questIDLow:4": 139,
+      "type:1": 1
     }
   },
   "properties:10": {
@@ -40,7 +41,21 @@
   },
   "questIDHigh:4": 0,
   "questIDLow:4": 103,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "OreDict:8": "",
+          "id:8": "enhancedlootbags:lootbag"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,

@@ -1,18 +1,14 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 5498372077632243440,
-      "questIDLow:4": -7694975654508543166
-    },
-    "1:10": {
-      "questIDHigh:4": -8056291488894005762,
-      "questIDLow:4": -8218007903528528859
+      "questIDHigh:4": -1562879166582469695,
+      "questIDLow:4": -8145617194221990588
     }
   },
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Well, you\u0027ve completed the space stage of the game; now the entire space knows and fears you (you are a true space pirate). Here are a couple more nuances about the Dyson swarm:\n\nDo not place converters directly next to the receiver - this will cause a malfunction.\n\nMultiple players in the same game world can create multiple swarms, but keep in mind that different swarms reduce each other\u0027s efficiency. This can encourage players to either work together on one common swarm or compete to extract more energy from their own swarm.",
+      "desc:8": "Well, you\u0027ve completed the space stage of the game; now the entire space knows and fears you (you are a true space pirate). Here are a couple more nuances about the §3Dyson swarm§r:\n\n§2Do not place §3converters§r directly next to the §3receiver§r - this will cause a malfunction.§r\n\n§2Multiple players in the same game world can create multiple §3swarms§r, but keep in mind that different swarms reduce each other\u0027s §eefficiency§r. This can encourage players to either work together on one common §3swarm§r or compete to extract more §eenergy§r from their own §3swarm§r.§r",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

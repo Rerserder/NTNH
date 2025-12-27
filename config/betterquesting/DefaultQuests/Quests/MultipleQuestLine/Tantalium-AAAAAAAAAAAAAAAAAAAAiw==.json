@@ -1,16 +1,16 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 816263819050831822,
-      "questIDLow:4": -8522948628851617171
-    },
-    "1:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 166
     },
-    "2:10": {
+    "1:10": {
       "questIDHigh:4": 0,
       "questIDLow:4": 43
+    },
+    "2:10": {
+      "questIDHigh:4": -5889852429960065125,
+      "questIDLow:4": -5436800100755777889
     }
   },
   "properties:10": {
@@ -28,7 +28,7 @@
       "isSilent:1": 0,
       "lockedProgress:1": 0,
       "name:8": "Tantalium",
-      "questLogic:8": "AND",
+      "questLogic:8": "OR",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
