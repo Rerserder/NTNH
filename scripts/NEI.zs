@@ -37,3 +37,4 @@ mods.nei.NEI.hide(<structurelib:item.structurelib.constructableTrigger>);
 mods.nei.NEI.hide(<opensecurity:SecurityDoor>);
 mods.nei.NEI.hide(<opensecurity:SecurityDoorPrivate>);
 mods.nei.NEI.hide(<ForgeMicroblock:microblock:*>);
+mods.nei.NEI.hide(<appliedenergistics2:item.ItemFacade>);
